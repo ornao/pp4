@@ -1,5 +1,6 @@
 ### About
 
+This glamping website provides a user-friendly platform to experience a unique camping destination in the beautiful Irish countryside. This site aims to be visually immersive, featuring a user-friendly booking system, interactive maps, real-time weather reports, and showcasing customer experience through display of ratings and reviews.
 
 <hr>
 
@@ -8,7 +9,7 @@
 - Easily book and secure their preferred accomodation type for their desired dates
 - Informed of weather forecast in area for desired dates while booking 
 - Gain insight of expected experience by reading reviews and ratings from previous guests 
-- Able to easily contact the site owner with any questions, quiries, or special requests 
+- Able to easily contact the site owner with any questions, queries, or special requests 
 
 
 ### Site Owner Goals
@@ -32,6 +33,12 @@
 
 
 ### User Requirements and Expectations
+- Intuitive naviagtion and seamless booking process 
+- Visually appealing design incorporating high-quality images to illustrate the expected glamping experience 
+- Fully responsive and acessible across different screen sizes and devices 
+- Easily access pricing and accomodation selection information 
+- *needs more*
+
 
 
 
