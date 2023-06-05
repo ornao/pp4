@@ -109,3 +109,12 @@ As a site owner, I want only logged in users to view details of their bookings
 #### SHOULD HAVE 
 
 #### COULD HAVE 
+
+## Deployment (Heroku)
+
+1. Login to heroku accound and navigate to the dashboard 
+2. Click "New" on upper right hand side of screen 
+3. In dropdown of "New" button, click first option "Create new app"
+4. In "Create new app" screen, type in a unique name for your app and choose the region closest to you
+*insert image here*
+5. Click "Create app" 
