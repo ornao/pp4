@@ -79,19 +79,23 @@ I utilitied the agile MoSCoW prioritisation method while planning the user stori
 #### COULD HAVE 
 
 5. As a user, I want a means of contacting the site owner with any questions, queries, or special requests 
-As a user, i want to be able to see an interactive map of where the campsite is 
+6. As a user, i want to be able to see an interactive map of where the campsite is 
 
 
 #### WON'T HAVE 
 
-As a user i want to have real-time weather reports for days of my stay available when booking 
+7. As a user i want to have real-time weather reports for days of my stay available when booking 
 
-### Admin/Authorised User
+### Admin/Site Owner
 
 #### MUST HAVE 
 
 1. As an admin, I can log in and access the back end of the site
 2. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+As a site owner, I want the customers to have a means of communicating with me on website
+As a site owner, I want site to be fully responisve and acessible 
+As a site owner, i want all user entered data to be validated to reduce errors on database
+As a site owner, I want only logged in users to view details of their bookings 
 
 #### SHOULD HAVE 
 
@@ -99,20 +103,7 @@ As a user i want to have real-time weather reports for days of my stay available
 4. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
 
 #### COULD HAVE 
-
-### Site Owner  
-
-#### MUST HAVE 
-
-As a site owner, I want the customers to have a means of communicating with me on website
-As a site owner, I want site to be fully responisve and acessible 
-As a site owner, i want all user entered data to be validated to reduce errors on database
-As a site owner, I want only logged in users to view details of their bookings 
-
-
-#### SHOULD HAVE 
-
-#### COULD HAVE 
+- As a site owner, 
 
 ## Structure 
 
@@ -158,6 +149,7 @@ This contains:
 - comment: TextField()
 - date_created: DateField()
 - image: ImageField(optional)
+- likes: user model
 
 ### Contact model
 This contains: 
