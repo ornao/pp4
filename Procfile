@@ -1,1 +1,1 @@
-web: gunicorn glamping.wsg
+web: gunicorn glamping.wsgi
