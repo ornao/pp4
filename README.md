@@ -126,3 +126,29 @@ As a site owner, I want only logged in users to view details of their bookings
 10. Add temporary DISABLE_COLLECTSTATIC, 1 KEY, VALUE pairs to allow skeleton project to run as project currenlty without statics fields (this will be removed at later stage)
 11. In ALLOWED_HOSTS in settings.py file, type in project name url so project can run - in my case "glamping2023.herokuapp.com" 
 12. Next you need to create a Procfile so heroku knows how to run the project - in my case add "web: gunicorn glamping.wsg" to file
+13. In heroku, navigate to deploy tab of project and click github as deployment method 
+14. Search for repository to connect github to heroku and press connect button beside correct repository
+*insert image here*
+14. Then scroll down to bottom of page and click on deploy branch (can clcik on build log to see deployment progress)
+*insert image here*
+15. Once build is finsihed, the build log will tell you 
+*insert image here*
+16. From here, press open app in top right hand of screen to see if deployment successful 
+### Trouble-shooting
+17. My first deploment was not successful 
+*insert image here"
+18. in the error message it said to check using "heroku logs --tail" butvi kept getting this message:
+*insert message here*
+19. I went to download the heroku cli because it was not already downleoaded in my ide 
+*insert image here*
+20. "curl https://cli-assets.heroku.com/install.sh | sh" - i used this command in my terminal as first command i used failed  ("brew tap heroku/brew && brew install heroku") because "heroku-node" failed to download
+*insert image here*
+21. i checked install by using this command "heroku --version", these are before and after images of the command working:
+*insert images here*
+22. heroku login but ip mismatch page displayed when tried to login 
+*insert image here*
+23. heroku login -i but *insert image here* but have to use api key found in accound setting to login rather than password, solution [slackoverflow] (https://stackoverflow.com/questions/68105084/not-able-login-to-heroku-account-from-command-line) 
+24. finally try run "heroku logs --tail", i still get an error message 
+*insert image here*
+25. find solution on [slack overlow post] (https://stackoverflow.com/questions/51815542/heroku-missing-required-flag-a)
+26. finally detailed application errors are display in terminal and I can look at wwhy my application is not deploying 
