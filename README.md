@@ -5,10 +5,14 @@
   - [Site Owner Goals](#site-owner-goals)
   - [User Experience](#user-experience)
   - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Structure](#structure)
+      - [Database](#database)
+      - [Wireframes](#wireframes)
 
 ### About
 
-This glamping website provides a user-friendly platform to experience a unique camping destination in the beautiful Irish countryside. This site aims to be visually immersive, featuring a user-friendly booking system and showcasing customer experience through display of ratings and reviews.
+This glamping website provides a user-friendly platform to experience a unique camping destination in the beautiful Irish countryside. This site aims to be visually immersive, featuring a user-friendly booking system and showcasing customer testimonials through display of ratings and reviews.
 
 <hr>
 
@@ -110,6 +114,62 @@ As a site owner, I want only logged in users to view details of their bookings
 
 #### COULD HAVE 
 
+## Structure 
+
+### Database
+
+A number of models were created for this project 
+
+#### User model
+This contains:
+- user_id: AutoField (PK)
+- first_name: CharField()
+- last_name: CharField()
+- email: EmailField()
+- password: CharField()
+- is_superuser: BooleanField()
+
+#### Accomodation model
+This contains:
+- accommodation_id: AutoField (PK)
+- name: CharField()
+- capacity: IntegerField()
+- description: TextField()
+- price_per_night: DecimalField()
+- availibility: BooleanField() if available for booking dates
+
+### Bookings model
+This contains:
+- booking_id: AutoField (PK)
+- accommodation_id: ForeignKey
+- user_id: ForeignKey
+- check_in_date: DateField()
+- check_out_date: DateField()
+- length_of_stay: DurationField()
+- num_guests: IntegerField()
+- total_price: DecimalField()
+
+### Testimonials model
+This contains:
+- testimonial_id: AutoField (PK)
+- user_id: ForeignKey
+- accommodation_id: ForeignKey
+- rating: IntegerField()
+- comment: TextField()
+- date_created: DateField()
+- image: ImageField(optional)
+
+### Contact model
+This contains: 
+- contact_id: AutoField (PK)
+- first_name: CharField()
+- last_name: CharField()
+- email: EmailField()
+- text_body: TextField()
+
+### Wireframes 
+
+
 ## Deployment (Heroku)
 
 1. Login to heroku accound and navigate to the dashboard 
@@ -134,6 +194,9 @@ As a site owner, I want only logged in users to view details of their bookings
 15. Once build is finsihed, the build log will tell you 
 *insert image here*
 16. From here, press open app in top right hand of screen to see if deployment successful 
+should open to this page if deployment succesful:
+insert image here*
+
 ### Trouble-shooting
 17. My first deploment was not successful 
 *insert image here"
