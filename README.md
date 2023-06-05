@@ -118,3 +118,11 @@ As a site owner, I want only logged in users to view details of their bookings
 4. In "Create new app" screen, type in a unique name for your app and choose the region closest to you
 *insert image here*
 5. Click "Create app" 
+6. You will be brought to deployment tab, from here naviagte to settings tab
+7. Press "Reveal config vars" and add DATABASE_URL, SECRET_KEY and their values to KEY, VALUE fields
+*insert image here*
+8. Also add PORT, 8000 to KEY, VALUE fields in config vars to help with deployment 
+9. Also add CLOUDINARY_URL and url of your API Environment variable to KEY, VALUE fields 
+10. Add temporary DISABLE_COLLECTSTATIC, 1 KEY, VALUE pairs to allow skeleton project to run as project currenlty without statics fields (this will be removed at later stage)
+11. In ALLOWED_HOSTS in settings.py file, type in project name url so project can run - in my case "glamping2023.herokuapp.com" 
+12. Next you need to create a Procfile so heroku knows how to run the project - in my case add "web: gunicorn glamping.wsg" to file
