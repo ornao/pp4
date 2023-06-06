@@ -207,3 +207,10 @@ insert image here*
 *insert image here*
 25. find solution on [slack overlow post] (https://stackoverflow.com/questions/51815542/heroku-missing-required-flag-a)
 26. finally detailed application errors are display in terminal and I can look at wwhy my application is not deploying 
+
+
+### Credits 
+
+#### Code 
+StackOverflow:
+- (adding max and min validators to rating on rating field) [https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model]
