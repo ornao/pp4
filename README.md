@@ -146,7 +146,7 @@ This contains:
 - user_id: ForeignKey
 - accommodation_id: ForeignKey
 - rating: IntegerField()
-- comment: TextField()
+- content: TextField()
 - date_created: DateField()
 - image: ImageField(optional)
 - likes: user model
