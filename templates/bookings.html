@@ -19,8 +19,13 @@
           <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
             <div class="row gy-4">
               <div class="col-lg-4 col-md-6">
-                {{ bookings.name }}
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                {{ bookings.first_name }}
+                <input type="text" name="first_name" class="form-control" id="fname" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <div class="validate"></div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                {{ bookings.last_name }}
+                <input type="text" name="last_name" class="form-control" id="lname" placeholder="Your Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -38,16 +43,16 @@
                 <input type="text" name="check-out-date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <!-- <div class="col-lg-4 col-md-6">
                 {{ bookings.num_guests }}
                 <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
                 <div class="validate"></div>
-              </div>
-            </div>
-            <div class="form-group mt-3">
+              </div> -->
+             </div> 
+            <!-- <div class="form-group mt-3">
               <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
               <div class="validate"></div>
-            </div>
+            </div> --> 
             <div class="mb-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
