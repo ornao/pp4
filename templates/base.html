@@ -51,9 +51,9 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#hero">Home</a></li>
+          <li><a href="{% url 'home' %}">Home</a></li>
           <li><a href="#accomodation">Accomodation</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="{% url 'testimonials' %}">Testimonials</a></li>
           <li class="dropdown"><a href="#"><span>Log In</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Log In</a></li>
@@ -64,7 +64,7 @@
         </ul>
       </nav><!-- .navbar -->
 
-      <a class="btn-book-a-table" href="#book-a-table">Book</a>
+      <a class="btn-book-a-table" href="{% url 'bookings' %}">Book</a>
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
