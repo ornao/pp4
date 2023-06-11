@@ -26,8 +26,8 @@ class Testimonials(models.Model):
     class Meta:
         ordering = ['date_created']
 
-    # def __str__(self):
-    #     return self.rating
+    def __str__(self):
+        return self.rating
 
     def number_of_likes(self):
         return self.likes.count()
