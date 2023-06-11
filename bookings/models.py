@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 # Booking model for the database
 
-class Booking(models.Model):
+class Bookings(models.Model):
     """
     a class for the Booking model
     """
@@ -15,9 +15,9 @@ class Booking(models.Model):
     num_guests = models.IntegerField()
     user_id = models.ForeignKey(User, on_delete=models.CASCADE)
     num_guests = models.IntegerField()
-    price_per_night = models.ForeignKey(Accommodation, on_delete=models.CASCADE)
+    # price_per_night = models.ForeignKey(Accommodation, on_delete=models.CASCADE)
     total_price = models.DecimalField(max_digits=10, decimal_places=2)
-    accomodation_id = models.ForeignKey(Accommodation, on_delete=models.CASCADE)
+    # accomodation_id = models.ForeignKey(Accommodation, on_delete=models.CASCADE)
     name = models.CharField(
         max_length=50,
         null=True
