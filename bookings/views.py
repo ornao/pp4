@@ -6,3 +6,4 @@ from .models import Bookings
 class BookingsList(generic.ListView):
     model = Bookings
     template_name = "bookings.html"
+

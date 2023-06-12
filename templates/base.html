@@ -58,7 +58,7 @@
           <li class="dropdown"><a href="{% url 'account_logout' %}"><span>Log Out</span> <i></i></a>
             <ul>
               {% else %}
-          <li class="dropdown"><a><span>Log in</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="{% url 'account_login' %}"><span>Log in</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                 <ul>
               <li class="nav-item">
                   <a class="nav-link" href="{% url 'account_login' %}">Login</a>
