@@ -5,5 +5,5 @@ from .models import Bookings
 
 class BookingsList(generic.ListView):
     model = Bookings
-    template_name = "bookings.html"
+    template_name = "read_bookings.html"
 
