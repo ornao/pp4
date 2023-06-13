@@ -10,6 +10,7 @@
         <h2>Bookings</h2>
         <p>What Did <span>You Book</span></p>
       </div>
+    {% if user.is_authenticated %}
       {% for bookings in bookings_list %}
       <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper-wrapper">
@@ -42,6 +43,12 @@
         <div class="swiper-pagination"></div>
       </div>
       {% endfor %}
+    {% else %}
+      <div class="text-center">
+        <p>Please log in to view your bookings.</p>
+        <a href="{% url 'account_login' %}">Login</a>
+      </div>
+    {% endif %}
     </div>
   </section><!-- End Testimonials Section -->
 
