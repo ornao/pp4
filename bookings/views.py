@@ -21,6 +21,10 @@ class BookingsCreate(generic.CreateView):
     template_name = "create_bookings.html"
     fields = "first_name", "last_name", "email", "check_in_date", "check_out_date"
     success_url = reverse_lazy("read_bookings")
-    
+
+    def form_valid(self, form):
+        """assigns logged-in user to user field in database"""
+        form.instance.user = self.request.user  
+        return super().form_valid(form)
 
 # need to add booking successful page and url 
