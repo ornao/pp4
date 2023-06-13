@@ -6,7 +6,7 @@ from django_summernote.admin import SummernoteModelAdmin
 @admin.register(Testimonials)
 class TestimonialsAdmin(SummernoteModelAdmin):
 
-    list_display = ('rating', 'status', 'date_created')
+    list_display = ('rating', 'status', 'created_date')
     search_fields = ['rating']
-    list_filter = ('status', 'date_created')
+    list_filter = ('status', 'created_date')
     summernote_fields = ('content',)

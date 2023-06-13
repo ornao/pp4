@@ -9,6 +9,7 @@ class Bookings(models.Model):
     """
     booking_id = models.AutoField(primary_key=True)
     created_date = models.DateTimeField(auto_now_add=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     email = models.EmailField(
@@ -24,7 +25,7 @@ class Bookings(models.Model):
 
   
     # num_guests = models.IntegerField()
-    # user_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    
     # price_per_night = models.ForeignKey(Accommodation, on_delete=models.CASCADE)
     # total_price = models.DecimalField(max_digits=10, decimal_places=2)
     # accomodation_id = models.ForeignKey(Accommodation, on_delete=models.CASCADE)

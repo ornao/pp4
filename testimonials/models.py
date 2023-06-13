@@ -18,13 +18,13 @@ class Testimonials(models.Model):
             ])
     content = models.TextField()
     featured_image = CloudinaryField('image', default='placeholder')
-    date_created = models.DateField(auto_now_add=True)
+    created_date = models.DateField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(
         User, related_name='testimonial_likes', blank=True)
     
     class Meta:
-        ordering = ['date_created']
+        ordering = ['created_date']
 
     def __str__(self):
         return self.rating

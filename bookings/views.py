@@ -7,6 +7,10 @@ class BookingsList(generic.ListView):
     model = Bookings
     template_name = "read_bookings.html"
 
+    def get_queryset(self):
+        return Bookings.objects.filter(user=self.request.user).order_by('-created_date')
+
+
 
 class BookingsCreate(generic.CreateView):
     model = Bookings
