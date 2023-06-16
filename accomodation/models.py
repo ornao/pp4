@@ -12,7 +12,7 @@ class Accomodation(models.Model):
     description = models.TextField()
     capacity = models.IntegerField()
     price_per_night = models.FloatField()
-    accomodation_type = models.IntegerField()
+    accomodation_type = models.CharField(max_length=50)
     availibility = models.BooleanField(default=False)
 
     # class Meta:
