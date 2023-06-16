@@ -2,86 +2,80 @@
 
 {% block content %}
 
-<!-- ======= Menu Section ======= -->
-<section id="menu" class="menu">
-    <div class="container" data-aos="fade-up">
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+        <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
-            <h2>Our Accomodation</h2>
-            <p>Check Our <span>Pods & Cabins</span></p>
+            <div class="section-header">
+                <h2>Our Accomodation</h2>
+                <p>Check Our <span>Pods & Cabins</span></p>
+            </div>
+
+            <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <li class="nav-item">
+                    <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+                        <h4>Eco Pods</h4>
+                    </a>
+                </li><!-- End tab nav item -->
+
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+                        <h4>Cabins</h4>
+                    </a><!-- End tab nav item -->
+                </li>
+            </ul>
+
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+                <div class="tab-pane fade active show" id="menu-starters">
+                    <div class="tab-header text-center">
+                        <p>Accomodation</p>
+                        <h3>Eco Pods</h3>
+                    </div>
+
+                    <div class="row gy-5">
+                        {% for accomodation in accomodation_list %}
+                        <div class="col-lg-4">
+                            <div class="menu-item">
+                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                                <h4>{{ accomodation.accomodation_name }}</h4>
+                                <p class="ingredients">
+                                    {{ accomodation.description }}
+                                </p>
+                                <p class="price">
+                                    €{{ accomodation.price_per_night }}
+                                </p>
+                            </div><!-- Menu Item -->
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div><!-- End Starter Menu Content -->
+
+                <div class="tab-pane fade" id="menu-breakfast">
+                    <div class="tab-header text-center">
+                        <p>Accomodations</p>
+                        <h3>Cabins</h3>
+                    </div>
+
+                    <div class="row gy-5">
+                        {% for accomodation in accomodation_list %}
+                        <div class="col-lg-4">
+                            <div class="menu-item">
+                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                                <h4>{{ accomodation.accomodation_name }}</h4>
+                                <p class="ingredients">
+                                    {{ accomodation.description }}
+                                </p>
+                                <p class="price">
+                                    ${{ accomodation.price_per_night }}
+                                </p>
+                            </div><!-- Menu Item -->
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div><!-- End Breakfast Menu Content -->
+
+            </div>
         </div>
-
-        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
-
-            <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-                    <h4>Eco Pods</h4>
-                </a>
-            </li><!-- End tab nav item -->
-
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-                    <h4>Cabins</h4>
-                </a><!-- End tab nav item -->
-
-        </ul>
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
-
-            <div class="tab-pane fade active show" id="menu-starters">
-
-                <div class="tab-header text-center">
-                    <p>Accomodation</p>
-                    <h3>Eco Pods</h3>
-                </div>
-
-                {% for accomodation in accomodation_list %}
-                <div class="row gy-5">
-
-                    <div class="col-lg-4 menu-item">
-                        <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                        <h4>{{ accomodation.accomodation_name }}</h4>
-                        <p class="ingredients">
-                            {{ accomodation.description }}
-                        </p>
-                        <p class="price">
-                            €{{ accomodation.price_per_night }}
-                        </p>
-                    </div><!-- Menu Item -->
-
-                </div>
-                {% endfor %} 
-            </div><!-- End Starter Menu Content -->
-
-            <div class="tab-pane fade" id="menu-breakfast">
-
-                <div class="tab-header text-center">
-                    <p>Accomodations</p>
-                    <h3>Cabins</h3>
-                </div>
-
-                {% for accomodation in accomodation_list %}
-                <div class="row gy-5">
-
-                    <div class="col-lg-4 menu-item">
-                        <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                        <h4>{{ accomodation.accomodation_name }}</h4>
-                        <p class="ingredients">
-                            {{ accomodation.description }}
-                        </p>
-                        <p class="price">
-                            €{{ accomodation.price_per_night }}
-                        </p>
-                    </div><!-- Menu Item -->
-
-                </div>
-                {% endfor %} 
-            </div><!-- End Breakfast Menu Content -->
-
-        </div>
-
-</section><!-- End Menu Section -->
+    </section>
 
 {% endblock %}
