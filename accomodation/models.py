@@ -1,6 +1,6 @@
 from django.db import models
 
-class Accommodation(models.Model):
+class Accomodation(models.Model):
     """
     a class for the Accomodation model
     """
