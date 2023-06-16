@@ -34,18 +34,19 @@
                 <p>Accomodation</p>
                 <h3>Eco Pods</h3>
               </div>
-  
+        
+        {% for accomodation in accomodation_list %}
               <div class="row gy-5">
   
                 <div class="col-lg-4 menu-item">
-                  <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Aut Luia</h4>
-                  <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
-                  </p>
-                  <p class="price">
-                    $14.95
-                  </p>
+                    <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                    <h4>{{ accomodation.accomodation_name }}</h4>
+                    <p class="ingredients">
+                      {{ accomodation.description }}
+                    </p>
+                    <p class="price">
+                      ${{ accomodation.price_per_night }}
+                    </p>
                 </div><!-- Menu Item -->
   
               </div>
@@ -62,12 +63,12 @@
   
                 <div class="col-lg-4 menu-item">
                   <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                  <h4>Aut Luia</h4>
+                  <h4>{{ accomodation.accomodation_name }}</h4>
                   <p class="ingredients">
-                    Lorem, deren, trataro, filede, nerada
+                    {{ accomodation.description }}
                   </p>
                   <p class="price">
-                    $14.95
+                    ${{ accomodation.price_per_night }}
                   </p>
                 </div><!-- Menu Item -->
   
@@ -76,7 +77,8 @@
 
           </div>
   
-        </div>
+        {% endfor %}
+
       </section><!-- End Menu Section -->
 
 {% endblock %}
