@@ -27,4 +27,8 @@ class BookingsCreate(generic.CreateView):
         form.instance.user = self.request.user  
         return super().form_valid(form)
 
-# need to add booking successful page and url 
+# need to add booking successful message (unique url?)
+# can probably delete need to add first name and surname to booking maybe just a display instead? as shpuld have from login info
+# update template of bookings to make more realistic 
+# begin to work on edit and delete functionality
+# check if see can use lets go hydro accomodation and make app and table accordingly
