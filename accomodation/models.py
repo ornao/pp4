@@ -13,7 +13,7 @@ class Accommodation(models.Model):
     capacity = models.IntegerField()
     price_per_night = models.FloatField()
     accomodation_type = models.IntegerField()
-    availability = models.BooleanField(default=False)
+    availibility = models.BooleanField(default=False)
 
     # class Meta:
     #     ordering = ['-']
