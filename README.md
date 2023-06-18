@@ -9,6 +9,12 @@
     - [Structure](#structure)
       - [Database](#database)
       - [Wireframes](#wireframes)
+  - [Technologies Used](#technologies-used)
+    - [Bugs](#bugs)
+  - [Deployment](#heroku-deployment)
+  - [Credits](#credits)
+  - [Acknowledgements](#acknowledgements)
+
 
 ### About
 
@@ -59,51 +65,51 @@ I utilitied the agile MoSCoW prioritisation method while planning the user stori
 #### MUST HAVE 
 
 1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
-3. As a user, I want to compare different accomodation types available 
-6. As a user, I want to register for an account on the website 
-7. As a returning user, I want to login to my account on the website 
-8. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
-9. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
-10. As a user, I want to update my booking so that I can choose another available time and/or accomodation type
-11. As a user, I can delete my booking so that I can cancel my reservation for my stay 
-13. As a user, I want to be able to logout of my account 
+2. As a user, I want to compare different accomodation types available 
+3. As a user, I want to register for an account on the website 
+4. As a returning user, I want to login to my account on the website 
+5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
+6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
+7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type
+8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
+9. As a user, I want to be able to logout of my account 
 
 #### SHOULD HAVE 
 
-2. As a user, I want to check the availability and pricing information for my desired dates
-4. As a user, I want to see previous customer reviews and ratings of the different accomodation types
+10. As a user, I want to check the availability and pricing information for my desired dates
+11. As a user, I want to see previous customer reviews and ratings of the different accomodation types
 12. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
-14. As a user, I would like to read reviews of only people that stayed in the accomodation
+13. As a user, I would like to read reviews of only people that stayed in the accomodation
 
 
 #### COULD HAVE 
 
-5. As a user, I want a means of contacting the site owner with any questions, queries, or special requests 
-6. As a user, i want to be able to see an interactive map of where the campsite is 
+14. As a user, I want a means of contacting the site owner with any questions, queries, or special requests 
+15. As a user, i want to be able to see an interactive map of where the campsite is 
 
 
 #### WON'T HAVE 
 
-7. As a user i want to have real-time weather reports for days of my stay available when booking 
+16. As a user i want to have real-time weather reports for days of my stay available when booking 
 
 ### Admin/Site Owner
 
 #### MUST HAVE 
 
-1. As an admin, I can log in and access the back end of the site
-2. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
-As a site owner, I want the customers to have a means of communicating with me on website
-As a site owner, I want site to be fully responisve and acessible 
-As a site owner, i want all user entered data to be validated to reduce errors on database
-As a site owner, I want only logged in users to view details of their bookings 
+17. As an admin, I can log in and access the back end of the site
+18. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+19. As a site owner, I want the customers to have a means of communicating with me on website
+20. As a site owner, I want site to be fully responisve and acessible 
+21. As a site owner, i want all user entered data to be validated to reduce errors on database
+22. As a site owner, I want only logged in users to view details of their bookings 
 
 #### SHOULD HAVE 
 
-3. As an admin, I can accept or reject bookings so that we avoid double bookings 
-4. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
+23. As an admin, I can accept or reject bookings so that we avoid double bookings 
+24. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
 
 #### COULD HAVE 
-- As a site owner, 
+25. As a site owner, 
 
 ## Structure 
 
@@ -111,7 +117,7 @@ As a site owner, I want only logged in users to view details of their bookings
 
 A number of models were created for this project 
 
-#### User model
+#### User model (allauth)
 This contains:
 - user_id: AutoField (PK)
 - first_name: CharField()
@@ -214,3 +220,5 @@ insert image here*
 #### Code 
 StackOverflow:
 - (adding max and min validators to rating on rating field) [https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model]
+
+
