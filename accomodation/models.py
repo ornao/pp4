@@ -1,4 +1,5 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 class Accomodation(models.Model):
     """
@@ -9,6 +10,7 @@ class Accomodation(models.Model):
         max_length=50,
         unique=True
         )
+    featured_image = CloudinaryField('image', default='placeholder')
     description = models.TextField()
     capacity = models.IntegerField()
     price_per_night = models.FloatField()
