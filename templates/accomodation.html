@@ -66,8 +66,8 @@
                     {% if accomodation.accomodation_type == "Cabin" %}
                     <div class="col-lg-4">
                         <div class="menu-item">
-                            <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                    src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                            <a href= "{{ accomodation.featured_image.url }}" class="glightbox"><img src="{{ accomodation.featured_image.url }}"
+                                class="menu-img img-fluid" alt=""></a>
                             <h4>{{ accomodation.accomodation_name }}</h4>
                             <p class="ingredients">
                                 <!-- use | striptags to remove html tags rendering
@@ -75,7 +75,7 @@
                                 {{ accomodation.description | striptags }}
                             </p>
                             <p class="price">
-                                ${{ accomodation.price_per_night }}
+                                €{{ accomodation.price_per_night }}
                             </p>
                         </div><!-- Menu Item -->
                     </div>
