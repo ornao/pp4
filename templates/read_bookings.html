@@ -2,54 +2,83 @@
 
 {% block content %}
 
-<!-- ======= Testimonials Section ======= -->
-<section id="testimonials" class="testimonials section-bg">
-    <div class="container" data-aos="fade-up">
+<!-- ======= Why Us Section ======= -->
+<!-- <section id="why-us" class="why-us section-bg">
+  <div class="container" data-aos="fade-up">
 
-      <div class="section-header">
-        <h2>Bookings</h2>
-        <p>What Did <span>You Book</span></p>
-      </div>
-    {% if user.is_authenticated %}
-      {% for bookings in bookings_list %}
-      <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
+    <div class="row gy-4">
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <div class="row gy-4 justify-content-center">
-                <div class="col-lg-6">
-                  <div class="testimonial-content">
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      {{ bookings.first_name }}
-                      {{ bookings.last_name }}
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                    <h3>{{ bookings.check_in_date }}</h3>
-                    <h3>{{ bookings.check_out_date }}</h3>
-                    <h3>{{ bookings.length_of_stay }}</h3>
-                    <h4></h4>
-                  </div>
-                </div>
-                <div class="col-lg-2 text-center">
-                  <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt=""> -->
-                </div>
-              </div>
-            </div>
-          </div><!-- End testimonial item -->
-
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="why-box">
+          <h3>Bookings</h3>
+          <p>What Did <span>You Book?</span></p>
+          <div class="text-center">
+            <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+          </div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      {% endfor %}
-    {% else %}
-      <div class="text-center">
+      </div>End Why Box -->
+
+      <!-- {% for bookings in bookings_list %}
+      <div class="col-lg-8 d-flex align-items-center">
+        <div class="row gy-4">
+
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-clipboard-data"></i>
+              <h4>{{ bookings.first_name }}</h4>
+              <h4>{{ bookings.last_name }}</h4>
+              <p>{{ bookings.check_in_date }}</p>
+              <p>{{ bookings.check_out_date }}</p>
+              <p>{{ bookings.length_of_stay }}</p> -->
+            <!-- </div>
+          </div> End Icon Box -->
+
+        <!-- </div>
+      </div>  --> 
+      <!-- {% endfor %} -->
+      <!-- <div class="text-center">
         <p>Please log in to view your bookings.</p>
         <a href="{% url 'account_login' %}">Login</a>
       </div>
-    {% endif %}
     </div>
-  </section><!-- End Testimonials Section -->
+  </div>
+</section>End Why Us Section --> 
+
+
+
+<!-- ======= Why Us Section ======= -->
+<section id="why-us" class="why-us section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row gy-4">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="why-box">
+          <h3>Your Bookings</h3>
+          <div class="text-center">
+            <a href="{% url 'create_bookings' %}" class="more-btn">Book Another Stay <i class="bx bx-chevron-right"></i></a>
+          </div>
+        </div>
+      </div><!-- End Why Box -->
+
+      <div class="col-lg-8 d-flex align-items-center">
+        <div class="row gy-4">
+      {% for bookings in bookings_list %}
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-clipboard-data"></i>
+              <h4> {{ bookings.first_name }} {{ bookings.last_name }}</h4>
+              <p>{{ bookings.check_in_date }}</p>
+              <p>{{ bookings.check_out_date }}</p>
+              <p>{{ bookings.length_of_stay }}</p>
+            </div>
+          </div><!-- End Icon Box -->
+      {% endfor %}
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Why Us Section -->
 
 {% endblock %}
