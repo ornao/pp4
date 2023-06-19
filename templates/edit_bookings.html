@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- ======= Book A Table Section ======= -->
+<section id="book-a-table" class="book-a-table">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+      <h2>Edit </h2>
+      <p>Book <span>Your Stay</span> With Us</p>
+    </div>
+
+    <div class="row g-0">
+
+      <div class="col-lg-4 reservation-img" style="background-image: url(https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687182678/glamping/podumna-pod-glamping-galway_msntey.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+      <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
+
+        <form method="post">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit">Submit</button>
+        </form>
+
+        <!-- <form method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+            {% csrf_token %}
+            {{ form.as_p }} -->
+            <!-- <div class="row gy-4"> -->
+              <!-- <div class="col-lg-4 col-md-6">
+                <input type="text" name="first_name" class="form-control" id="first_name" placeholder="Your First Name">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Your Last Name">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="text" name="date" class="form-control" id="date" placeholder="Check-in Date" >
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <input type="text" name="date" class="form-control" id="date" placeholder="Check-out Date" >
+              </div> -->
+
+          <!-- <div class="text-center"><button type="submit">Submit</button></div>
+        </form> -->
+      </div><!-- End Reservation Form -->
+
+    </div>
+
+  </div>
+</section><!-- End Book A Table Section -->
+
+{% endblock %}
