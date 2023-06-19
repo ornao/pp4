@@ -37,7 +37,7 @@
                     {% if accomodation.accomodation_type == "Pod" %}
                     <div class="col-lg-4">
                         <div class="menu-item">
-                            <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src=""
+                            <a href= "{{ accomodation.featured_image.url }}" class="glightbox"><img src="{{ accomodation.featured_image.url }}"
                                     class="menu-img img-fluid" alt=""></a>
                             <h4>{{ accomodation.accomodation_name }}</h4>
                             <p class="ingredients">
