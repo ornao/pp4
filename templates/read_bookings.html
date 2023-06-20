@@ -27,7 +27,7 @@
               <p>{{ bookings.check_out_date }}</p>
               <p>{{ bookings.length_of_stay }}</p>
               <div class="text-center">
-                <a href="" class="more-btn">Edit</a>
+                <a href="{% url 'edit_bookings' bookings.pk %}" class="more-btn">Edit</a>
                 <br>
                 <a href="" class="more-btn">Delete</a>
               </div>

@@ -9,6 +9,7 @@ class BookingsList(generic.ListView):
     model = Bookings
     template_name = "read_bookings.html"
 
+    # restrict bookings so only logged in user can see their own bookings
     def get_queryset(self):
         if self.request.user.is_authenticated:
             return Bookings.objects.filter(user=self.request.user).order_by('-created_date')
@@ -31,9 +32,9 @@ class BookingsCreate(generic.CreateView):
 
 class BookingsEdit(generic.UpdateView):
     model = Bookings
-    template_name = "edit_bookings.html"
-    fields = "booking_id", "first_name", "last_name", "email", "check_in_date", "check_out_date"
-    success_url = reverse_lazy("edit_bookings")
+    form_class = BookingsForm
+    template_name = 'edit_bookings.html'
+    success_url = reverse_lazy('read_bookings') 
 
 
 # need to add booking successful message (unique url?)
