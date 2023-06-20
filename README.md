@@ -221,4 +221,6 @@ insert image here*
 StackOverflow:
 - (adding max and min validators to rating on rating field) [https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model]
 
-
+Django Documentation:
+- (the use of CreateView, UpdateView and DeleteView)[https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/]
+- (adding success messages to class based view)[https://docs.djangoproject.com/en/4.2/ref/contrib/messages/]

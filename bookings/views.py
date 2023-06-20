@@ -3,6 +3,7 @@ from django.views import generic
 from .models import Bookings
 from django.urls import reverse, reverse_lazy
 from bookings.forms import BookingsForm
+from django.contrib.messages.views import SuccessMessageMixin
 
 
 class BookingsList(generic.ListView):
@@ -18,11 +19,12 @@ class BookingsList(generic.ListView):
 
 
 
-class BookingsCreate(generic.CreateView):
+class BookingsCreate(SuccessMessageMixin, generic.CreateView):
     model = Bookings
     template_name = "create_bookings.html"
     fields = "first_name", "last_name", "email", "check_in_date", "check_out_date", "num_guests", "accomodation_name", 
     success_url = reverse_lazy("read_bookings")
+    success_message = "Booking was created successfully"
 
     def form_valid(self, form):
         """assigns logged-in user to user field in database"""
