@@ -13,7 +13,7 @@ class Accomodation(models.Model):
     featured_image = CloudinaryField('image', default='placeholder')
     description = models.TextField()
     capacity = models.IntegerField()
-    price_per_night = models.FloatField()
+    price_per_night = models.DecimalField(max_digits=5, decimal_places=2)
     accomodation_type = models.CharField(max_length=50)
     availibility = models.BooleanField(default=False)
 
