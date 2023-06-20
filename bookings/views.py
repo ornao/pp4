@@ -37,6 +37,12 @@ class BookingsEdit(generic.UpdateView):
     success_url = reverse_lazy('read_bookings') 
 
 
+class BookingsDelete(generic.DeleteView):
+    model = Bookings
+    template_name = 'confirm_delete.html'
+    success_url = reverse_lazy("read_bookings")
+
+
 # need to add booking successful message (unique url?)
 # can probably delete need to add first name and surname to booking maybe just a display instead? as shpuld have from login info
 # update template of bookings to make more realistic 
