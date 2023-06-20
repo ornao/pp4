@@ -28,11 +28,11 @@ class BookingsCreate(generic.CreateView):
         return super().form_valid(form)
 
 
-# class BookingsEdit(generic.UpdateView):
-#     model = Bookings
-#     template_name = "edit_bookings.html"
-#     fields = "booking_id", "first_name", "last_name", "email", "check_in_date", "check_out_date"
-#     success_url = reverse_lazy("read_bookings")
+class BookingsEdit(generic.UpdateView):
+    model = Bookings
+    template_name = "edit_bookings.html"
+    fields = "booking_id", "first_name", "last_name", "email", "check_in_date", "check_out_date"
+    success_url = reverse_lazy("edit_bookings")
 
 
 # need to add booking successful message (unique url?)
