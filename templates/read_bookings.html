@@ -26,6 +26,8 @@
               <p>{{ bookings.check_in_date }}</p>
               <p>{{ bookings.check_out_date }}</p>
               <p>{{ bookings.length_of_stay }}</p>
+              <p>{{ bookings.accomodation_name }}</p>
+              <p>{{ bookings.num_guests }}</p>
               <div class="text-center">
                 <a href="{% url 'edit_bookings' bookings.pk %}" class="more-btn">Edit</a>
                 <br>
