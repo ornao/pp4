@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.views import generic
 from .models import Bookings
 from django.urls import reverse, reverse_lazy
+from bookings.forms import BookingsForm
 
 
 class BookingsList(generic.ListView):
