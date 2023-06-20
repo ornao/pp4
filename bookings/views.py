@@ -21,7 +21,7 @@ class BookingsList(generic.ListView):
 class BookingsCreate(generic.CreateView):
     model = Bookings
     template_name = "create_bookings.html"
-    fields = "first_name", "last_name", "email", "check_in_date", "check_out_date"
+    fields = "first_name", "last_name", "email", "check_in_date", "check_out_date", "num_guests", "accomodation_name", "price_per_night"
     success_url = reverse_lazy("read_bookings")
 
     def form_valid(self, form):
