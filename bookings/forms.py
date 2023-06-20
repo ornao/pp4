@@ -10,4 +10,4 @@ from django import forms
 class BookingsForm(forms.ModelForm):
     class Meta:
         model = Bookings
-        fields = ("first_name", "last_name", "email", "check_in_date", "check_out_date", "num_guests", "accomodation_name", "price_per_night",)
+        fields = ("first_name", "last_name", "email", "check_in_date", "check_out_date", "num_guests", "accomodation_name",)

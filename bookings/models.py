@@ -20,7 +20,6 @@ class Bookings(models.Model):
     check_in_date = models.DateField()
     check_out_date = models.DateField()
     accomodation_name = models.ForeignKey(Accomodation, on_delete=models.CASCADE, related_name='name', null=True)
-    price_per_night = models.ForeignKey(Accomodation, on_delete=models.CASCADE, related_name='price', null=True)
     num_guests = models.IntegerField(null=True)
 
     @property
