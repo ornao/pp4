@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from accomodation.models import Accomodation
 
 # Booking model for the database
 
@@ -18,17 +19,20 @@ class Bookings(models.Model):
         )
     check_in_date = models.DateField()
     check_out_date = models.DateField()
+    accomodation_name = models.ForeignKey(Accomodation, on_delete=models.CASCADE, related_name='name', null=True)
+    price_per_night = models.ForeignKey(Accomodation, on_delete=models.CASCADE, related_name='price', null=True)
+    num_guests = models.IntegerField(null=True)
 
     @property
     def length_of_stay(self):
         return self.check_out_date - self.check_in_date
 
   
-    # num_guests = models.IntegerField()
     
-    # price_per_night = models.ForeignKey(Accommodation, on_delete=models.CASCADE)
+    
+    
     # total_price = models.DecimalField(max_digits=10, decimal_places=2)
-    # accomodation_id = models.ForeignKey(Accommodation, on_delete=models.CASCADE)
+   
    
 
     class Meta:
