@@ -11,14 +11,22 @@
         <div class="why-box">
           <h3>Your Bookings</h3>
           <div class="text-center">
-            <a href="{% url 'create_bookings' %}" class="more-btn">Book Another Stay <i class="bx bx-chevron-right"></i></a>
+            {% if messages %}
+            <ul class="messages">
+              {% for message in messages %}
+              <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <a href="{% url 'create_bookings' %}" class="more-btn">Book Another Stay <i
+                class="bx bx-chevron-right"></i></a>
           </div>
         </div>
       </div><!-- End Why Box -->
 
       <div class="col-lg-8 d-flex align-items-center">
         <div class="row gy-4">
-      {% for bookings in bookings_list %}
+          {% for bookings in bookings_list %}
           <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-clipboard-data"></i>
@@ -35,7 +43,7 @@
               </div>
             </div>
           </div><!-- End Icon Box -->
-      {% endfor %}
+          {% endfor %}
         </div>
       </div>
 
