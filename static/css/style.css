@@ -717,6 +717,14 @@ section {
   margin-bottom: 30px;
 }
 
+.why-us .why-box .messages {
+  color: green;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  list-style-type: none;
+}
+
 .why-us .why-box p {
   margin-bottom: 30px;
 }
