@@ -112,6 +112,16 @@ I utilitied the agile MoSCoW prioritisation method while planning the user stori
 #### COULD HAVE 
 25. As a site owner, 
 
+## Design
+
+### Theme
+
+A bootstrap template Yummy was used for this project. I adapted and pulled aspects of the code for the website abd changed CSS elements to better represent my vision for the glamping wesbite. 
+
+### Colour 
+
+Bootstrap theme colours vs the colours I chose 
+
 ## Structure 
 
 ### Database
