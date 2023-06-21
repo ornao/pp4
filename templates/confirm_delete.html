@@ -2,6 +2,7 @@
 
 {% block content %}
 
+<!-- code adapdted from yummy bootstrap template  -->
 <!-- ======= Why Us Section ======= -->
 <section id="why-us" class="why-us section-bg">
   <div class="container" data-aos="fade-up">
@@ -17,7 +18,9 @@
           <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-clipboard-data"></i>
-              <form method="post">{% csrf_token %}
+              <!-- code adapted from django documentation -->
+              <form method="post">
+                {% csrf_token %}
                 <p>Are you sure you want to delete "{{ object }}"?</p>
                 {{ form }}
                 <input type="submit" value="Confirm">
