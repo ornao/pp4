@@ -4,6 +4,7 @@ from .models import Bookings
 from django.urls import reverse, reverse_lazy
 from bookings.forms import BookingsForm
 from django.contrib.messages.views import SuccessMessageMixin
+from django.contrib import messages
 
 
 class BookingsList(generic.ListView):
@@ -44,6 +45,11 @@ class BookingsDelete(generic.DeleteView):
     model = Bookings
     template_name = 'confirm_delete.html'
     success_url = reverse_lazy("read_bookings")
+    success_message = "Booking was deleted successfully"
+
+    def delete(self, request, *args, **kwargs):
+        messages.success(self.request, self.success_message)
+        return super(BookingsDelete, self).delete(request, *args, **kwargs)
 
 
 # need to add booking successful message (unique url?)
