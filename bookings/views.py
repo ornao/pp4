@@ -32,11 +32,12 @@ class BookingsCreate(SuccessMessageMixin, generic.CreateView):
         return super().form_valid(form)
 
 
-class BookingsEdit(generic.UpdateView):
+class BookingsEdit(SuccessMessageMixin, generic.UpdateView):
     model = Bookings
     form_class = BookingsForm
     template_name = 'edit_bookings.html'
     success_url = reverse_lazy('read_bookings') 
+    success_message = "Booking was edited successfully"
 
 
 class BookingsDelete(generic.DeleteView):
