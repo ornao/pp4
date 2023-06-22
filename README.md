@@ -11,6 +11,8 @@
     - [Structure](#structure)
       - [Database](#database)
   - [Technologies Used](#technologies-used)
+  - [Validation](#validation)
+  - [Testing](#testing)
     - [Bugs](#bugs)
   - [Deployment](#heroku-deployment)
   - [Credits](#credits)
@@ -196,8 +198,29 @@ This contains:
 - email: EmailField()
 - text_body: TextField()
 
+## Technologies Used
+
+### Languages & Frameworks
+
+- HTML
+- CSS
+- Javascript
+- Python
+- Django
+
+### Libraries & Tools
+
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools/)
+- [Font Awesome](https://fontawesome.com/)
+- [Summernote](https://summernote.org/)
 
 
+##### Back to [top](#table-of-contents)
 
 ## Deployment (Heroku)
 
