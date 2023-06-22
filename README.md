@@ -4,12 +4,12 @@
   - [User Goals](#user-goals)
   - [Site Owner Goals](#site-owner-goals)
   - [User Experience](#user-experience)
-  - [User Stories](#user-stories)
-  - [Design](#design)
-    -[Theme](#theme)
-    - [Wireframes](#wireframes)
-  - [Structure](#structure)
-    - [Database](#database)
+    - [User Stories](#user-stories)
+    - [Design](#design)
+      - [Theme](#theme)
+      - [Wireframes](#wireframes)
+    - [Structure](#structure)
+      - [Database](#database)
   - [Technologies Used](#technologies-used)
     - [Bugs](#bugs)
   - [Deployment](#heroku-deployment)
@@ -116,13 +116,33 @@ I utilitied the agile MoSCoW prioritisation method while planning the user stori
 
 ### Theme
 
-A bootstrap template Yummy was used for this project. I adapted and pulled aspects of the code for the website abd changed CSS elements to better represent my vision for the glamping wesbite. 
+A [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/) was used for this project. I adapted and pulled aspects of the code for the website and changed CSS elements to better represent my vision for the glamping wesbite.
+
 
 ### Colour 
 
-Bootstrap theme colours vs the colours I chose 
+I enjoyed the primary colours from the Yummy bootstrap theme (as mentioned above) and hence only changed the colours slightly from the original. I opted to replace the primary red color with a magenta pink shade that complemented the visuals of my pictures. This subtle adjustment helped unify the elements of my website, creating a cohesive and visually appealing experience for visitors.
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687450655/glamping/docs/colours_website.png" alt="colours of wesbite">
+
+### Wireframes 
+
+<img src="" alt ="">
+<img src="" alt ="">
+<img src="" alt ="">
+<img src="" alt ="">
+<img src="" alt ="">
 
 ## Structure 
+
+The wesbite consists of number of pages. The mains pages as seen on the navigation bar are:
+- Home 
+- Accomodation
+- Testimonials 
+- Log in/ Register / Log Out
+- Contact 
+- Book 
+- View Bookings 
 
 ### Database
 
@@ -176,7 +196,7 @@ This contains:
 - email: EmailField()
 - text_body: TextField()
 
-### Wireframes 
+
 
 
 ## Deployment (Heroku)
