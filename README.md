@@ -13,7 +13,7 @@
   - [Technologies Used](#technologies-used)
   - [Validation](#validation)
   - [Testing](#testing)
-    - [Bugs](#bugs)
+  - [Bugs](#bugs)
   - [Deployment](#heroku-deployment)
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
@@ -221,6 +221,26 @@ This contains:
 
 
 ##### Back to [top](#table-of-contents)
+
+## Validation
+
+### HTML - [Validator](https://validator.w3.org/)
+
+### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+### Javascript - [JSHint](https://jshint.com/)
+
+### Python - [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
+
+### Accessibility - [WAVE](https://wave.webaim.org/report)
+
+### Performance - Lighthouse
+
+
+## Testing
+
+## Bugs
+
 
 ## Deployment (Heroku)
 
