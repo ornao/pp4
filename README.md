@@ -31,7 +31,6 @@ This glamping website provides a user-friendly platform to experience a unique c
 - Gain insight of expected experience by reading reviews and ratings from previous guests 
 - Able to easily contact the site owner with any questions, queries, or special requests 
 
-
 ### Site Owner Goals
 - Aim to attract and engage potentional customers with appealing visuals and user-friendly features
 - Provide a seamless booking process to drive bookings and generate revenue to the camspite 
@@ -39,7 +38,6 @@ This glamping website provides a user-friendly platform to experience a unique c
 - Offer a means of communication between customers and site owner to ensure satisfactory customer support experience 
 
 <hr>
-
 
 ## User Experience
 
@@ -49,7 +47,6 @@ This glamping website provides a user-friendly platform to experience a unique c
 - Couples on a romantic getaway looking for a intimate and scenic experience 
 - Tourists looking for a distinct and memorable experience in the Irish countryside
 - Individuals in search of a retreat where they can relax, unwind and become rejuvenated through the power of mindfulness in idyllic natural settings  
-
 
 ### User Requirements and Expectations
 - Intuitive naviagtion and seamless booking process 
@@ -119,7 +116,6 @@ I utilitied the agile MoSCoW prioritisation method while planning the user stori
 ### Theme
 
 A [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/) was used for this project. I adapted and pulled aspects of the code for the website and changed CSS elements to better represent my vision for the glamping wesbite.
-
 
 ### Colour 
 
@@ -239,6 +235,267 @@ This contains:
 
 ## Testing
 
+### Manually testing user stories 
+
+
+1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+2. As a user, I want to compare different accomodation types available 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+3. As a user, I want to register for an account on the website 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+4. As a returning user, I want to login to my account on the website 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details> 
+
+7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+9. As a user, I want to be able to logout of my account 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+10. As a user, I want to check the availability and pricing information for my desired dates
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+11. As a user, I want to see previous customer reviews and ratings of the different accomodation types
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+12. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+13. As a user, I would like to read reviews of only people that stayed in the accomodation
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+
+14. As a user, I want a means of contacting the site owner with any questions, queries, or special requests 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+15. As a user, i want to be able to see an interactive map of where the campsite is 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+
+
+
+17. As an admin, I can log in and access the back end of the site
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+18. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+19. As a site owner, I want the customers to have a means of communicating with me on website
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+20. As a site owner, I want site to be fully responisve and acessible 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+21. As a site owner, i want all user entered data to be validated to reduce errors on database
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+22. As a site owner, I want only logged in users to view details of their bookings 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+23. As an admin, I can accept or reject bookings so that we avoid double bookings 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+24. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+
+
 ## Bugs
 
 
@@ -294,7 +551,7 @@ insert image here*
 #### Code 
 StackOverflow:
 - [adding max and min validators to rating on rating field](https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model)
--[adding success message to deleteview class](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
+- [adding success message to deleteview class](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
 
 Django Documentation:
 - [the use of CreateView, UpdateView and DeleteView](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/)
