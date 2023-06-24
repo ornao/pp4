@@ -199,6 +199,16 @@ section {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.card .btn-book-a-table,
+.card .btn-book-a-table:focus {
+  font-size: 14px;
+  color: #fff;
+  background: var(--color-primary);
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
