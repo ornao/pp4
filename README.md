@@ -115,7 +115,7 @@ I utilitied the agile MoSCoW prioritisation method while planning the user stori
 
 ### Theme
 
-A [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/) was used for this project. I adapted and pulled aspects of the code for the website and changed CSS elements to better represent my vision for the glamping wesbite.
+A [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/) was used for this project. I also utitilised another [bootstrap template Admin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) for the login/logout and forms of the site. Iadapted and pulled aspects of the code for the website and changed CSS elements to better represent my vision for the glamping wesbite.
 
 ### Colour 
 
@@ -137,7 +137,7 @@ The wesbite consists of number of pages. The mains pages as seen on the navigati
 - Home 
 - Accomodation
 - Testimonials 
-- Log in/ Register / Log Out
+- Log in /Register /Log Out
 - Contact 
 - Book 
 - View Bookings 
@@ -548,6 +548,13 @@ insert image here*
 
 ### Credits 
 
+#### Photos
+
+
+- [Accomodations images courtesy of Podumna Glamping Village](https://podumnavillage.ie/)
+- Photo by <a href="https://unsplash.com/@captainhouque?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Houque</a> on <a href="https://unsplash.com/photos/Twke63oNYM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>Hero image on home page
+- Photo by <a href="https://unsplash.com/@ashleighjoyphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ashleigh Joy Photography</a> on <a href="https://unsplash.com/photos/BdEgT847nk0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>: Photo of boaton create bookings page
+  
 #### Code 
 StackOverflow:
 - [adding max and min validators to rating on rating field](https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model)
