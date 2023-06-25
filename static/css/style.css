@@ -323,7 +323,7 @@ section {
   margin-right: 6px;
 }
 
-.header .logo h1 {
+.header .logo {
   font-size: 28px;
   font-weight: 700;
   color: #000;
@@ -331,7 +331,7 @@ section {
   font-family: var(--font-secondary);
 }
 
-.header .logo h1 span {
+.header .logo span {
   color: var(--color-primary);
 }
 
@@ -1557,15 +1557,17 @@ section {
   padding: 160px 0 60px 0;
 }
 
-.hero h2 {
+.hero h1 {
   font-size: 64px;
   font-weight: 1000;
   margin-bottom: 20px;
   color: #fff;
   font-family: var(--font-primary);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* background-color: var(--color-default); */
 }
 
-.hero h2 span {
+.hero h1 span {
   color: var(--color-primary);
 }
 
@@ -1573,6 +1575,8 @@ section {
   color: #fff;
   font-weight: 600;
   margin-bottom: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /* background-color: #fff; */
 }
 
 .hero .btn-book-a-table {
