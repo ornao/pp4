@@ -11,30 +11,45 @@
       <p>Book <span>Your Stay</span> With Us</p>
     </div>
 
-    <div class="row g-0">
+    <div class="container">
 
-      <div class="col-lg-4 reservation-img"
-        style="background-image: url(https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687182678/glamping/podumna-pod-glamping-galway_msntey.jpg);"
-        data-aos="zoom-out" data-aos-delay="200"></div>
+      <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+        <div class="container">
 
-      <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
-        {% if user.is_authenticated %}
-        <form method="post">
-          {% csrf_token %}
-          {{ form.as_p }}
-          <button type="submit">Submit</button>
-        </form>
-        {% else %}
-        <div>
-          <p>Please log in to make a booking.</p>
-          <a href="{% url 'account_login' %}">Login</a>
-        </div>
-        {% endif %}
-        <!-- <form method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row justify-content-center">
+
+            <div class="col-lg-4 reservation-img"
+              style="background-image: url(https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687703767/connemara_boat.jpg);"
+              data-aos="zoom-out" data-aos-delay="200"></div>
+
+            <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+
+              <div class="card mb-3">
+
+                <div class="card-body">
+
+                  <div class="pt-4 pb-2">
+
+                    <div class="row g-0">
+
+                      <div class="col-lg-8 justify-content-center align-items-center">
+                        {% if user.is_authenticated %}
+                        <form method="post">
+                          {% csrf_token %}
+                          {{ form.as_p }}
+                          <button type="submit">Submit</button>
+                        </form>
+                        {% else %}
+                        <div class="justify-content-center align-items-center">
+                          <p>Please log in to make a booking.</p>
+                          <a href="{% url 'account_login' %}">Login</a>
+                        </div>
+                        {% endif %}
+                        <!-- <form method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
             {% csrf_token %}
             {{ form.as_p }} -->
-        <!-- <div class="row gy-4"> -->
-        <!-- <div class="col-lg-4 col-md-6">
+                        <!-- <div class="row gy-4"> -->
+                        <!-- <div class="col-lg-4 col-md-6">
                 <input type="text" name="first_name" class="form-control" id="first_name" placeholder="Your First Name">
               </div>
               <div class="col-lg-4 col-md-6">
@@ -50,13 +65,23 @@
                 <input type="text" name="date" class="form-control" id="date" placeholder="Check-out Date" >
               </div> -->
 
-        <!-- <div class="text-center"><button type="submit">Submit</button></div>
+                        <!-- <div class="text-center"><button type="submit">Submit</button></div>
         </form> -->
-      </div><!-- End Reservation Form -->
+                      </div><!-- End Reservation Form -->
 
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+      </section>
     </div>
-
-  </div>
 </section><!-- End Book A Table Section -->
 
 {% endblock %}

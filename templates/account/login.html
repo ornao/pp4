@@ -47,7 +47,7 @@
                 {% endif %}
 
               </div>
-
+              
               <form class="login" method="POST" action="{% url 'account_login' %}">
                 {% csrf_token %}
                 {{ form.as_p }}
