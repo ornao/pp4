@@ -564,3 +564,4 @@ StackOverflow:
 Django Documentation:
 - [the use of CreateView, UpdateView and DeleteView](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/)
 - [adding flash success messages to class based view](https://docs.djangoproject.com/en/4.2/ref/contrib/messages/)
+- [remove html tags appearing to template](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)

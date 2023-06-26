@@ -20,7 +20,11 @@
                 <div class="testimonial-content">
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    {{ testimonials.content }}
+                    <!-- i am aware the use of this tag is a step towards html safe, 
+                      but for the purposes of this project i just want to strip the 
+                    unnessary html tags provided  by summernote - i am not too concerned with 
+                  santising the data -->
+                    {{ testimonials.content | striptags}}
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                   <h3>{{ testimonials.author }}</h3>
