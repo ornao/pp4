@@ -47,15 +47,15 @@
                 {% endif %}
 
               </div>
-              
+
               <form class="login" method="POST" action="{% url 'account_login' %}">
                 {% csrf_token %}
                 {{ form.as_p }}
                 {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                 {% endif %}
-                <div class="text-center small" >
-                  <button class="btn-book-a-table" class="primaryAction" type="submit">{% trans "Sign In" %}</button>
+                <div class="text-center small">
+                  <button class="btn-book-a-table primaryAction" type="submit">{% trans "Sign In" %}</button>
                 </div>
               </form>
               <br>
@@ -75,8 +75,11 @@
 
       </div>
 
-  </section>
+    </div>
 
+  </section>
+  
 </div>
+
 
 {% endblock %}
