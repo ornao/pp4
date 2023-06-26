@@ -5,5 +5,5 @@ from .models import Testimonials
 
 class TestimonialsList(generic.ListView):
     model = Testimonials
-    queryset = Testimonials.objects.filter(status=1).order_by('created_date')
+    queryset = Testimonials.objects.filter(status=1).order_by('-created_date')
     template_name = "testimonials.html"
