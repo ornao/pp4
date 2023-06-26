@@ -26,10 +26,10 @@ class Testimonials(models.Model):
         User, related_name='testimonial_likes', blank=True)
     
     class Meta:
-        ordering = ['created_date']
+        ordering = ['-created_date']
 
     def __str__(self):
-        return self.rating
+        return self.content
 
     def number_of_likes(self):
         return self.likes.count()
