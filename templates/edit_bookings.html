@@ -41,6 +41,11 @@
                             <button class="btn-book-a-table primaryAction" type="submit">Save Changes</button>
                           </div>
                         </form>
+                        {% else %}
+                        <div class="justify-content-center align-items-center">
+                          <p>Please log in to edit a booking.</p>
+                          <a href="{% url 'account_login' %}">Login</a>
+                        </div>
                         {% endif %}
 
                       </div><!-- End Reservation Form -->
