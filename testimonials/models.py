@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from accomodation.models import Accomodation
 from cloudinary.models import CloudinaryField
 from django.core.validators import MaxValueValidator, MinValueValidator
 
@@ -18,6 +19,7 @@ class Testimonials(models.Model):
             ])
     content = models.TextField()
     featured_image = CloudinaryField('image', default='placeholder')
+    accomodation_name = models.ForeignKey(Accomodation, on_delete=models.CASCADE, related_name="user_accomodation", null=True)
     created_date = models.DateField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(
