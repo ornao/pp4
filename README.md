@@ -216,6 +216,7 @@ This contains:
 
 The W3S HTML validator checks the HTML through the webpage url. This is because the validator does not recognise the django template language when HTML input directly into validator. 
 
+
 <details><summary> Home page screenshot</summary>
 - This checks base.html and index.html
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889359/glamping/docs/home_html_validator_cl0mu2.png" alt="home page html validation check">
@@ -247,24 +248,25 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 </details>
 
 
-
-<details><summary> read_bookings.html screenshot</summary>
-<img src="">
+<details><summary> View your Bookings page screenshot</summary>
+- This checks base.html and read_bookings.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/read_bookings_html_validator_bfzmpe.png" alt="view bookings page html validation check">
 </details>
 
-<details><summary> create_bookings.html screenshot</summary>
-<img src="">
+<details><summary> Book page screenshot</summary>
+- This checks base.html and create_bookings.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/create_bookings_html_validator_xvsnqd.png" alt="book page html validation check">
 </details>
 
-<details><summary> edit_bookings.html screenshot</summary>
-<img src="">
+<details><summary> Edit Bookings page screenshot</summary>
+- This checks base.html and edit_bookings.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/edit_bookings_html_validator_cnekpe.png" alt="edit bookings page html validation check">
 </details>
 
-<details><summary> confirm_delete.html screenshot</summary>
-<img src="">
+<details><summary> Delete Bookings page screenshot</summary>
+- This checks base.html and confirm_delete.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/delete_bookings_html_validator_asg3f5.png" alt="confirm delete page html validation check">
 </details>
-
-
 
 ### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
