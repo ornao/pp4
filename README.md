@@ -214,13 +214,39 @@ This contains:
 
 ### HTML - [Validator](https://validator.w3.org/)
 
-<details><summary> base.html screenshot</summary>
-<img src="">
+The W3S HTML validator checks the HTML through the webpage url. This is because the validator does not recognise the django template language when HTML input directly into validator. 
+
+<details><summary> Home page screenshot</summary>
+- This checks base.html and index.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889359/glamping/docs/home_html_validator_cl0mu2.png" alt="home page html validation check">
 </details>
 
-<details><summary> index.html screenshot</summary>
-<img src="">
+<details><summary> Accommodation page screenshot</summary>
+- This checks base.html and accomodation.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889261/glamping/docs/accomodation_html_validator_cayv4c.png" alt="accomodation page html validation check">
 </details>
+
+<details><summary> Testimonials page screenshot</summary>
+- This checks base.html and testimonials.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889276/glamping/docs/testimonials_html_validator_p98e6o.png" alt="testimonials page html validation check">
+</details>
+
+<details><summary> Log In page screenshot</summary>
+- This checks base.html and account/login.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/login_html_validator_prlam4.png" alt="login page html validation check">
+</details>
+
+<details><summary> Register page screenshot</summary>
+- This checks base.html and accounts/signup.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/signup_html_validator_m4ctuw.png" alt="signup page html validation check">
+</details>
+
+<details><summary> Log Out page screenshot</summary>
+- This checks base.html and account/logout.html
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902920/glamping/docs/logout_html_validator_bgc04l.png" alt="logout page html validation check">
+</details>
+
+
 
 <details><summary> read_bookings.html screenshot</summary>
 <img src="">
@@ -238,25 +264,7 @@ This contains:
 <img src="">
 </details>
 
-<details><summary> accommodation.html screenshot</summary>
-<img src="">
-</details>
 
-<details><summary> testimonials.html screenshot</summary>
-<img src="">
-</details>
-
-<details><summary> account/login.html screenshot</summary>
-<img src="">
-</details>
-
-<details><summary> account/logout.html screenshot</summary>
-<img src="">
-</details>
-
-<details><summary> account/signup.html screenshot</summary>
-<img src="">
-</details>
 
 ### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
