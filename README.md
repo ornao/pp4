@@ -186,14 +186,6 @@ This contains:
 - image: ImageField(optional)
 - likes: user model
 
-### Contact model
-This contains: 
-- contact_id: AutoField (PK)
-- first_name: CharField()
-- last_name: CharField()
-- email: EmailField()
-- text_body: TextField()
-
 ## Technologies Used
 
 ### Languages & Frameworks
@@ -221,6 +213,50 @@ This contains:
 ## Validation
 
 ### HTML - [Validator](https://validator.w3.org/)
+
+<details><summary> base.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> index.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> read_bookings.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> create_bookings.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> edit_bookings.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> confirm_delete.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> accommodation.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> testimonials.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> account/login.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> account/logout.html screenshot</summary>
+<img src="">
+</details>
+
+<details><summary> account/signup.html screenshot</summary>
+<img src="">
+</details>
 
 ### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
