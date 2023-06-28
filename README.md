@@ -193,18 +193,62 @@ Included are the screenshots created prior to development. As you can see, the f
 ## Structure 
 
 The wesbite consists of number of pages. The mains pages as seen on the navigation bar are:
+
 - Home 
+<details><summary> Home page screenshot</summary>
+
+<img src="" alt="home page">
+</details>
+
 - Accomodation
+<details><summary> Accomodation page screenshot</summary>
+
+<img src="" alt="accommodation page">
+</details>
+
 - Testimonials 
+<details><summary> Testimonials page screenshot</summary>
+
+<img src="" alt="testimonials page">
+</details>
+
 - Log in /Register /Log Out
+<details><summary> Log in /Register /Log Out page screenshots</summary>
+
+<img src="" alt="login page">
+
+<img src="" alt="signup page">
+
+<img src="" alt="logout page">
+</details>
+
+
 - Book 
+<details><summary> Book page screenshot</summary>
+
+<img src="" alt="book page">
+</details>
+
+User need to Log In to view these page: 
 - View Bookings 
+<details><summary> View bookings page screenshot</summary>
+
+<img src="" alt="book page">
+</details>
 - Edit Bookings 
+<details><summary> Edit bookings page screenshot</summary>
+
+<img src="" alt="edit bookings page">
+</details>
 - Delete Bookings
+<details><summary> Delete bookings page screenshot</summary>
+
+<img src="" alt="edit bookings page">
+</details>
 
 ### Database
 
-A number of models were created for this project 
+3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. 
 
 #### User model (allauth)
 This contains:
@@ -246,6 +290,36 @@ This contains:
 - image: ImageField(optional)
 - likes: user model
 
+<details><summary> Database schema screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687959226/glamping/docs/database_schema_rfiwao.png" alt="database schema scrennshot">
+</details>
+
+### Future models 
+
+#### Contact model
+
+This will contain:
+- contact_form_id: AutoField (PK)
+- user_id: ForeignKey
+- first_name: CharField()
+- last_name: CharField()
+- email: EmailField()
+- booking_id: ForeignKey (optional)
+- content: TextField()
+- date_submitted: DateField()
+- image: ImageField(optional)
+
+#### Availability model
+NEED TO CHECK!!!!
+This will contain:
+- accommodation_name: ForeignKey
+- check_in_date: ForeignKey
+- check_out_date: ForeignKey
+- available?
+- length_of_stay: DurationField()
+- num_guests: IntegerField()
+- total_price: DecimalField(price_per_night x length_of_stay)
+
 ## Technologies Used
 
 ### Languages & Frameworks
@@ -266,6 +340,7 @@ This contains:
 - [Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools/)
 - [Font Awesome](https://fontawesome.com/)
 - [Summernote](https://summernote.org/)
+- [dbdiagram](https://dbdiagram.io/home)
 
 
 ##### Back to [top](#table-of-contents)
@@ -671,3 +746,6 @@ Django Documentation:
 - [the use of CreateView, UpdateView and DeleteView](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/)
 - [adding flash success messages to class based view](https://docs.djangoproject.com/en/4.2/ref/contrib/messages/)
 - [remove html tags appearing to template](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)
+
+W3Schools: 
+- [remove html tags appearing to template](https://www.w3schools.com/django/ref_filters_striptags.php)
