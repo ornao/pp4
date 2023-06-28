@@ -413,6 +413,47 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 
 ### Accessibility - [WAVE](https://wave.webaim.org/report)
 
+<details><summary> Home page screenshot</summary>
+<img src="" alt="home page accessibility check">
+</details>
+
+<details><summary> Accommodation page screenshot</summary>
+<img src="" alt="accomodation page accessibility check">
+</details>
+
+<details><summary> Testimonials page screenshot</summary>
+<img src="" alt="testimonials page accessibility check">
+</details>
+
+<details><summary> Log In page screenshot</summary>
+<img src="" alt="login page accessibility check">
+</details>
+
+<details><summary> Register page screenshot</summary>
+<img src="" alt="signup page accessibility check">
+</details>
+
+<details><summary> Log Out page screenshot</summary>
+<img src="" alt="logout page accessibility check">
+</details>
+
+
+<details><summary> View your Bookings page screenshot</summary>
+<img src="" alt="view bookings page accessibility check">
+</details>
+
+<details><summary> Book page screenshot</summary>
+<img src="" alt="create bookings page accessibility check">
+</details>
+
+<details><summary> Edit Bookings page screenshot</summary>
+<img src="" alt="edit bookings page accessibility check">
+</details>
+
+<details><summary> Delete Bookings page screenshot</summary>
+<img src="" alt="delete bookings page accessibility check">
+</details>
+
 ### Performance - Lighthouse
 
 
