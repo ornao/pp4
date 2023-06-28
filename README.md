@@ -127,6 +127,8 @@ I enjoyed the primary colours from the Yummy bootstrap theme (as mentioned above
 
 ### Wireframes 
 
+Included are the screenshots created prior to development. As you can see, the finished wesbite looks slighly different but the core fucntion of each page remains the same. 
+
 <details><summary> Home page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/home_page_wireframe_mzjg9q.png" alt="home page wireframe">
@@ -142,22 +144,25 @@ I enjoyed the primary colours from the Yummy bootstrap theme (as mentioned above
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950339/glamping/docs/testimonials_page_wireframes_svu8rr.png" alt="testimonials page wireframe">
 </details>
 
-<details><summary> Create booking page screenshot</summary>
+<details><summary> Create bookings page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/book_page_wireframes_uh0brr.png" alt="create booking page wireframe">
 </details>
 
-<details><summary> Edit booking page screenshot</summary>
+<details><summary> View bookings page screenshot</summary>
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687951678/glamping/docs/viewbookings_page_wireframes_c0rdr2.png" alt="view booking page wireframe">
+</details>
+
+<details><summary> Edit bookings page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950683/glamping/docs/editingbooking_page_wireframes_dm6bv4.png" alt="edit booking page wireframe">
 </details>
 
-<details><summary> Delete booking page screenshot</summary>
+<details><summary> Delete bookings page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950684/glamping/docs/deletebooking_page_wireframes_ve5j4m.png" alt="delete booking page wireframe">
 </details>
-
-*view bookings page
 
 <details><summary> Login page screenshot</summary>
 
@@ -172,6 +177,16 @@ I enjoyed the primary colours from the Yummy bootstrap theme (as mentioned above
 <details><summary> Logout page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/logout_page_wireframes_iiey7o.png" alt="logout page wireframe">
+</details>
+
+<details><summary> Error page screenshot</summary>
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687952095/glamping/docs/error_page_wireframes_koxnjy.png" alt="error page wireframe">
+</details>
+
+<details><summary> Contact page screenshot</summary>
+- While i did not complete a contact page as part of this project, it is something I aim to achieve in future iterations of the project. 
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687952831/glamping/docs/contact_page_wireframes_ab8awm.png" alt="contact page wireframe">
 </details>
 
 
