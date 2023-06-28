@@ -26,7 +26,7 @@ This glamping website provides a user-friendly platform to experience a unique c
 <hr>
 
 ### User Goals
-- Be able to check availibity and pricing information for desired dates 
+- Be able to check availibility and pricing information for desired dates 
 - Easily book and secure preferred accomodation type for desired dates 
 - Gain insight of expected experience by reading reviews and ratings from previous guests 
 - Able to easily contact the site owner with any questions, queries, or special requests 
@@ -59,6 +59,8 @@ This glamping website provides a user-friendly platform to experience a unique c
 ## User Stories
 
 I utilitied the agile MoSCoW prioritisation method while planning the user stories for this project. This aided the created of a MVP from the beginning and lends itself to be of an iterative development style. 
+
+My user stories were catagorized into epics and sub-divided into individuals tasks; details of which can be found on my [kanban board](). User stories were also ranked using MoSCoW prioritisation and were each given a sprint which gave me a timeframe to complete the majority of the tasks outlined in the user story. 
 
 ### Users
 
@@ -138,9 +140,10 @@ The wesbite consists of number of pages. The mains pages as seen on the navigati
 - Accomodation
 - Testimonials 
 - Log in /Register /Log Out
-- Contact 
 - Book 
 - View Bookings 
+- Edit Bookings 
+- Delete Bookings
 
 ### Database
 
