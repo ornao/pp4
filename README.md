@@ -60,7 +60,7 @@ This glamping website provides a user-friendly platform to experience a unique c
 
 I utilitied the agile MoSCoW prioritisation method while planning the user stories for this project. This aided the created of a MVP from the beginning and lends itself to be of an iterative development style. 
 
-My user stories were catagorized into epics and sub-divided into individuals tasks; details of which can be found on my [kanban board](). User stories were also ranked using MoSCoW prioritisation and were each given a sprint which gave me a timeframe to complete the majority of the tasks outlined in the user story. 
+My user stories were catagorized into epics and sub-divided into individuals tasks; details of which can be found on my [kanban board](https://github.com/users/ornao/projects/5). User stories were also ranked using MoSCoW prioritisation and were each given a sprint which gave me a timeframe to complete the majority of the tasks outlined in the user story. I did not sumbit speciific dates for each sprint as this was my first time undertaking a project like and I was unsure how long individual tasks would take me to complete. Hence, I included must have for an MVP in my first sprint and cataegorised the rest of te user stories accordingly in later sprints.
 
 ### Users
 
@@ -248,7 +248,7 @@ User need to Log In to view these page:
 
 ### Database
 
-3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. 
+3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. I would also like to add more CRUD functionality to testimonials model so users can submit their own testimonials. 
 
 #### User model (allauth)
 This contains:
@@ -341,6 +341,8 @@ This will contain:
 - [Font Awesome](https://fontawesome.com/)
 - [Summernote](https://summernote.org/)
 - [dbdiagram](https://dbdiagram.io/home)
+- [Fake Irish number generator](https://fakenumber.org/ireland)
+- [Irish dictonary](https://www.focloir.ie/) - to check spelling for fake address I made up 
 
 
 ##### Back to [top](#table-of-contents)
