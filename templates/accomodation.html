@@ -39,12 +39,13 @@
                         <div class="menu-item">
                             <a href= "{{ accomodation.featured_image.url }}" class="glightbox"><img src="{{ accomodation.featured_image.url }}"
                                     class="menu-img img-fluid" alt="accomodation images of pods"></a>
-                            <h4>{{ accomodation.accomodation_name }}</h4>
+                            <h4 class="price">{{ accomodation.accomodation_name }}</h4>
                             <p class="ingredients">
                                 <!-- use | striptags to remove html tags rendering
                                     content is not user entered so safe to use -->
                                 {{ accomodation.description | striptags }}
                             </p>
+                            <h5 class="text-center">Sleeps up to {{ accomodation.capacity }}</h5>
                             <p class="price">
                                 €{{ accomodation.price_per_night }}
                             </p>
@@ -68,12 +69,13 @@
                         <div class="menu-item">
                             <a href= "{{ accomodation.featured_image.url }}" class="glightbox"><img src="{{ accomodation.featured_image.url }}"
                                 class="menu-img img-fluid" alt="accomodation images of pods"></a>
-                            <h4>{{ accomodation.accomodation_name }}</h4>
+                            <h4 class="price">{{ accomodation.accomodation_name }}</h4>
                             <p class="ingredients">
                                 <!-- use | striptags to remove html tags rendering
                                     content is not user entered so safe to use -->
                                 {{ accomodation.description | striptags }}
                             </p>
+                            <h5 class="text-center">Sleeps up to {{ accomodation.capacity }}</h5>
                             <p class="price">
                                 €{{ accomodation.price_per_night }}
                             </p>
