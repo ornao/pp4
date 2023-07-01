@@ -67,30 +67,56 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 #### MUST HAVE 
 
 1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
-2. As a user, I want to compare different accomodation types available 
-3. As a user, I want to register for an account on the website 
-4. As a returning user, I want to login to my account on the website 
+2. As a user, I want to compare different accomodation types available so that I can make an informed decision of which accomodation best suits my needs. 
+
+- As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
+-  As an unregistered user, I have access to accomodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
+
+- As a user, i want to my bookings information to be secure so no other users have access to it. 
+
+
+3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings 
+
+4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality
+
 5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
+
 6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
-7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type
+
+7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type. My previous details should be present on this form so I know what I am changing details from. 
+
 8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
-9. As a user, I want to be able to logout of my account 
+
+As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
+
+9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
 
 #### SHOULD HAVE 
 
 10. As a user, I want to check the availability and pricing information for my desired dates
 11. As a user, I want to see previous customer reviews and ratings of the different accomodation types
+- As a user I can view the lastest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
 12. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
 13. As a user, I would like to read reviews of only people that stayed in the accomodation
+14. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
+As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
+As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
+
 
 
 #### COULD HAVE 
 
-14. As a user, I want a means of contacting the site owner with any questions, queries, or special requests 
 15. As a user, i want to be able to see an interactive map of where the campsite is 
+As a registered user, I can reset my password so that I can regain access to my account if I forget my password.
 
+As a user, I can signup to the site using one of my social media accounts to allow for an even more seemless registration.
+
+As a logged in user, I can like people's reviews so that I can show i agree with their comments aboyt their stay. 
 
 #### WON'T HAVE 
+
+
+As a registered user, I can be contacted directly by site owners on wesbite ad receive replies and noticications of these relies through the wesbite through messaging services.
 
 16. As a user i want to have real-time weather reports for days of my stay available when booking 
 
@@ -100,18 +126,22 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 
 17. As an admin, I can log in and access the back end of the site
 18. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
-19. As a site owner, I want the customers to have a means of communicating with me on website
+19. As an admin, I can accept or reject bookings so that we avoid double bookings 
 20. As a site owner, I want site to be fully responisve and acessible 
 21. As a site owner, i want all user entered data to be validated to reduce errors on database
 22. As a site owner, I want only logged in users to view details of their bookings 
+- As a site owner, I want every site visitor to be able to view the accomodation types no offer and reviews of these accomodations
+ 
+
+
 
 #### SHOULD HAVE 
 
-23. As an admin, I can accept or reject bookings so that we avoid double bookings 
-24. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
 
-#### COULD HAVE 
-25. As a site owner, 
+23. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
+24. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experinece of site vs any queries about their future stay
+
+
 
 ## Design
 
