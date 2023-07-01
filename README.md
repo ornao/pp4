@@ -68,78 +68,59 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 
 1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
 2. As a user, I want to compare different accomodation types available so that I can make an informed decision of which accomodation best suits my needs. 
-
-- As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
--  As an unregistered user, I have access to accomodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
-
-- As a user, i want to my bookings information to be secure so no other users have access to it. 
-
-
 3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings 
-
 4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality
-
 5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
-
 6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
-
 7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type. My previous details should be present on this form so I know what I am changing details from. 
-
 8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
-
-As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
-
 9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
+10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
+11. As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
+12. As an unregistered user, I have access to accomodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
+13. As a user, i want to my bookings information to be secure so no other users have access to it. 
 
 #### SHOULD HAVE 
 
-10. As a user, I want to check the availability and pricing information for my desired dates
-11. As a user, I want to see previous customer reviews and ratings of the different accomodation types
-- As a user I can view the lastest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
-12. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
-13. As a user, I would like to read reviews of only people that stayed in the accomodation
-14. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
-As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
-As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
+14. As a user, I want to check the availability and pricing information for my desired dates
+15. As a user, I want to see previous customer reviews and ratings of the different accomodation types
+16. As a user I can view the lastest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
+17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
+18.. As a user, I would like to read reviews of only people that stayed in the accomodation
+18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
+19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
+20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
 
 
 
 #### COULD HAVE 
 
-15. As a user, i want to be able to see an interactive map of where the campsite is 
-As a registered user, I can reset my password so that I can regain access to my account if I forget my password.
-
-As a user, I can signup to the site using one of my social media accounts to allow for an even more seemless registration.
-
-As a logged in user, I can like people's reviews so that I can show i agree with their comments aboyt their stay. 
+21. As a user, i want to be able to see an interactive map of where the campsite is 
+22. As a registered user, I can reset my password so that I can regain access to my account if I forget my password.
+23. As a user, I can signup to the site using one of my social media accounts to allow for an even more seemless registration.
+24. As a logged in user, I can like people's reviews so that I can show i agree with their comments aboyt their stay. 
 
 #### WON'T HAVE 
 
-
-As a registered user, I can be contacted directly by site owners on wesbite ad receive replies and noticications of these relies through the wesbite through messaging services.
-
-16. As a user i want to have real-time weather reports for days of my stay available when booking 
+25. As a registered user, I can be contacted directly by site owners on wesbite ad receive replies and noticications of these relies through the wesbite through messaging services.
+26. As a user i want to have real-time weather reports for days of my stay available when booking 
 
 ### Admin/Site Owner
 
 #### MUST HAVE 
 
-17. As an admin, I can log in and access the back end of the site
-18. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
-19. As an admin, I can accept or reject bookings so that we avoid double bookings 
-20. As a site owner, I want site to be fully responisve and acessible 
-21. As a site owner, i want all user entered data to be validated to reduce errors on database
-22. As a site owner, I want only logged in users to view details of their bookings 
-- As a site owner, I want every site visitor to be able to view the accomodation types no offer and reviews of these accomodations
+27. As an admin, I can log in and access the back end of the site
+28. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+29. As an admin, I can accept or reject bookings so that we avoid double bookings 
+30. As a site owner, I want site to be fully responisve and acessible 
+31. As a site owner, i want all user entered data to be validated to reduce errors on database
+32. As a site owner, I want only logged in users to view details of their bookings 
+33. As a site owner, I want every site visitor to be able to view the accomodation types no offer and reviews of these accomodations
  
-
-
-
 #### SHOULD HAVE 
 
-
-23. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
-24. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experinece of site vs any queries about their future stay
+34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
+35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experinece of site vs any queries about their future stay
 
 
 
@@ -491,50 +472,78 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 
 ### Manually testing user stories 
 
-
 1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
 
+LOGGED OUT USER: 
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+Click on the 'Home' tab in the nav bar | Home page will display | Works as expected |
+Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
+Click on the 'Log In' tab in the nav bar | Log In page will display | Works as expected |
+Click on the 'Register' tab in the nav bar | Home page will display | Works as expected |
+Click on the 'Book' tab in the nav bar | Create bookings page will display | Works as expected |
+
+
+<details><summary> Home navigation testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246507/glamping/docs/user%20stories%20testing/home_nav_testing_s90nba.png" alt="home navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png" alt="home navigation testing display">
+</details>
+
+<details><summary> Accomodation navigation testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation navigation testing display">
+</details>
+
+<details><summary> Testimonials navigation testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246026/glamping/docs/user%20stories%20testing/testimonials_nav_testing_f6ho2m.png" alt="testimonials navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/testimonials_nav_display_px3rvj.png" alt="testimonails navigation testing display">
+</details>
+
+<details><summary> Log In navigation testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246021/glamping/docs/user%20stories%20testing/login_nav_testing1_ddqnoy.png" alt="log In navigation testing1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247605/glamping/docs/user%20stories%20testing/login_nav_testing2_vz1gqb.png" alt="log In navigation testing2">
+<img src="" alt="log In navigation testing3">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688244998/glamping/docs/user%20stories%20testing/login_nav_display_edrbnk.png" alt="log In navigation testing display">
+
+<details><summary> Register navigation testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246023/glamping/docs/user%20stories%20testing/register_nav_testing_cnrfmy.png" alt="register navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242573/glamping/docs/user%20stories%20testing/register_nav_display_y2zprs.png" alt="register navigation testing display">
+</details>
+
+<details><summary> Book navigation testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png" alt="book navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242575/glamping/docs/user%20stories%20testing/book_nav_display_gt2ofy.png" alt="book navigation testing display">
+</details>
+
+LOOGED IN USER: 
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+
+<details><summary> View your Bookings navigation testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings navigation testing display">
+</details>
+
+
+2. As a user, I want to compare different accomodation types available so that I can make an informed decision of which accomodation best suits my needs. 
+
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
 
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-2. As a user, I want to compare different accomodation types available 
+3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
 
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-3. As a user, I want to register for an account on the website 
+4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-4. As a returning user, I want to login to my account on the website 
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
 
 5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
 
@@ -542,32 +551,17 @@ something | something happens | Works as expected |
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
 
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
 6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
 
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details> 
-
-7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type
+7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type. My previous details should be present on this form so I know what I am changing details from. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
 
 8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
 
@@ -575,182 +569,56 @@ something | something happens | Works as expected |
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
 
+9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
 
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
 
-9. As a user, I want to be able to logout of my account 
+10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+11. As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+12. As an unregistered user, I have access to accomodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+something | something happens | Works as expected |
+
+13. As a user, i want to my bookings information to be secure so no other users have access to it. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 something | something happens | Works as expected |
 
 
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-10. As a user, I want to check the availability and pricing information for my desired dates
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-11. As a user, I want to see previous customer reviews and ratings of the different accomodation types
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-12. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-13. As a user, I would like to read reviews of only people that stayed in the accomodation
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-
-14. As a user, I want a means of contacting the site owner with any questions, queries, or special requests 
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-15. As a user, i want to be able to see an interactive map of where the campsite is 
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
 
 
 
 
-17. As an admin, I can log in and access the back end of the site
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-18. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-19. As a site owner, I want the customers to have a means of communicating with me on website
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-20. As a site owner, I want site to be fully responisve and acessible 
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-21. As a site owner, i want all user entered data to be validated to reduce errors on database
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-22. As a site owner, I want only logged in users to view details of their bookings 
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-23. As an admin, I can accept or reject bookings so that we avoid double bookings 
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-
-24. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
-
-**Step** | **Expected Result** | **Actual Result**
------------- | ------------ | ------------ |
-something | something happens | Works as expected |
-
-
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
 
 
 ## Bugs
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+| When less than 3 bookings per user, bookings column appears squished into corner. This also appeared in confirm delete page.  | Removed d-flex of div of that section, this helped the display especially on larger screen sies. See [commit f7f98f4](https://github.com/ornao/pp4/commit/f7f98f448f9b3acc02061d16bfcfd2c2aa364f1e) and [commit 73f7ce1](https://github.com/ornao/pp4/commit/73f7ce1b1454e38038d58ad69283d78494a3d0d7) for further details. |
+| | |
+<details><summary> Before </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixbefore_yicrjb.png" alt="bug fix before">
+</details>
+<details><summary> After </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixafter_s2u5x3.png" alt="bug fix after1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixafter2_bl9ehw.png" alt="bug fix after2">
+</details>
 
 
 ## Deployment (Heroku)
