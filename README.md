@@ -92,7 +92,6 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
 
 
-
 #### COULD HAVE 
 
 21. As a user, i want to be able to see an interactive map of where the campsite is 
@@ -120,8 +119,11 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 #### SHOULD HAVE 
 
 34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
-35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experinece of site vs any queries about their future stay
 
+
+#### Could have 
+
+35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experinece of site vs any queries about their future stay
 
 
 ## Design
@@ -634,7 +636,7 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 Choose a booking, click delete button on that booking | Confirm delete page will display | Works as expected |
 Press confirm to delete booking | Read bookings page will display again, success message will display and booking will be gone
 
-
+*NEED SCREEN SHOTS
 
 9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
 
@@ -646,7 +648,10 @@ something | something happens | Works as expected |
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+User should login | Home page will display | Works as expected |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+Choose a booking, click delete button on that booking | Confirm delete page will display | Works as expected |
+Press confirm to delete booking | Read bookings page will display again, success message will display and booking will be gone
 
 11. As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
 
@@ -658,7 +663,11 @@ something | something happens | Works as expected |
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Pods' tab in the subnav bar | Pods page will display | Works as expected |
+Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works as expected |
+Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
+
 
 13. As a user, i want to my bookings information to be secure so no other users have access to it. 
 
@@ -667,7 +676,24 @@ something | something happens | Works as expected |
 something | something happens | Works as expected |
 
 
+14. As a user, I want to check the availability and pricing information for my desired dates
+15. As a user, I want to see previous customer reviews and ratings of the different accomodation types
+16. As a user I can view the lastest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
+17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
+18.. As a user, I would like to read reviews of only people that stayed in the accomodation
+18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
+19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
+20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
 
+27. As an admin, I can log in and access the back end of the site
+28. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+29. As an admin, I can accept or reject bookings so that we avoid double bookings 
+30. As a site owner, I want site to be fully responisve and acessible 
+31. As a site owner, i want all user entered data to be validated to reduce errors on database
+32. As a site owner, I want only logged in users to view details of their bookings 
+33. As a site owner, I want every site visitor to be able to view the accomodation types no offer and reviews of these accomodations
+ 
+34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
 
 
 
