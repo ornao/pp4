@@ -24,7 +24,9 @@
                 {% csrf_token %}
                 <p>Are you sure you want to delete your booking?</p>
                 {{ form }}
+                <div class="text-center small">
                 <button class="btn-book-a-table primaryAction" type="submit">Confirm</button>
+                </div>
                 <a href="{% url 'read_bookings' %}">Go Back</a>
               </form>
               {% else %}
