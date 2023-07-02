@@ -482,7 +482,7 @@ Click on the 'Home' tab in the nav bar | Home page will display | Works as expec
 Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
 Click on the 'Log In' tab in the nav bar | Log In page will display | Works as expected |
-Click on the 'Register' tab in the nav bar | Home page will display | Works as expected |
+Click on the 'Register' tab in the nav bar | Sign up page will display | Works as expected |
 Click on the 'Book' tab in the nav bar | Create bookings page will display | Works as expected |
 
 
@@ -506,6 +506,7 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247605/glamping/docs/user%20stories%20testing/login_nav_testing2_vz1gqb.png" alt="log In navigation testing2">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688249372/glamping/docs/user%20stories%20testing/login_nav_testing3_fm3wqf.png" alt="log In navigation testing3">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688244998/glamping/docs/user%20stories%20testing/login_nav_display_edrbnk.png" alt="log In navigation testing display">
+</details>
 
 <details><summary> Register navigation testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246023/glamping/docs/user%20stories%20testing/register_nav_testing_cnrfmy.png" alt="register navigation testing">
@@ -532,19 +533,57 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Pods' tab in the subnav bar | Pods page will display | Works as expected |
+Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works as expected |
+
+
+<details><summary> Accomodation sub navigation bar testing screenshots - pods and cabins </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688256785/glamping/docs/user%20stories%20testing/pods_subnav_testing_zqncsl.png" alt="accomodation sub navigation testing - pods">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688256784/glamping/docs/user%20stories%20testing/cabins_subnav_testing_pd2e3e.png" alt="accomodation sub navigation testing display - cabins">
+</details>
 
 3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+Click on the 'Register' tab in the nav bar | Sign up page will display | Works as expected |
+Enter username, email and good password correctly twice | User will be logged in | Works as expected |
+Forgot to enter username | Error tab message will display, user will have to entered form again | Works as expected |
+Forgot to enter email | As email is optional, no error message will display | Works as expected |
+Entered weak password | Error tab message will display, user will have to entered form again | Works as expected |
+Entered different passwords | Error tab message will display, user will have to entered form again | Works as expected |
+
+
+<details><summary> Sign up testing screenshots </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688258868/glamping/docs/user%20stories%20testing/forgotusername_signup_testing_ohgzlv.png" alt="forgot username sign up testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688258868/glamping/docs/user%20stories%20testing/password_signup_testing_uvjjps.png" alt="password not strong enough sign up testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688259176/glamping/docs/user%20stories%20testing/username_signup_testing_1_xwfbsf.png" alt="username does not fulfill criteria sign up testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688259446/glamping/docs/user%20stories%20testing/password_signup_testing_u0wtt5.png" alt="password do not match sign up testing">
+
+</details>
+
 
 4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+Click on the 'Log In' tab in the nav bar | Log In page will display | Works as expected |
+Click on the 'Log In' tab in the dropdown bar | Log In page will display | Works as expected |
+Click on the 'Log In' link in the register page  | Log In page will display | Works as expected |
+Click on the 'Log In' tab in the nav bar | Log In page will display | Works as expected |
+Click on the 'Log In' link in the booking page | Log In page will display | Works as expected |
+On 'Log In' page, type in username and password | User will be signed in | Works as expected |
+On 'Log In' page, type in random username and password | User will be not signed in and error message will display | Works as expected |
+
+
+<details><summary> Easy Log In testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246021/glamping/docs/user%20stories%20testing/login_nav_testing1_ddqnoy.png" alt="easy log In testing 1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247605/glamping/docs/user%20stories%20testing/login_nav_testing2_vz1gqb.png" alt="easy log In testing2">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688249372/glamping/docs/user%20stories%20testing/login_nav_testing3_fm3wqf.png" alt="easy log In testing3">
+<img src="" alt="easy log In testing display">
+</details>
+
 
 5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
 
