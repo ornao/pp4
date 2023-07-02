@@ -23,7 +23,7 @@ class BookingsList(generic.ListView):
 class BookingsCreate(SuccessMessageMixin, generic.CreateView):
     model = Bookings
     template_name = "create_bookings.html"
-    fields = "first_name", "last_name", "email", "check_in_date", "check_out_date", "num_guests", "accomodation_name", 
+    form_class = BookingsForm
     success_url = reverse_lazy("read_bookings")
     success_message = "Booking was created successfully"
 
@@ -51,9 +51,3 @@ class BookingsDelete(generic.DeleteView):
         messages.success(self.request, self.success_message)
         return super(BookingsDelete, self).delete(request, *args, **kwargs)
 
-
-# need to add booking successful message (unique url?)
-# can probably delete need to add first name and surname to booking maybe just a display instead? as shpuld have from login info
-# update template of bookings to make more realistic 
-# begin to work on edit and delete functionality
-# check if see can use lets go hydro accomodation and make app and table accordingly
