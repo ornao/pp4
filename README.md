@@ -775,11 +775,17 @@ StackOverflow:
 - [adding max and min validators to rating on rating field](https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model)
 - [adding success message to deleteview class](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
 - [Fix empty link logo error in WAVE](https://stackoverflow.com/questions/32631180/link-contain-no-text-showing-error-in-wave-accessibility-evaluation-tool)
+- [date picker input on model form](https://stackoverflow.com/questions/61077802/how-to-use-a-datepicker-in-a-modelform-in-django)
+- [date picker simple way](https://stackoverflow.com/questions/3367091/whats-the-cleanest-simplest-to-get-running-datepicker-in-django)
 
 Django Documentation:
 - [the use of CreateView, UpdateView and DeleteView](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/)
 - [adding flash success messages to class based view](https://docs.djangoproject.com/en/4.2/ref/contrib/messages/)
 - [remove html tags appearing to template](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)
+- [widgets](https://docs.djangoproject.com/en/4.2/ref/forms/widgets/)
 
 W3Schools: 
 - [remove html tags appearing to template](https://www.w3schools.com/django/ref_filters_striptags.php)
+
+Youtube:
+[datepicker input](https://www.youtube.com/watch?v=I2-JYxnSiB0&t=191s)
