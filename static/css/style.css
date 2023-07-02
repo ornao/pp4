@@ -1034,6 +1034,13 @@ ul.errorlist.nonfield {
   padding-left: 0rem;
 }
 
+ul.errorlist {
+  color: red;
+  font-weight: bold;
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
 .book-a-table .php-email-form .sent-message {
   display: none;
   color: #fff;
