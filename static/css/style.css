@@ -1027,14 +1027,12 @@ section {
   margin-bottom: 20px;
 }
 
-.book-a-table .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
+.book-a-table .error-message {
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  padding: 10px;
+  list-style-type: none;
 }
 
 .book-a-table .php-email-form .sent-message {
