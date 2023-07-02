@@ -481,7 +481,7 @@ LOGGED OUT USER:
 Click on the 'Home' tab in the nav bar | Home page will display | Works as expected |
 Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
-Click on the 'Log In' tab in the nav bar | Log In page will display | Works as expected |
+Click on the 'Log In' tab in the nav bar | Log in page will display | Works as expected |
 Click on the 'Register' tab in the nav bar | Sign up page will display | Works as expected |
 Click on the 'Book' tab in the nav bar | Create bookings page will display | Works as expected |
 
@@ -573,15 +573,17 @@ Click on the 'Log In' tab in the dropdown bar | Log In page will display | Works
 Click on the 'Log In' link in the register page  | Log In page will display | Works as expected |
 Click on the 'Log In' tab in the nav bar | Log In page will display | Works as expected |
 Click on the 'Log In' link in the booking page | Log In page will display | Works as expected |
-On 'Log In' page, type in username and password | User will be signed in | Works as expected |
+On 'Log In' page, type in username and password | User will be signed in and user brought to home page | Works as expected |
 On 'Log In' page, type in random username and password | User will be not signed in and error message will display | Works as expected |
 
 
 <details><summary> Easy Log In testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261232/glamping/docs/user%20stories%20testing/user_login_testing_fekyuj.png" alt="easy log In testing display logging in user">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png" alt="easy log In testing display logged in user">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261580/glamping/docs/user%20stories%20testing/fakeuser_login_testing_djr2ky.png" alt="easy log In testing display logged in fakeuser">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246021/glamping/docs/user%20stories%20testing/login_nav_testing1_ddqnoy.png" alt="easy log In testing 1">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247605/glamping/docs/user%20stories%20testing/login_nav_testing2_vz1gqb.png" alt="easy log In testing2">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688249372/glamping/docs/user%20stories%20testing/login_nav_testing3_fm3wqf.png" alt="easy log In testing3">
-<img src="" alt="easy log In testing display">
 </details>
 
 
@@ -589,25 +591,50 @@ On 'Log In' page, type in random username and password | User will be not signed
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+Click on the 'Book' tab in the nav bar | Create bookings page will display | Works as expected |
+Click on the 'Log In' link in the booking page | Log In page will display | Works as expected |
+On 'Log In' page, type in username and password | User will be signed in and brought to home page | Works as expected |
+Click on the 'Book' tab in the nav bar or 'Book your Stay' in hero section of home page | Create bookings page will display | Works as expected |
+
+*NOT FINISHED
+
 
 6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+User should login | Home page will display | Works as expected |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+
+
+<details><summary> View your Bookings page display screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings page display testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings page display testing">
+</details>
 
 7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type. My previous details should be present on this form so I know what I am changing details from. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+User should login | Home page will display | Works as expected |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+Choose a booking, click edit button on that booking | edit bookings page will display | Works as expected |
+Change details of booking then press save changes | Read bookings page will display again, success message will display and details of booking will have changed | Works as expected |
+Delete field of details of booking then press save changes | Error message will display as field cannot be blank | Works as expected |
+
+*NEEDS SCREENSHOTS - datepicker, picture not displaying 
+
 
 8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+User should login | Home page will display | Works as expected |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+Choose a booking, click delete button on that booking | Confirm delete page will display | Works as expected |
+Press confirm to delete booking | Read bookings page will display again, success message will display and booking will be gone
+
+
 
 9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
 
