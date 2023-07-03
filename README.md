@@ -421,7 +421,18 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 
 ### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
+style.css was validated by direct inputing contents of file into website.
+
+<details><summary> style.css validation check screenshot</summary>
+<img src="" alt="main.js validation check">
+</details>
+
 ### Javascript - [JSHint](https://jshint.com/)
+
+<details><summary> main.js validation check screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688413019/glamping/docs/validation/jigsaw_css_validation_xldhzz.png
+" alt="style.css validation check">
+</details>
 
 ### Python - [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
 
@@ -599,8 +610,11 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 Click on the 'Log In' link in the booking page | Log In page will display | Works as expected |
 On 'Log In' page, type in username and password | User will be signed in and brought to home page | Works as expected |
 Click on the 'Book' tab in the nav bar or 'Book your Stay' in hero section of home page | Create bookings page will display | Works as expected |
+Type in valid details to each field | User will be brought to view bookings page where most recent booking will appear first in list and success message will display | Works as expected |
 
-*NOT FINISHED
+<details><summary> Create booking testing screenshots</summary>
+<img src="" alt="valid details bookings form testing">
+</details>
 
 
 6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
@@ -644,7 +658,7 @@ Press confirm to delete booking | Read bookings page will display again, success
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+User should click logout in nav car from any page | confirm logout should display | Works as expected |
 
 10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
 
@@ -713,6 +727,15 @@ something | something happens | Works as expected |
 <details><summary> After </summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixafter_s2u5x3.png" alt="bug fix after1">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixafter2_bl9ehw.png" alt="bug fix after2">
+</details>
+| Error messages where displaying for num_guests and accomodation_name even when criteria were met for form to submit  | Tested what was happening using print statements. Error was thrown as by testing not in statement true was printed even when actual value was selected - hence issue with type not the same. Hence, str(accomodation_name) is the same as ['Honeymoon Pod'] for example  See [commit 76df1ce](https://github.com/ornao/pp4/commit/76df1ce8567c972be503c708ef82b6a969f14334) for further details. |
+
+<details><summary> Before </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688412013/glamping/docs/bugs/honeymoon_error_before_aq3fer.png" alt="bug fix before">
+</details>
+<details><summary> After </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688412013/glamping/docs/bugs/honeymoon_error_after_ipu5rh.png" alt="bug fix after1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688412014/glamping/docs/bugs/honeymoor_error_success_zi8sie.png" alt="bug fix after2">
 </details>
 
 
@@ -786,6 +809,7 @@ Django Documentation:
 - [adding flash success messages to class based view](https://docs.djangoproject.com/en/4.2/ref/contrib/messages/)
 - [remove html tags appearing to template](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)
 - [widgets](https://docs.djangoproject.com/en/4.2/ref/forms/widgets/)
+- [working with forms](https://docs.djangoproject.com/en/4.2/topics/forms/)
 
 W3Schools: 
 - [remove html tags appearing to template](https://www.w3schools.com/django/ref_filters_striptags.php)

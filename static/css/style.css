@@ -292,7 +292,7 @@ section {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 0s !important;
   }
 }
 
@@ -791,7 +791,6 @@ section {
   font-weight: 500;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
-  font-weight: 30px;
   margin-bottom: 5px;
 }
 
