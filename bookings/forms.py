@@ -28,6 +28,7 @@ class BookingsForm(forms.ModelForm):
             if num_guests == 6 and accomodation_name not in ['Family Cabin']:
                 self.add_error(None, "Too many guests for pod selected") 
             elif num_guests == 2 and accomodation_name not in ['Honeymoon Pod','Pod Cupla']:
+                print(num_guests, accomodation_name)
                 self.add_error(None, "Honeymoon Pod or Pod Cupla are fantastic options - we strongly recommend those instead for 2 guests") 
             elif num_guests == 1 and accomodation_name not in ['Honeymoon Pod','Pod Cupla']:
                 self.add_error(None, "Honeymoon Pod or Pod Cupla are fantastic options - we strongly recommend those instead for 1 guest")

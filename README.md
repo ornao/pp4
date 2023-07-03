@@ -428,44 +428,46 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 ### Accessibility - [WAVE](https://wave.webaim.org/report)
 
 <details><summary> Home page screenshot</summary>
-<img src="" alt="home page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png" alt="home page accessibility check">
 </details>
 
 <details><summary> Accommodation page screenshot</summary>
-<img src="" alt="accomodation page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/accomodation_wave_validation_wizrl6.png" alt="accomodation page accessibility check">
 </details>
 
 <details><summary> Testimonials page screenshot</summary>
-<img src="" alt="testimonials page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407258/glamping/docs/validation/testimonials_wave_validation_fwld9l.png" alt="testimonials page accessibility check">
 </details>
 
 <details><summary> Log In page screenshot</summary>
-<img src="" alt="login page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/login_wave_validation_gvjxln.png" alt="login page accessibility check">
 </details>
 
 <details><summary> Register page screenshot</summary>
-<img src="" alt="signup page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407258/glamping/docs/validation/register_wave_validation_xrqbxw.png" alt="signup page accessibility check">
 </details>
 
 <details><summary> Log Out page screenshot</summary>
-<img src="" alt="logout page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/signout_wave_validation_xs1bdx.png" alt="logout page accessibility check">
 </details>
 
 
 <details><summary> View your Bookings page screenshot</summary>
-<img src="" alt="view bookings page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/viewbookings_wave_validation_zksu42.png" alt="view bookings page accessibility check">
 </details>
 
 <details><summary> Book page screenshot</summary>
-<img src="" alt="create bookings page accessibility check">
+Checked when user was logged in and not logged in 
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407327/glamping/docs/validation/book_wave_validation_notloggedin_g2kfdg.png" alt="create bookings page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/book_wave_validation_loggedinuser_bdu2js.png" alt="create bookings page accessibility check when user logged in">
 </details>
 
 <details><summary> Edit Bookings page screenshot</summary>
-<img src="" alt="edit bookings page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688408262/glamping/docs/validation/editbookings_wave_validation_nceqyr.png" alt="edit bookings page accessibility check">
 </details>
 
 <details><summary> Delete Bookings page screenshot</summary>
-<img src="" alt="delete bookings page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688408261/glamping/docs/validation/deletebookings_wave_validation_kdrbwo.png" alt="delete bookings page accessibility check">
 </details>
 
 ### Performance - Lighthouse
