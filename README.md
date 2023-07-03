@@ -610,10 +610,11 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 Click on the 'Log In' link in the booking page | Log In page will display | Works as expected |
 On 'Log In' page, type in username and password | User will be signed in and brought to home page | Works as expected |
 Click on the 'Book' tab in the nav bar or 'Book your Stay' in hero section of home page | Create bookings page will display | Works as expected |
-Type in valid details to each field | User will be brought to view bookings page where most recent booking will appear first in list and success message will display | Works as expected |
+Type in valid details to each field and press submit | User will be brought to view bookings page where most recent booking will appear first in list and success message will display | Works as expected |
 
 <details><summary> Create booking testing screenshots</summary>
-<img src="" alt="valid details bookings form testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688421449/glamping/docs/user%20stories%20testing/bookingform_testing_beforesubmit_kmfuuu.png" alt="valid details bookings form testing before submit">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688421477/glamping/docs/user%20stories%20testing/bookingform_testing_aftersubmit_rdjdwm.png" alt="valid details bookings form testing after submit">
 </details>
 
 
@@ -623,7 +624,6 @@ Type in valid details to each field | User will be brought to view bookings page
 ------------ | ------------ | ------------ |
 User should login | Home page will display | Works as expected |
 Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
-
 
 <details><summary> View your Bookings page display screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings page display testing">
@@ -636,11 +636,17 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 ------------ | ------------ | ------------ |
 User should login | Home page will display | Works as expected |
 Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
-Choose a booking, click edit button on that booking | edit bookings page will display | Works as expected |
+Choose a booking, click edit button on that booking | Edit bookings page will display | Works as expected |
 Change details of booking then press save changes | Read bookings page will display again, success message will display and details of booking will have changed | Works as expected |
 Delete field of details of booking then press save changes | Error message will display as field cannot be blank | Works as expected |
 
-*NEEDS SCREENSHOTS - datepicker, picture not displaying 
+<details><summary> Edit bookings page screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423955/glamping/docs/user%20stories%20testing/viewbooking_editingbooking_testing_gbuzq2.png" alt="viewbooking editingbooking testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688424084/glamping/docs/user%20stories%20testing/edit_editpagedisplay1_qfwdrr.png" alt="editpagedisplay1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423920/glamping/docs/user%20stories%20testing/edit_editpagedisplay2_xe2mzj.png" alt="editpagedisplay2">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423931/glamping/docs/user%20stories%20testing/edit_editfieldform_i5q0b9.png" alt="editfieldform">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423899/glamping/docs/user%20stories%20testing/updated_edit_booking_testing_huvqul.png" alt="updated edit booking testing">
+</details>
 
 
 8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
