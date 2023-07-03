@@ -24,7 +24,7 @@ class BookingsCreate(SuccessMessageMixin, generic.CreateView):
     model = Bookings
     template_name = "create_bookings.html"
     form_class = BookingsForm
-    success_url = reverse_lazy("read_bookings")
+    success_url = reverse_lazy('read_bookings') 
     success_message = "Booking was created successfully"
 
     def form_valid(self, form):

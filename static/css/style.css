@@ -1267,6 +1267,7 @@ ul.errorlist {
   width: 100%;
   background-size: cover;
   background-image: url("https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687174984/glamping/websitephotos/alex-houque-Twke63oNYM0-unsplash_ry5nkb.jpg");
+  background-color: var(--color-default);
   position: relative;
   min-height: 60vh;
   padding: 160px 0 60px 0;
@@ -1279,7 +1280,6 @@ ul.errorlist {
   color: #fff;
   font-family: var(--font-primary);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  /* background-color: var(--color-default); */
 }
 
 .hero h1 span {
@@ -1291,7 +1291,6 @@ ul.errorlist {
   font-weight: 600;
   margin-bottom: 30px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  /* background-color: #fff; */
 }
 
 .hero .btn-book-a-table {

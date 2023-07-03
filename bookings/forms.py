@@ -1,6 +1,7 @@
 from .models import Bookings
 from django import forms
 from django.core.exceptions import ValidationError
+from django.shortcuts import redirect
 
 class DateInput(forms.DateInput):
     input_type = 'date'
@@ -25,7 +26,7 @@ class BookingsForm(forms.ModelForm):
 
         if num_guests and accomodation_name:
             if num_guests == 6 and accomodation_name not in ['Family Cabin']:
-                self.add_error(None, "Too many guests for pod selected")
+                self.add_error(None, "Too many guests for pod selected") 
             elif num_guests == 2 and accomodation_name not in ['Honeymoon Pod','Pod Cupla']:
                 self.add_error(None, "Honeymoon Pod or Pod Cupla are fantastic options - we strongly recommend those instead for 2 guests") 
             elif num_guests == 1 and accomodation_name not in ['Honeymoon Pod','Pod Cupla']:
@@ -35,7 +36,9 @@ class BookingsForm(forms.ModelForm):
             elif num_guests == 4 and accomodation_name not in ['Teach Papa Rua']:
                 self.add_error(None, "Teach Papa Rua is a fantastic option for 4 people - we strongly recommend this pod instead") 
             elif num_guests == 5 and accomodation_name not in ['Pod Almighty']:
-                self.add_error(None, "Pod Almighty is a fantastic option for 5 people - we strongly recommend this pod instead") 
+                self.add_error(None, "Pod Almighty is a fantastic option for 5 people - we strongly recommend this pod instead")  
+
+                
 
     class Meta:
         model = Bookings
