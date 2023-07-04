@@ -429,11 +429,12 @@ style.css was validated by direct inputing contents of file into website.
 ### Javascript - [JSHint](https://jshint.com/)
 
 <details><summary> main.js validation check screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688413019/glamping/docs/validation/jigsaw_css_validation_xldhzz.png
-" alt="style.css validation check">
+<img src="" alt="main.js validation check">
 </details>
 
 ### Python - [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
+
+
 
 ### Accessibility - [WAVE](https://wave.webaim.org/report)
 
@@ -481,6 +482,7 @@ Checked when user was logged in and not logged in
 </details>
 
 ### Performance - Lighthouse
+
 
 
 ## Testing
@@ -726,6 +728,12 @@ User should copy url of view bookings page | Link is copied by user | Works as e
 User should click logout in nav bar from view bookings | Confirm logout should display | Works as expected |
 User should click logout in confirm logout display | User should be redirected to home page and login should once again appear in nav bar | Works as expected |
 User should then paste copied url of view bookings page to see if still has access | Bookings should not display | Works as expected |
+Choose a booking, click edit button on that booking | Edit bookings page will display | Works as expected |
+User should copy url of edit bookings page | Link is copied by user | Works as expected |
+User should click logout in nav bar from view bookings | Confirm logout should display | Works as expected |
+User should click logout in confirm logout display | User should be redirected to home page and login should once again appear in nav bar | Works as expected |
+User should then paste copied url of edit bookings page to see if still has access | Editing a booking page should not display | Works as expected |
+
 
 <details><summary> Secure bookings page testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688504879/glamping/docs/user%20stories%20testing/bookings_displayed_before_notloggedout_ttkizu.png" alt="bookings display prior to logout">
@@ -784,6 +792,7 @@ Press confirm to delete booking | Read bookings page will display again, success
 20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
 
 27. As an admin, I can log in and access the back end of the site
+
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 Go to live site url and tyle in /admin at end of link | Django admin login panel should display | Works as expected |
@@ -799,7 +808,42 @@ Type in superuser login details and try to sign in | If created superuser correc
 30. As a site owner, I want site to be fully responisve and acessible 
 31. As a site owner, i want all user entered data to be validated to reduce errors on database
 32. As a site owner, I want only logged in users to view details of their bookings 
-33. As a site owner, I want every site visitor to be able to view the accomodation types no offer and reviews of these accomodations
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+User should login | Home page will display | Works as expected |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+User should copy url of view bookings page | Link is copied by user | Works as expected |
+User should click logout in nav bar from view bookings | Confirm logout should display | Works as expected |
+User should click logout in confirm logout display | User should be redirected to home page and login should once again appear in nav bar | Works as expected |
+User should then paste copied url of view bookings page to see if still has access | Bookings should not display | Works as expected |
+
+<details><summary> Secure bookings page testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688504879/glamping/docs/user%20stories%20testing/bookings_displayed_before_notloggedout_ttkizu.png" alt="bookings display prior to logout">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688504892/glamping/docs/user%20stories%20testing/bookings_notdisplayed_logged_out_judmdt.png" alt="bookings not displaying when logged out">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688504884/glamping/docs/user%20stories%20testing/show_iamnot_loogedin_testing_pzysjc.png" alt="show iamnot loggedin testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688505762/glamping/docs/user%20stories%20testing/copyeditlinkuserauthorisation_djjj13.png" alt="edit bookings display prior to logout">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688505775/glamping/docs/user%20stories%20testing/bookingdoesnotdisplaywhenlinkchecked_udcjwt.png" alt="edit bookings display after logout">
+
+</details>
+
+33. As a site owner, I want every site visitor to be able to view the accomodation types on offer and reviews of these accomodations
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Pods' tab in the subnav bar | Pods page will display | Works as expected |
+Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works as expected |
+Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
+
+<details><summary> Unregistered user navigation testing screenshots - accomodation and testimonials </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503749/glamping/docs/user%20stories%20testing/cabins_display_testing_vrpjit.png" alt="accomodation cabins unregistered user testing display">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246026/glamping/docs/user%20stories%20testing/testimonials_nav_testing_f6ho2m.png" alt="testimonials unregistered user testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/testimonials_nav_display_px3rvj.png" alt="testimonails unregistered user testing display">
+</details>
  
 34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
 
