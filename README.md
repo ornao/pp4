@@ -86,7 +86,6 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 15. As a user, I want to see previous customer reviews and ratings of the different accomodation types
 16. As a user I can view the lastest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
 17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
-18.. As a user, I would like to read reviews of only people that stayed in the accomodation
 18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
 19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
 20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
@@ -640,7 +639,7 @@ Choose a booking, click edit button on that booking | Edit bookings page will di
 Change details of booking then press save changes | Read bookings page will display again, success message will display and details of booking will have changed | Works as expected |
 Delete field of details of booking then press save changes | Error message will display as field cannot be blank | Works as expected |
 
-<details><summary> Edit bookings page screenshots</summary>
+<details><summary> Edit bookings page testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423955/glamping/docs/user%20stories%20testing/viewbooking_editingbooking_testing_gbuzq2.png" alt="viewbooking editingbooking testing">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688424084/glamping/docs/user%20stories%20testing/edit_editpagedisplay1_qfwdrr.png" alt="editpagedisplay1">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423920/glamping/docs/user%20stories%20testing/edit_editpagedisplay2_xe2mzj.png" alt="editpagedisplay2">
@@ -658,15 +657,27 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 Choose a booking, click delete button on that booking | Confirm delete page will display | Works as expected |
 Press confirm to delete booking | Read bookings page will display again, success message will display and booking will be gone
 
-*NEED SCREEN SHOTS
+<details><summary> Delete bookings page testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498798/glamping/docs/user%20stories%20testing/viewbooking_delete_testing_vppliw.png" alt="viewbooking delete testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498810/glamping/docs/user%20stories%20testing/confirmdelete_testing_g8obr6.png" alt="confirmdelete testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498997/glamping/docs/user%20stories%20testing/delete_successful_testing_h6kzmg.png" alt="delete successful testing">
+</details>
 
 9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-User should click logout in nav car from any page | confirm logout should display | Works as expected |
+User should click logout in nav bar from any page | Confirm logout should display | Works as expected |
+User should click logout in confirm logout display | User should be redirected to home page and login should once again appear in nav bar | Works as expected |
 
-10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
+<details><summary> Easy logout testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502337/glamping/docs/user%20stories%20testing/navigate_to_logout_1_testing_p8izmg.png" alt="navigate to logout 1 testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502330/glamping/docs/user%20stories%20testing/navigate_to_logout_2_testing_zicklp.png" alt="navigate to logout 2 testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502321/glamping/docs/user%20stories%20testing/confirm_logout_testing_h1yfow.png" alt="confirm logout testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502320/glamping/docs/user%20stories%20testing/looged_out_display_testing_1_ayuu3z.png" alt="logged out display testing">
+</details>
+
+10. As a user, I want a confirm delete page to display so I do not accidently click delete booking by accident.
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -674,6 +685,12 @@ User should login | Home page will display | Works as expected |
 Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
 Choose a booking, click delete button on that booking | Confirm delete page will display | Works as expected |
 Press confirm to delete booking | Read bookings page will display again, success message will display and booking will be gone
+
+<details><summary> Confirm delete bookings page testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498798/glamping/docs/user%20stories%20testing/viewbooking_delete_testing_vppliw.png" alt="viewbooking delete testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498810/glamping/docs/user%20stories%20testing/confirmdelete_testing_g8obr6.png" alt="confirmdelete testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498997/glamping/docs/user%20stories%20testing/delete_successful_testing_h6kzmg.png" alt="delete successful testing">
+</details>
 
 11. As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
 
@@ -690,24 +707,93 @@ Click on the 'Pods' tab in the subnav bar | Pods page will display | Works as ex
 Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works as expected |
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
 
+<details><summary> Unregistered user navigation testing screenshots - accomodation and testimonials </summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503749/glamping/docs/user%20stories%20testing/cabins_display_testing_vrpjit.png" alt="accomodation cabins unregistered user testing display">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246026/glamping/docs/user%20stories%20testing/testimonials_nav_testing_f6ho2m.png" alt="testimonials unregistered user testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/testimonials_nav_display_px3rvj.png" alt="testimonails unregistered user testing display">
+</details>
 
-13. As a user, i want to my bookings information to be secure so no other users have access to it. 
+13. As a user, I want to my bookings information to be secure so no other users have access to it. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+User should login | Home page will display | Works as expected |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+User should copy url of view bookings page | Link is copied by user | Works as expected |
+User should click logout in nav bar from view bookings | Confirm logout should display | Works as expected |
+User should click logout in confirm logout display | User should be redirected to home page and login should once again appear in nav bar | Works as expected |
+User should then paste copied url of view bookings page to see if still has access | Bookings should not display | Works as expected |
 
+<details><summary> Secure bookings page testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688504879/glamping/docs/user%20stories%20testing/bookings_displayed_before_notloggedout_ttkizu.png" alt="bookings display prior to logout">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688504892/glamping/docs/user%20stories%20testing/bookings_notdisplayed_logged_out_judmdt.png" alt="bookings not displaying when logged out">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688504884/glamping/docs/user%20stories%20testing/show_iamnot_loogedin_testing_pzysjc.png" alt="show iamnot loggedin testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688505762/glamping/docs/user%20stories%20testing/copyeditlinkuserauthorisation_djjj13.png" alt="edit bookings display prior to logout">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688505775/glamping/docs/user%20stories%20testing/bookingdoesnotdisplaywhenlinkchecked_udcjwt.png" alt="edit bookings display after logout">
 
-14. As a user, I want to check the availability and pricing information for my desired dates
+</details>
+
 15. As a user, I want to see previous customer reviews and ratings of the different accomodation types
-16. As a user I can view the lastest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
+
+<details><summary> Previous customer reviews and ratings page display screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688507636/glamping/docs/user%20stories%20testing/testimonials_display_1_f24y8k.png" alt="testimonials display testing">
+
+</details>
+
 17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
-18.. As a user, I would like to read reviews of only people that stayed in the accomodation
-18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+User should login | Home page will display | Works as expected |
+Click on the 'Book' tab in the nav bar or 'Book your Stay' in hero section of home page | Create bookings page will display | Works as expected |
+Type in valid details to each field and press submit | User will be brought to view bookings page where most recent booking will appear first in list and success message will display | Works as expected |
+Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
+Choose a booking, click edit button on that booking | Edit bookings page will display | Works as expected |
+Change details of booking then press save changes | Read bookings page will display again, success message will display and details of booking will have changed | Works as expected |
+Choose a booking, click delete button on that booking | Confirm delete page will display | Works as expected |
+Press confirm to delete booking | Read bookings page will display again, success message will display and booking will be gone
+
+
+<details><summary> Create booking message display testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688421449/glamping/docs/user%20stories%20testing/bookingform_testing_beforesubmit_kmfuuu.png" alt="valid details bookings form testing before submit">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688421477/glamping/docs/user%20stories%20testing/bookingform_testing_aftersubmit_rdjdwm.png" alt="valid details bookings form testing after submit">
+</details>
+
+<details><summary> Edit bookings message display testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423955/glamping/docs/user%20stories%20testing/viewbooking_editingbooking_testing_gbuzq2.png" alt="viewbooking editingbooking testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688424084/glamping/docs/user%20stories%20testing/edit_editpagedisplay1_qfwdrr.png" alt="editpagedisplay1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423920/glamping/docs/user%20stories%20testing/edit_editpagedisplay2_xe2mzj.png" alt="editpagedisplay2">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423931/glamping/docs/user%20stories%20testing/edit_editfieldform_i5q0b9.png" alt="editfieldform">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688423899/glamping/docs/user%20stories%20testing/updated_edit_booking_testing_huvqul.png" alt="updated edit booking testing">
+</details>
+
+<details><summary> Delete bookings message display testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498798/glamping/docs/user%20stories%20testing/viewbooking_delete_testing_vppliw.png" alt="viewbooking delete testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498810/glamping/docs/user%20stories%20testing/confirmdelete_testing_g8obr6.png" alt="confirmdelete testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498997/glamping/docs/user%20stories%20testing/delete_successful_testing_h6kzmg.png" alt="delete successful testing">
+</details>
+
 19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
 20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
 
 27. As an admin, I can log in and access the back end of the site
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+Go to live site url and tyle in /admin at end of link | Django admin login panel should display | Works as expected |
+Type in superuser login details and try to sign in | If created superuser correctly in workspace, superuser/admin should be signed into backend | Works as expected |
+
+<details><summary> Admin login testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688510290/glamping/docs/user%20stories%20testing/admin_login_k1is2w.png" alt="admin login">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688510290/glamping/docs/user%20stories%20testing/admin_loggedin_lzh1fh.png" alt="admin logged in">
+</details>
+
 28. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
 29. As an admin, I can accept or reject bookings so that we avoid double bookings 
 30. As a site owner, I want site to be fully responisve and acessible 
@@ -716,10 +802,6 @@ something | something happens | Works as expected |
 33. As a site owner, I want every site visitor to be able to view the accomodation types no offer and reviews of these accomodations
  
 34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
-
-
-
-
 
 ## Bugs
 
@@ -744,6 +826,14 @@ something | something happens | Works as expected |
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688412014/glamping/docs/bugs/honeymoor_error_success_zi8sie.png" alt="bug fix after2">
 </details>
 
+## Future Bug fixes
+
+| **Bug** | **Fix** |
+| ------- | ------- |
+|
+
+## Future development 
+- Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately.
 
 ## Deployment (Heroku)
 
