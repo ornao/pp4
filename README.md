@@ -14,7 +14,7 @@
   - [Validation](#validation)
   - [Testing](#testing)
   - [Bugs](#bugs)
-  - [Deployment](#heroku-deployment)
+  - [Deployment](#deployment)
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
 
@@ -204,63 +204,70 @@ Included are the screenshots created prior to development. As you can see, the f
 
 ## Structure 
 
-The wesbite consists of number of pages. The mains pages as seen on the navigation bar are:
+The wesbite consists of number of pages 7 pages when the user was not logged in and 11 pages when user was logged in. (Error pages 400, 404, 403 and 500 are counted as 1 page in this counting of pages stated above).
 
 - Home 
 <details><summary> Home page screenshot</summary>
 
-<img src="" alt="home page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593718/glamping/docs/wireframes/homepage_user_not_loggedin_lnxts4.png" alt="home page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593721/glamping/docs/wireframes/homepage_user_loggedin_fgxk0f.png" alt="home page user logged in">
 </details>
 
 - Accomodation
 <details><summary> Accomodation page screenshot</summary>
 
-<img src="" alt="accommodation page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/accomodation_page_tlivm4.png" alt="accommodation page">
 </details>
 
 - Testimonials 
 <details><summary> Testimonials page screenshot</summary>
 
-<img src="" alt="testimonials page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593709/glamping/docs/wireframes/testimonials_page_wtmt5u.png" alt="testimonials page">
 </details>
 
 - Log in /Register /Log Out
 <details><summary> Log in /Register /Log Out page screenshots</summary>
 
-<img src="" alt="login page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593709/glamping/docs/wireframes/login_page_kcmzap.png" alt="login page">
 
-<img src="" alt="signup page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593709/glamping/docs/wireframes/signup_page_pxxscw.png" alt="signup page">
 
-<img src="" alt="logout page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688594151/glamping/docs/wireframes/logout_page_grs3fw.png" alt="logout page">
 </details>
-
 
 - Book 
 <details><summary> Book page screenshot</summary>
 
-<img src="" alt="book page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688594156/glamping/docs/wireframes/create_booking_page_ruvnk1.png" alt="book page">
+</details>
+
+- Error page (404)
+
+<details><summary> Error page (404) screenshot</summary>
+- Could not test display of 403, 400 and 500 page errors through manual testing, however as 404 page displays and same code used for other error codes I do assume they will also displayed when called (my fingers are crossed).  
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688595408/glamping/docs/wireframes/404_page_x0csbu.png" alt="error page">
 </details>
 
 User need to Log In to view these page: 
 - View Bookings 
 <details><summary> View bookings page screenshot</summary>
 
-<img src="" alt="book page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/viewyourbookings_page_cugggm.png" alt="view bookings page">
 </details>
 - Edit Bookings 
 <details><summary> Edit bookings page screenshot</summary>
 
-<img src="" alt="edit bookings page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593714/glamping/docs/wireframes/edityourbookings_page_gkjaqp.png" alt="edit bookings page">
 </details>
 - Delete Bookings
 <details><summary> Delete bookings page screenshot</summary>
 
-<img src="" alt="edit bookings page">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/confirm_delete_bookings_page_oujywz.png" alt="delete bookings page">
 </details>
 
 ### Database
 
-3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. I would also like to add more CRUD functionality to testimonials model so users can submit their own testimonials. 
+3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. I would also like to add more CRUD functionality to testimonials model so users can submit their own testimonials and 'like' different users reviews. 
 
 #### User model (allauth)
 This contains:
@@ -1006,6 +1013,10 @@ insert image here*
   
   
 #### Code 
+Templates:
+- [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/) 
+- [bootstrap template Admin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/)
+
 StackOverflow:
 - [adding max and min validators to rating on rating field](https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model)
 - [adding success message to deleteview class](https://stackoverflow.com/questions/24822509/success-message-in-deleteview-not-shown)
