@@ -629,26 +629,27 @@ section {
 .error-404 h1 {
   font-size: 180px;
   font-weight: 700;
-  color: #4154f1;
+  color: var(--color-primary);
   margin-bottom: 0;
+  padding-top: 30px;
   line-height: 150px;
 }
 
 .error-404 h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: var(--color-secondary);
   margin-bottom: 30px;
 }
 
 .error-404 .btn {
-  background: #51678f;
+  background: var(--color-primary);
   color: #fff;
   padding: 8px 30px;
 }
 
 .error-404 .btn:hover {
-  background: #3e4f6f;
+  background:#ec2727 ;
 }
 
 @media (min-width: 992px) {
