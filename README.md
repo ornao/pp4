@@ -143,62 +143,62 @@ Included are the screenshots created prior to development. As you can see, the f
 
 <details><summary> Home page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/home_page_wireframe_mzjg9q.png" alt="home page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/wireframes/home_page_wireframe_mzjg9q.png" alt="home page wireframe">
 </details>
 
 <details><summary> Accommodation page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950338/glamping/docs/accommodation_page_wireframe_mrzg1a.png" alt="accomodation page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950338/glamping/docs/wireframes/accommodation_page_wireframe_mrzg1a.png" alt="accomodation page wireframe">
 </details>
 
 <details><summary> Testimonials page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950339/glamping/docs/testimonials_page_wireframes_svu8rr.png" alt="testimonials page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950339/glamping/docs/wireframes/testimonials_page_wireframes_svu8rr.png" alt="testimonials page wireframe">
 </details>
 
 <details><summary> Create bookings page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/book_page_wireframes_uh0brr.png" alt="create booking page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/wireframes/book_page_wireframes_uh0brr.png" alt="create booking page wireframe">
 </details>
 
 <details><summary> View bookings page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687951678/glamping/docs/viewbookings_page_wireframes_c0rdr2.png" alt="view booking page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687951678/glamping/docs/wireframes/viewbookings_page_wireframes_c0rdr2.png" alt="view booking page wireframe">
 </details>
 
 <details><summary> Edit bookings page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950683/glamping/docs/editingbooking_page_wireframes_dm6bv4.png" alt="edit booking page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950683/glamping/docs/wireframes/editingbooking_page_wireframes_dm6bv4.png" alt="edit booking page wireframe">
 </details>
 
 <details><summary> Delete bookings page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950684/glamping/docs/deletebooking_page_wireframes_ve5j4m.png" alt="delete booking page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950684/glamping/docs/wireframes/deletebooking_page_wireframes_ve5j4m.png" alt="delete booking page wireframe">
 </details>
 
 <details><summary> Login page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/login_page_wireframes_yk9ayf.png" alt="login page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/wireframes/login_page_wireframes_yk9ayf.png" alt="login page wireframe">
 </details>
 
 <details><summary> Signup page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950338/glamping/docs/signup_page_wireframes_yhbpqg.png" alt="signup page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950338/glamping/docs/wireframes/signup_page_wireframes_yhbpqg.png" alt="signup page wireframe">
 </details>
 
 <details><summary> Logout page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/logout_page_wireframes_iiey7o.png" alt="logout page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687950337/glamping/docs/wireframes/logout_page_wireframes_iiey7o.png" alt="logout page wireframe">
 </details>
 
 <details><summary> Error page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687952095/glamping/docs/error_page_wireframes_koxnjy.png" alt="error page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687952095/glamping/docs/wireframes/error_page_wireframes_koxnjy.png" alt="error page wireframe">
 </details>
 
 <details><summary> Contact page screenshot</summary>
 - While i did not complete a contact page as part of this project, it is something I aim to achieve in future iterations of the project. 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687952831/glamping/docs/contact_page_wireframes_ab8awm.png" alt="contact page wireframe">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687952831/glamping/docs/wireframes/contact_page_wireframes_ab8awm.png" alt="contact page wireframe">
 </details>
 
 
@@ -207,7 +207,7 @@ Included are the screenshots created prior to development. As you can see, the f
 The wesbite consists of number of pages 7 pages when the user was not logged in and 11 pages when user was logged in. (Error pages 400, 404, 403 and 500 are counted as 1 page in this counting of pages stated above).
 
 - Home 
-<details><summary> Home page screenshot</summary>
+<details><summary> Home page screenshots</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593718/glamping/docs/wireframes/homepage_user_not_loggedin_lnxts4.png" alt="home page">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593721/glamping/docs/wireframes/homepage_user_loggedin_fgxk0f.png" alt="home page user logged in">
@@ -250,16 +250,20 @@ The wesbite consists of number of pages 7 pages when the user was not logged in 
 
 User need to Log In to view these page: 
 - View Bookings 
+
 <details><summary> View bookings page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/viewyourbookings_page_cugggm.png" alt="view bookings page">
 </details>
+
 - Edit Bookings 
 <details><summary> Edit bookings page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593714/glamping/docs/wireframes/edityourbookings_page_gkjaqp.png" alt="edit bookings page">
 </details>
+
 - Delete Bookings
+
 <details><summary> Delete bookings page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/confirm_delete_bookings_page_oujywz.png" alt="delete bookings page">
@@ -267,7 +271,7 @@ User need to Log In to view these page:
 
 ### Database
 
-3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. I would also like to add more CRUD functionality to testimonials model so users can submit their own testimonials and 'like' different users reviews. 
+3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility function in booking model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. I would also like to add more CRUD functionality to testimonials model so users can submit their own testimonials and 'like' different users reviews. 
 
 #### User model (allauth)
 This contains:
@@ -284,8 +288,8 @@ This contains:
 - name: CharField()
 - capacity: IntegerField()
 - description: TextField()
-- price_per_night: DecimalField()
-- availibility: BooleanField() if available for booking dates
+- (price_per_night: DecimalField()) -- To be incorporated as a future feauture
+- (availibility: BooleanField() if available for booking dates) -- To be incorporated as a future feauture
 
 ### Bookings model
 This contains:
@@ -296,7 +300,7 @@ This contains:
 - check_out_date: DateField()
 - length_of_stay: DurationField()
 - num_guests: IntegerField()
-- total_price: DecimalField()
+- (total_price: DecimalField()) -- To be incorporated as a future feauture
 
 ### Testimonials model
 This contains:
@@ -307,7 +311,7 @@ This contains:
 - content: TextField()
 - date_created: DateField()
 - image: ImageField(optional)
-- likes: user model
+- (likes: user model) -- To be incorporated as a future feauture
 
 <details><summary> Database schema screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687959226/glamping/docs/database_schema_rfiwao.png" alt="database schema scrennshot">
@@ -327,17 +331,6 @@ This will contain:
 - content: TextField()
 - date_submitted: DateField()
 - image: ImageField(optional)
-
-#### Availability model
-NEED TO CHECK!!!!
-This will contain:
-- accommodation_name: ForeignKey
-- check_in_date: ForeignKey
-- check_out_date: ForeignKey
-- available?
-- length_of_stay: DurationField()
-- num_guests: IntegerField()
-- total_price: DecimalField(price_per_night x length_of_stay)
 
 ## Technologies Used
 

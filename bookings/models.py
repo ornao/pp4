@@ -26,13 +26,6 @@ class Bookings(models.Model):
     def length_of_stay(self):
         return self.check_out_date - self.check_in_date
 
-  
-    
-    
-    
-    # total_price = models.DecimalField(max_digits=10, decimal_places=2)
-   
-   
 
     class Meta:
         ordering = ['created_date']
