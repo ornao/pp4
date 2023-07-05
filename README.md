@@ -803,20 +803,15 @@ Incorrectly add email | Error message should display | Works as expected |
 Add check in date for time after check out date | Custom error message should display | Works as expected |
 Add incorrect number of guests for accomodation type | Custom error message should display | Works as expected |
 
-<details><summary> Delete bookings message display testing screenshots</summary>
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
-<img src="" alt="">
+<details><summary> Form validation testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/emptyfieldtesting_mlksmv.png" alt="emptyfieldtesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/invalidemailaddresstesting_mwaan5.png" alt="invalidemailaddresstesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/validdatesentrytesting_zzgjp7.png" alt="validdatesentrytesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/maximumgueststesting_wrjyj9.png" alt="maximumgueststesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/properaccomodationtesting_fvon5t.png" alt="properaccomodationtesting">
 
 
 </details>
-
-
-
-
-
 
 20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
 
@@ -963,6 +958,11 @@ insert image here*
 - [Accomodations images courtesy of Podumna Glamping Village](https://podumnavillage.ie/)
 - Photo by <a href="https://unsplash.com/@captainhouque?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Houque</a> on <a href="https://unsplash.com/photos/Twke63oNYM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>Hero image on home page
 - Photo by <a href="https://unsplash.com/@ashleighjoyphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ashleigh Joy Photography</a> on <a href="https://unsplash.com/photos/BdEgT847nk0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>: Photo of boaton create bookings page
+- Photo by <a href="https://unsplash.com/@fionakiwi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fiona Jackson</a> on <a href="https://unsplash.com/s/photos/no-access?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@caleb_woods?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caleb Woods</a> on <a href="https://unsplash.com/s/photos/hiding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/pt-br/@dexezekiel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dex Ezekiel</a> on <a href="https://unsplash.com/s/photos/confused?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@robertharknessart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robert Harkness</a> on <a href="https://unsplash.com/s/photos/building-on-fire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
   
 #### Code 
 StackOverflow:
