@@ -809,11 +809,20 @@ Add incorrect number of guests for accomodation type | Custom error message shou
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/validdatesentrytesting_zzgjp7.png" alt="validdatesentrytesting">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/maximumgueststesting_wrjyj9.png" alt="maximumgueststesting">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/properaccomodationtesting_fvon5t.png" alt="properaccomodationtesting">
-
-
 </details>
 
 20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+Go to live site url and type in /habsnaj at end of link or something else random| Custom 404 page should display | Works as expected |
+
+<details><summary> Custom error page display testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688583731/glamping/docs/user%20stories%20testing/404pagedisplay_krgn3t.png" alt="404 error page display">
+<img src="" alt="403 error page display">
+<img src="" alt="400 error page display">
+<img src="" alt="500 error page display">
+</details>
 
 27. As an admin, I can log in and access the back end of the site
 
@@ -828,9 +837,41 @@ Type in superuser login details and try to sign in | If created superuser correc
 </details>
 
 28. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+<!--need to add -->
 29. As an admin, I can accept or reject bookings so that we avoid double bookings 
+<!-- currentlt don't have workaround -->
 30. As a site owner, I want site to be fully responisve and acessible 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+Test wesbite on different devices | Website should display with good responsiveness and accessibility on each screen size | Works as expected |
+
+<details><summary> Responsivness screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_smallscreen_gthbop.png" alt="homepage testing smallscreen">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584713/glamping/docs/user%20stories%20testing/homepage_testing_mediumscreen_ssi6ln.png" alt="homepage testing medium screen1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584713/glamping/docs/user%20stories%20testing/homepage_testing_mediumscreen2_dmrch2.png" alt="homepage testing medium screen2">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_largescreenx_fluyor.png" alt="homepage testing large screen">
+</details>
+
 31. As a site owner, i want all user entered data to be validated to reduce errors on database
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+User should login | Home page will display | Works as expected |
+User clicks on the 'Book' tab in the nav bar or 'Book your Stay' in hero section of home page | Create bookings page will display | Works as expected |
+User leaves a field blank in form | Error message should display | Works as expected |
+User incorrectly adds email | Error message should display | Works as expected |
+User adds check in date for time after check out date | Custom error message should display | Works as expected |
+User adds incorrect number of guests for accomodation type | Custom error message should display | Works as expected |
+
+<details><summary> Form validation testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/emptyfieldtesting_mlksmv.png" alt="emptyfieldtesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/invalidemailaddresstesting_mwaan5.png" alt="invalidemailaddresstesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/validdatesentrytesting_zzgjp7.png" alt="validdatesentrytesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/maximumgueststesting_wrjyj9.png" alt="maximumgueststesting">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/properaccomodationtesting_fvon5t.png" alt="properaccomodationtesting">
+</details>
+
 32. As a site owner, I want only logged in users to view details of their bookings 
 
 **Step** | **Expected Result** | **Actual Result**
@@ -972,6 +1013,7 @@ StackOverflow:
 - [date picker input on model form](https://stackoverflow.com/questions/61077802/how-to-use-a-datepicker-in-a-modelform-in-django)
 - [date picker simple way](https://stackoverflow.com/questions/3367091/whats-the-cleanest-simplest-to-get-running-datepicker-in-django)
 - [adding multiple errors](https://stackoverflow.com/questions/60298923/what-are-the-differences-between-using-self-add-error-and-raising-a-validation)
+- [adding a error pages](https://stackoverflow.com/questions/17662928/django-creating-a-custom-500-404-error-page)
 
 Django Documentation:
 - [the use of CreateView, UpdateView and DeleteView](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/)
