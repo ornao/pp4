@@ -698,7 +698,11 @@ Press confirm to delete booking | Read bookings page will display again, success
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-something | something happens | Works as expected |
+Launch website | User should be brought to home page where it is immediately evident this is a website for a glamping campsite | Works as expected |
+
+<details><summary> Purpose of wesbiste clear testing screenshot</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688573228/glamping/docs/user%20stories%20testing/homepage_purpose_testing_1_eytodn.png" alt="home page purpsoe clear testing">
+</details>
 
 12. As an unregistered user, I have access to accomodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
 
@@ -789,13 +793,38 @@ Press confirm to delete booking | Read bookings page will display again, success
 </details>
 
 19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+User should login | Home page will display | Works as expected |
+Click on the 'Book' tab in the nav bar or 'Book your Stay' in hero section of home page | Create bookings page will display | Works as expected |
+Leave a field blank in form | Error message should display | Works as expected |
+Incorrectly add email | Error message should display | Works as expected |
+Add check in date for time after check out date | Custom error message should display | Works as expected |
+Add incorrect number of guests for accomodation type | Custom error message should display | Works as expected |
+
+<details><summary> Delete bookings message display testing screenshots</summary>
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+<img src="" alt="">
+
+
+</details>
+
+
+
+
+
+
 20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
 
 27. As an admin, I can log in and access the back end of the site
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-Go to live site url and tyle in /admin at end of link | Django admin login panel should display | Works as expected |
+Go to live site url and type in /admin at end of link | Django admin login panel should display | Works as expected |
 Type in superuser login details and try to sign in | If created superuser correctly in workspace, superuser/admin should be signed into backend | Works as expected |
 
 <details><summary> Admin login testing screenshots</summary>

@@ -2,6 +2,7 @@ from django.contrib import admin
 from .models import Accomodation
 from django_summernote.admin import SummernoteModelAdmin
 
+
 # decorator to allow more than two arguements
 @admin.register(Accomodation)
 class AccomodationAdmin(SummernoteModelAdmin):
