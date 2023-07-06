@@ -366,73 +366,162 @@ This will contain:
 
 The W3S HTML validator checks the HTML through the webpage url. This is because the validator does not recognise the django template language when HTML input directly into validator. 
 
-
-<details><summary> Home page screenshot</summary>
 - This checks base.html and index.html
+<details><summary> Home page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889359/glamping/docs/home_html_validator_cl0mu2.png" alt="home page html validation check">
 </details>
 
-<details><summary> Accommodation page screenshot</summary>
 - This checks base.html and accomodation.html
+<details><summary> Accommodation page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889261/glamping/docs/accomodation_html_validator_cayv4c.png" alt="accomodation page html validation check">
 </details>
 
-<details><summary> Testimonials page screenshot</summary>
 - This checks base.html and testimonials.html
+<details><summary> Testimonials page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889276/glamping/docs/testimonials_html_validator_p98e6o.png" alt="testimonials page html validation check">
 </details>
 
-<details><summary> Log In page screenshot</summary>
 - This checks base.html and account/login.html
+<details><summary> Log In page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/login_html_validator_prlam4.png" alt="login page html validation check">
 </details>
 
-<details><summary> Register page screenshot</summary>
 - This checks base.html and accounts/signup.html
+<details><summary> Register page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/signup_html_validator_m4ctuw.png" alt="signup page html validation check">
 </details>
 
-<details><summary> Log Out page screenshot</summary>
 - This checks base.html and account/logout.html
+<details><summary> Log Out page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902920/glamping/docs/logout_html_validator_bgc04l.png" alt="logout page html validation check">
 </details>
 
-
-<details><summary> View your Bookings page screenshot</summary>
 - This checks base.html and read_bookings.html
+<details><summary> View your Bookings page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/read_bookings_html_validator_bfzmpe.png" alt="view bookings page html validation check">
 </details>
 
-<details><summary> Book page screenshot</summary>
 - This checks base.html and create_bookings.html
+<details><summary> Book page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/create_bookings_html_validator_xvsnqd.png" alt="book page html validation check">
 </details>
 
-<details><summary> Edit Bookings page screenshot</summary>
 - This checks base.html and edit_bookings.html
+<details><summary> Edit Bookings page screenshot</summary>
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/edit_bookings_html_validator_cnekpe.png" alt="edit bookings page html validation check">
 </details>
 
-<details><summary> Delete Bookings page screenshot</summary>
 - This checks base.html and confirm_delete.html
+<details><summary> Delete Bookings page screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/delete_bookings_html_validator_asg3f5.png" alt="confirm delete page html validation check">
 </details>
 
 ### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-style.css was validated by direct inputing contents of file into website.
+- style.css was validated by direct inputing contents of file into website.
 
 <details><summary> style.css validation check screenshot</summary>
-<img src="" alt="main.js validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688413019/glamping/docs/validation/jigsaw_css_validation_xldhzz.png" alt="style.css validation check">
 </details>
 
 ### Javascript - [JSHint](https://jshint.com/)
-
+- The js included in this project is from the [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/). I did not adapt this code in anyway hence I did not try to fiddle with it and mess up its fucntionality by trying to fulfull all the validation checks. I only fixed the issues relating to missing semi-colons.
 <details><summary> main.js validation check screenshot</summary>
-<img src="" alt="main.js validation check">
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688598958/glamping/docs/validation/js_validation_p1qusa.png" alt="main.js validation check">
 </details>
 
 ### Python - [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
+
+<details><summary> Glamping app (main app) validation screenshots</summary>
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+
+</details>
+
+<details><summary> Bookings app validation screenshots</summary>
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+
+</details>
+
+<details><summary> Accomodation app validation screenshots</summary>
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+
+</details>
+
+<details><summary> Testimonials app validation screenshots</summary>
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+
+</details>
+
+<details><summary> Home app validation screenshots</summary>
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+models.py:
+<img src="" alt="models.py">
+
+</details>
+
 
 
 

@@ -1,3 +1,4 @@
+
 """glamping URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -14,14 +15,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include 
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
     path("accounts/", include("allauth.urls")),
     path("", include("home.urls"), name="home-urls"),
-    path('testimonials/', include("testimonials.urls"), name="testimonials-urls"),
+    path(
+        'testimonials/',
+        include("testimonials.urls"), name="testimonials-urls"),
     path('bookings/', include("bookings.urls"), name="bookings-urls"),
-    path('accomodation/', include("accomodation.urls"), name="accomodation-urls"),
+    path(
+        'accomodation/',
+        include("accomodation.urls"), name="accomodation-urls"),
 ]
