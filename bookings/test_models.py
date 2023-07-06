@@ -56,6 +56,7 @@ class BookingsModelTest(TestCase):
         self.assertEqual(self.bookings.num_guests, 5)
 
     def test_create_booking(self):
+        """checks create booking is working correctly"""
         self.assertEqual(self.bookings.first_name, 'Test')
         self.assertEqual(self.bookings.last_name, 'Tester')
         self.assertEqual(self.bookings.booking_id, 44)
@@ -64,4 +65,4 @@ class BookingsModelTest(TestCase):
         self.assertEqual(self.bookings.num_guests, 5)
         self.assertEqual(self.bookings.email, 'test@email.com')
         self.assertEqual(
-            self.bookings.accomodation_name, self.accomodation_name)
+                self.bookings.accomodation_name, self.accomodation_name)

@@ -18,8 +18,8 @@ class Accomodation(models.Model):
     accomodation_type = models.CharField(max_length=50)
     availibility = models.BooleanField(default=False)
 
-    # class Meta:
-    #     ordering = ['-']
+    class Meta:
+        ordering = ['accomodation_type']
 
     def __str__(self):
         return self.accomodation_name

@@ -341,7 +341,10 @@ This contains:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687959226/glamping/docs/database_schema_rfiwao.png" alt="database schema scrennshot">
 </details>
 
+<br>
+
 ### Future models 
+<br>
 
 #### Contact model
 
@@ -355,6 +358,8 @@ This will contain:
 - content: TextField()
 - date_submitted: DateField()
 - image: ImageField(optional)
+
+<hr>
 
 ## Technologies Used
 
@@ -496,9 +501,9 @@ admin.py:
 forms.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616019/glamping/docs/validation/bookings_forms_bafoau.png" alt="froms.py">
 models.py:
-<img src="" alt="models.py">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688640697/glamping/docs/validation/bookings_models_cdhaja.png" alt="models.py">
 test_models.py:
-<img src="" alt="test_models.py">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688640697/glamping/docs/validation/bookings_test_models_qgick6.png" alt="test_models.py">
 urls.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616019/glamping/docs/validation/bookings_urls_qbeyi3.png" alt="urls.py">
 views.py:
@@ -510,9 +515,9 @@ views.py:
 admin.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/accomodation_admin_na8mms.png" alt="admin.py">
 models.py:
-<img src="" alt="models.py">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688639671/glamping/docs/validation/accomodation_models_bbjlhv.png" alt="models.py">
 test_models.py:
-<img src="" alt="test_models.py">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688639671/glamping/docs/validation/accomodation_test_models_jkyact.png" alt="test_models.py">
 urls.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/accomodation_url_cundlr.png" alt="urls.py">
 views.py:
@@ -526,7 +531,7 @@ admin.py:
 models.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/testimonials_models_n4gi5t.png" alt="models.py">
 test_models.py:
-<img src="" alt="test_models.py">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688643654/glamping/docs/validation/testimonials_test_models_aj3ai4.png" alt="test_models.py">
 urls.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/testimonials_urls_rlyzlm.png" alt="urls.py">
 views.py:
