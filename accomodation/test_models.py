@@ -2,6 +2,7 @@ from django.test import TestCase
 
 from .models import Accomodation
 
+
 class AccomodationModelTest(TestCase):
     @classmethod
     def setUp(self):
@@ -24,4 +25,3 @@ class AccomodationModelTest(TestCase):
     def test_price_per_night_to_accomodation_model(self):
         """Checks accomodation model records capacity of accomodation"""
         self.assertEqual(self.accomodation.price_per_night, 185.00)
-

@@ -4,6 +4,7 @@ from accomodation.models import Accomodation
 
 # Booking model for the database
 
+
 class Bookings(models.Model):
     """
     a class for the Booking model
@@ -19,16 +20,15 @@ class Bookings(models.Model):
         )
     check_in_date = models.DateField()
     check_out_date = models.DateField()
-    accomodation_name = models.ForeignKey(Accomodation, on_delete=models.CASCADE, related_name='name', null=True)
+    accomodation_name = models.ForeignKey(
+        Accomodation, on_delete=models.CASCADE, related_name='name', null=True)
     num_guests = models.IntegerField(null=True)
 
     @property
     def length_of_stay(self):
         return self.check_out_date - self.check_in_date
 
-
     class Meta:
         ordering = ['created_date']
-        
     # # def __str__(self):
     # #     return self.

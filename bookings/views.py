@@ -15,22 +15,22 @@ class BookingsList(generic.ListView):
     # restrict bookings so only logged in user can see their own bookings
     def get_queryset(self):
         if self.request.user.is_authenticated:
-            return Bookings.objects.filter(user=self.request.user).order_by('-created_date')
+            return Bookings.objects.filter(
+                user=self.request.user).order_by('-created_date')
         else:
             return Bookings.objects.none()
-
 
 
 class BookingsCreate(SuccessMessageMixin, generic.CreateView):
     model = Bookings
     template_name = "create_bookings.html"
     form_class = BookingsForm
-    success_url = reverse_lazy('read_bookings') 
+    success_url = reverse_lazy('read_bookings')
     success_message = "Booking was created successfully"
 
     def form_valid(self, form):
         """assigns logged-in user to user field in database"""
-        form.instance.user = self.request.user  
+        form.instance.user = self.request.user
         return super().form_valid(form)
 
 
@@ -38,7 +38,7 @@ class BookingsEdit(SuccessMessageMixin, generic.UpdateView):
     model = Bookings
     form_class = BookingsForm
     template_name = 'edit_bookings.html'
-    success_url = reverse_lazy('read_bookings') 
+    success_url = reverse_lazy('read_bookings')
     success_message = "Booking was edited successfully"
 
 
@@ -53,8 +53,9 @@ class BookingsDelete(generic.DeleteView):
         return super(BookingsDelete, self).delete(request, *args, **kwargs)
 
 
-# error handling found on slack without need for url, 
-# adapted to include 403 and 400 error and work on this version of django (Django==3.2.19)
+# error handling found on slack without need for url, /
+# adapted to include 403 and 400 error and work on /
+# this version of django (Django==3.2.19)
 
 def handler404(request, *args, **argv):
     response = render_to_response('404.html', {},
@@ -69,11 +70,13 @@ def handler500(request, *args, **argv):
     response.status_code = 500
     return response
 
+
 def handler403(request, *args, **argv):
     response = render_to_response('403.html', {},
                                   context_instance=RequestContext(request))
     response.status_code = 403
     return response
+
 
 def handler400(request, *args, **argv):
     response = render_to_response('400.html', {},

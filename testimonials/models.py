@@ -19,12 +19,14 @@ class Testimonials(models.Model):
             ])
     content = models.TextField()
     featured_image = CloudinaryField('image', default='placeholder')
-    accomodation_name = models.ForeignKey(Accomodation, on_delete=models.CASCADE, related_name="user_accomodation", null=True)
+    accomodation_name = models.ForeignKey(
+        Accomodation, on_delete=models.CASCADE,
+        related_name="user_accomodation", null=True)
     created_date = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
     likes = models.ManyToManyField(
         User, related_name='testimonial_likes', blank=True)
-    
+
     class Meta:
         ordering = ['-created_date']
 
@@ -33,5 +35,3 @@ class Testimonials(models.Model):
 
     def number_of_likes(self):
         return self.likes.count()
-
-

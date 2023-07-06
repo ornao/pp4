@@ -443,82 +443,62 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 ### Python - [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
 
 <details><summary> Glamping app (main app) validation screenshots</summary>
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
+settings.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/main_settings_x8lcy7.png" alt="settings.py">
+urls.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/main_urls_os04io.png" alt="urls.py">
 
 </details>
 
 <details><summary> Bookings app validation screenshots</summary>
+admin.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/bookings_admin_i7d5qh.png" alt="admin.py">
+forms.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616019/glamping/docs/validation/bookings_forms_bafoau.png" alt="froms.py">
 models.py:
 <img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
+test_models.py:
+<img src="" alt="test_models.py">
+urls.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616019/glamping/docs/validation/bookings_urls_qbeyi3.png" alt="urls.py">
+views.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/bookings_views_rujmlu.png" alt="views.py">
 
 </details>
 
 <details><summary> Accomodation app validation screenshots</summary>
+admin.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/accomodation_admin_na8mms.png" alt="admin.py">
 models.py:
 <img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
+test_models.py:
+<img src="" alt="test_models.py">
+urls.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/accomodation_url_cundlr.png" alt="urls.py">
+views.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616021/glamping/docs/validation/accomodation_view_kyamus.png" alt="views.py">
 
 </details>
 
 <details><summary> Testimonials app validation screenshots</summary>
+admin.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/testimonials_admin_uht4xa.png" alt="admin.py">
 models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/testimonials_models_n4gi5t.png" alt="models.py">
+test_models.py:
+<img src="" alt="test_models.py">
+urls.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/testimonials_urls_rlyzlm.png" alt="urls.py">
+views.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/testimonials_views_r8wvag.png" alt="views.py">
 
 </details>
 
 <details><summary> Home app validation screenshots</summary>
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
-models.py:
-<img src="" alt="models.py">
+urls.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/home_urls_jqwydv.png" alt="urls.py">
+views.py:
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/home_views_sgfpp2.png" alt="views.py">
 
 </details>
 
@@ -1114,6 +1094,10 @@ Django Documentation:
 - [remove html tags appearing to template](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)
 - [widgets](https://docs.djangoproject.com/en/4.2/ref/forms/widgets/)
 - [working with forms](https://docs.djangoproject.com/en/4.2/topics/forms/)
+- [django allauth documentation](https://django-allauth.readthedocs.io/en/latest/views.html#signup-account-signup)
+- [django admin](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/#modeladmin-options)
+
+- [use of reverse lazy](https://www.fullstackpython.com/django-urls-reverse-lazy-examples.html)
 
 W3Schools: 
 - [remove html tags appearing to template](https://www.w3schools.com/django/ref_filters_striptags.php)

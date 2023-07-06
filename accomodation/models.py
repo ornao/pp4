@@ -1,6 +1,7 @@
 from django.db import models
 from cloudinary.models import CloudinaryField
 
+
 class Accomodation(models.Model):
     """
     a class for the Accomodation model

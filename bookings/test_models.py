@@ -2,10 +2,11 @@ from django.test import TestCase
 
 from .models import Bookings, User, Accomodation
 
+
 class BookingsModelTest(TestCase):
     @classmethod
     def setUp(self):
-        self.accomodation_name = Accomodation(accomodation_type='Pod', accomodation_name='Pod Almighty', capacity=5, price_per_night=185.00)
+        self.accomodation_name = Accomodation(accomodation_name='Pod Almighty')
         self.user = User(
             username='Ms. Tester',
             email='test@email.com'
@@ -38,8 +39,9 @@ class BookingsModelTest(TestCase):
         self.assertEqual(max_length, 50)
 
     def test_accomodation_name_in_accomodation_model(self):
-        """Checks accomodation model assigns accomodation_name"""
-        self.assertEqual(self.accomodation_name.accomodation_name, 'Pod Almighty')
+        """Checks bookings model assigns accomodation_name"""
+        self.assertEqual(
+            self.accomodation_name.accomodation_name, 'Pod Almighty')
 
     def test_check_in_date_in_bookings_model(self):
         """Checks bookings models assigns check in date"""
@@ -61,4 +63,5 @@ class BookingsModelTest(TestCase):
         self.assertEqual(self.bookings.check_out_date, '2023-07-18')
         self.assertEqual(self.bookings.num_guests, 5)
         self.assertEqual(self.bookings.email, 'test@email.com')
-        self.assertEqual(self.bookings.accomodation_name, self.accomodation_name)
+        self.assertEqual(
+            self.bookings.accomodation_name, self.accomodation_name)
