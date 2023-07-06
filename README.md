@@ -1,4 +1,10 @@
 
+**Developer: Orna Reynolds**
+
+<img src = "https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688635530/glamping/docs/amiresponsive_igvf0l.jpg" alt="am i responsive">
+
+💻 [Visit live website](https://glamping2023.herokuapp.com/)
+
 ## Table of Contents
   - [About](#about)
   - [User Goals](#user-goals)
@@ -13,6 +19,10 @@
   - [Technologies Used](#technologies-used)
   - [Validation](#validation)
   - [Testing](#testing)
+    - [Manual testing](#manual-testing)
+    - [Automated testing](#automated-testing)
+    - [Tests on various devices](#tests-on-various-devices)
+    - [Browser compatibility](#browser-compatibility)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -21,20 +31,20 @@
 
 ### About
 
-This glamping website provides a user-friendly platform to experience a unique camping destination in the beautiful Irish countryside. This site aims to be visually immersive, featuring a user-friendly booking system and showcasing customer testimonials through display of ratings and reviews.
+This glamping website provides a user-friendly platform to experience a unique camping destination in the beautiful Irish countryside. This site aims to be visually immersive, featuring a user-friendly booking system and showcasing customer testimonials through a display of ratings and reviews.
 
 <hr>
 
 ### User Goals
-- Be able to check availibility and pricing information for desired dates 
-- Easily book and secure preferred accomodation type for desired dates 
+- Be able to check availability and pricing information for desired dates 
+- Easily book and secure preferred accommodation type for desired dates 
 - Gain insight of expected experience by reading reviews and ratings from previous guests 
 - Able to easily contact the site owner with any questions, queries, or special requests 
 
 ### Site Owner Goals
-- Aim to attract and engage potentional customers with appealing visuals and user-friendly features
-- Provide a seamless booking process to drive bookings and generate revenue to the camspite 
-- Build trust and credibility of potentential guests by displaying campsite reviews, ratings and testimonials from previous customers 
+- Aim to attract and engage potential customers with appealing visuals and user-friendly features
+- Provide a seamless booking process to drive bookings and generate revenue to the campsite 
+- Build trust and credibility of potential guests by displaying campsite reviews, ratings and testimonials from previous customers 
 - Offer a means of communication between customers and site owner to ensure satisfactory customer support experience 
 
 <hr>
@@ -44,47 +54,47 @@ This glamping website provides a user-friendly platform to experience a unique c
 ### Target Audience
 
 - Outdoors enthusiasts who seek and appreciate experiences in natural settings 
-- Couples on a romantic getaway looking for a intimate and scenic experience 
+- Couples on a romantic getaway looking for an intimate and scenic experience 
 - Tourists looking for a distinct and memorable experience in the Irish countryside
 - Individuals in search of a retreat where they can relax, unwind and become rejuvenated through the power of mindfulness in idyllic natural settings  
 
 ### User Requirements and Expectations
-- Intuitive naviagtion and seamless booking process 
+- Intuitive navigation and seamless booking process 
 - Visually appealing design incorporating high-quality images to illustrate the expected glamping experience 
-- Fully responsive and acessible across different screen sizes and devices 
+- Fully responsive and accessible across different screen sizes and devices 
 - Secure authorisation 
 
 ##### Back to [top](#table-of-contents)<hr>
 
 ## User Stories
 
-I utilitied the agile MoSCoW prioritisation method while planning the user stories for this project. This aided the created of a MVP from the beginning and lends itself to be of an iterative development style. 
+I utilised the agile MoSCoW prioritisation method while planning the user stories for this project. This aided the created of a MVP from the beginning and lends itself to be of an iterative development style. 
 
-My user stories were catagorized into epics and sub-divided into individuals tasks; details of which can be found on my [kanban board](https://github.com/users/ornao/projects/5). User stories were also ranked using MoSCoW prioritisation and were each given a sprint which gave me a timeframe to complete the majority of the tasks outlined in the user story. I did not sumbit speciific dates for each sprint as this was my first time undertaking a project like and I was unsure how long individual tasks would take me to complete. Hence, I included must have for an MVP in my first sprint and cataegorised the rest of te user stories accordingly in later sprints.
+My user stories were categorised into epics and sub-divided into individuals tasks/acceptance criteria; details of which can be found on my [kanban board](https://github.com/users/ornao/projects/5). User stories were also ranked using MoSCoW prioritisation and were each given a sprint which gave me a timeframe to complete the majority of the tasks outlined in the user story. I did not submit specific dates for each sprint as this was my first time undertaking a project like and I was unsure how long individual tasks would take me to complete. I also generally had varying times each evening around work, however I generally gave myself a week and a half times for each sprint. Hence, I included must have for an MVP in my first sprint and categorised the rest of te user stories accordingly in later sprints.
 
 ### Users
 
 #### MUST HAVE 
 
 1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
-2. As a user, I want to compare different accomodation types available so that I can make an informed decision of which accomodation best suits my needs. 
+2. As a user, I want to compare different accommodation types available so that I can make an informed decision of which accommodation best suits my needs. 
 3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings 
 4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality
-5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
-6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
-7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type. My previous details should be present on this form so I know what I am changing details from. 
+5. As a user, I want to create a booking by selecting a date and accomomdation-type for my stay
+6. As a user, I want to review my booking so that I can remind myself of the date and accommodation type I have booked 
+7. As a user, I want to update my booking so that I can choose another available time and/or accommodation type. My previous details should be present on this form so I know what I am changing details from. 
 8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
 9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
 10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
-11. As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
-12. As an unregistered user, I have access to accomodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
-13. As a user, i want to my bookings information to be secure so no other users have access to it. 
+11. As a first time user, I should immediately understand the purpose of the website from the home page so my time is not wasted 
+12. As an unregistered user, I have access to accommodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
+13. As a user, I want my bookings information to be secure so no other users have access to it. 
 
 #### SHOULD HAVE 
 
 14. As a user, I want to check the availability and pricing information for my desired dates
-15. As a user, I want to see previous customer reviews and ratings of the different accomodation types
-16. As a user I can view the lastest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
+15. As a user, I want to see previous customer reviews and ratings of the different accommodation types
+16. As a user I can view the latest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
 17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
 18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
 19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
@@ -93,14 +103,14 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 
 #### COULD HAVE 
 
-21. As a user, i want to be able to see an interactive map of where the campsite is 
+21. As a user, I want to be able to see an interactive map of where the campsite is 
 22. As a registered user, I can reset my password so that I can regain access to my account if I forget my password.
-23. As a user, I can signup to the site using one of my social media accounts to allow for an even more seemless registration.
-24. As a logged in user, I can like people's reviews so that I can show i agree with their comments aboyt their stay. 
+23. As a user, I can signup to the site using one of my social media accounts to allow for an even more seamless registration.
+24. As a logged in user, I can like people's reviews so that I can show i agree with their comments about their stay. 
 
 #### WON'T HAVE 
 
-25. As a registered user, I can be contacted directly by site owners on wesbite ad receive replies and noticications of these relies through the wesbite through messaging services.
+25. As a registered user, I can be contacted directly by site owners on the website and receive replies and notifications of these replies through the website through messaging services.
 26. As a user i want to have real-time weather reports for days of my stay available when booking 
 
 ### Admin/Site Owner
@@ -108,12 +118,12 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 #### MUST HAVE 
 
 27. As an admin, I can log in and access the back end of the site
-28. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email  
 29. As an admin, I can accept or reject bookings so that we avoid double bookings 
-30. As a site owner, I want site to be fully responisve and acessible 
+30. As a site owner, I want site the to be fully responsive and accessible 
 31. As a site owner, i want all user entered data to be validated to reduce errors on database
 32. As a site owner, I want only logged in users to view details of their bookings 
-33. As a site owner, I want every site visitor to be able to view the accomodation types no offer and reviews of these accomodations
+33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations
  
 #### SHOULD HAVE 
 
@@ -122,24 +132,27 @@ My user stories were catagorized into epics and sub-divided into individuals tas
 
 #### Could have 
 
-35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experinece of site vs any queries about their future stay
+35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experience of site vs any queries about their future stay
 
+<hr>
 
 ## Design
 
 ### Theme
 
-A [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/) was used for this project. I also utitilised another [bootstrap template Admin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) for the login/logout and forms of the site. Iadapted and pulled aspects of the code for the website and changed CSS elements to better represent my vision for the glamping wesbite.
+A [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/) was used for this project. I also utilised another [bootstrap template Admin](https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/) for the login/logout and forms of the site. I adapted and pulled aspects of the code for the website and changed CSS elements to better represent my vision for the glamping website.
 
 ### Colour 
 
-I enjoyed the primary colours from the Yummy bootstrap theme (as mentioned above) and hence only changed the colours slightly from the original. I opted to replace the primary red color with a magenta pink shade that complemented the visuals of my pictures. This subtle adjustment helped unify the elements of my website, creating a cohesive and visually appealing experience for visitors.
+I enjoyed the primary colours from the Yummy bootstrap theme (as mentioned above) and hence only changed the colours slightly from the original. I opted to replace the primary red colour with a magenta pink shade that complemented the visuals of my pictures. This subtle adjustment helped unify the elements of my website, creating a cohesive and visually appealing experience for visitors.
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687450655/glamping/docs/colours_website.png" alt="colours of wesbite">
 
+<hr>
+
 ### Wireframes 
 
-Included are the screenshots created prior to development. As you can see, the finished wesbite looks slighly different but the core fucntion of each page remains the same. 
+Included are the screenshots created prior to development. As you can see, the finished website looks slightly different but the core function of each page remains the same. 
 
 <details><summary> Home page screenshot</summary>
 
@@ -201,32 +214,36 @@ Included are the screenshots created prior to development. As you can see, the f
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687952831/glamping/docs/wireframes/contact_page_wireframes_ab8awm.png" alt="contact page wireframe">
 </details>
 
+<hr>
 
 ## Structure 
 
-The wesbite consists of number of pages 7 pages when the user was not logged in and 11 pages when user was logged in. (Error pages 400, 404, 403 and 500 are counted as 1 page in this counting of pages stated above).
+The website consists of number of pages 7 pages when the user was not logged in and 11 pages when user was logged in. (Error pages 400, 404, 403 and 500 are counted as 1 page in this counting of pages stated above).
 
 - Home 
-<details><summary> Home page screenshots</summary>
+<details><summary> Home page screenshots(2)</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593718/glamping/docs/wireframes/homepage_user_not_loggedin_lnxts4.png" alt="home page">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593721/glamping/docs/wireframes/homepage_user_loggedin_fgxk0f.png" alt="home page user logged in">
 </details>
+<br>
 
-- Accomodation
-<details><summary> Accomodation page screenshot</summary>
+- Accommodation
+<details><summary> Accommodation page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/accomodation_page_tlivm4.png" alt="accommodation page">
 </details>
+<br>
 
 - Testimonials 
 <details><summary> Testimonials page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593709/glamping/docs/wireframes/testimonials_page_wtmt5u.png" alt="testimonials page">
 </details>
+<br>
 
 - Log in /Register /Log Out
-<details><summary> Log in /Register /Log Out page screenshots</summary>
+<details><summary> Log in /Register /Log Out page screenshots(3)</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593709/glamping/docs/wireframes/login_page_kcmzap.png" alt="login page">
 
@@ -234,19 +251,21 @@ The wesbite consists of number of pages 7 pages when the user was not logged in 
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688594151/glamping/docs/wireframes/logout_page_grs3fw.png" alt="logout page">
 </details>
+<br>
 
 - Book 
 <details><summary> Book page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688594156/glamping/docs/wireframes/create_booking_page_ruvnk1.png" alt="book page">
 </details>
+<br>
 
 - Error page (404)
-
+- Could not test display of 403, 400 and 500 page errors through manual testing, however as 404 page displays and same code used for other error codes I do assume they will also displayed when called (my fingers are crossed). 
 <details><summary> Error page (404) screenshot</summary>
-- Could not test display of 403, 400 and 500 page errors through manual testing, however as 404 page displays and same code used for other error codes I do assume they will also displayed when called (my fingers are crossed).  
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688595408/glamping/docs/wireframes/404_page_x0csbu.png" alt="error page">
 </details>
+<br>
 
 User need to Log In to view these page: 
 - View Bookings 
@@ -255,12 +274,14 @@ User need to Log In to view these page:
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/viewyourbookings_page_cugggm.png" alt="view bookings page">
 </details>
+<br>
 
 - Edit Bookings 
 <details><summary> Edit bookings page screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593714/glamping/docs/wireframes/edityourbookings_page_gkjaqp.png" alt="edit bookings page">
 </details>
+<br>
 
 - Delete Bookings
 
@@ -268,10 +289,13 @@ User need to Log In to view these page:
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688593711/glamping/docs/wireframes/confirm_delete_bookings_page_oujywz.png" alt="delete bookings page">
 </details>
+<br>
+
+<hr>
 
 ### Database
 
-3 custom models were created for this project - accomodation, bookings and testimonials. My bookings model supports full CRUD functionality while accomodation and tesimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availbility function in booking model to allow user to check if their desired accomodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email seperately. I would also like to add more CRUD functionality to testimonials model so users can submit their own testimonials and 'like' different users reviews. 
+3 custom models were created for this project - accommodation, bookings and testimonials. My bookings model supports full CRUD functionality while accommodation and testimonials currently only pull from database. User model was provided for by django allauth. In future iterations, I would like to create an availability function in booking model to allow user to check if their desired accommodation is available for their desired dates. I would also like to include a contact model in future development so users have ability to directly contact site owner on site without having to ring or email separately.. I would also like to add more CRUD functionality to testimonials model so users can submit their own testimonials and 'like' different users reviews. 
 
 #### User model (allauth)
 This contains:
@@ -288,8 +312,8 @@ This contains:
 - name: CharField()
 - capacity: IntegerField()
 - description: TextField()
-- (price_per_night: DecimalField()) -- To be incorporated as a future feauture
-- (availibility: BooleanField() if available for booking dates) -- To be incorporated as a future feauture
+- (price_per_night: DecimalField()) -- To be incorporated as a future feature
+- (availibility: BooleanField() if available for booking dates) -- To be incorporated as a future feature
 
 ### Bookings model
 This contains:
@@ -300,7 +324,7 @@ This contains:
 - check_out_date: DateField()
 - length_of_stay: DurationField()
 - num_guests: IntegerField()
-- (total_price: DecimalField()) -- To be incorporated as a future feauture
+- (total_price: DecimalField()) -- To be incorporated as a future feature
 
 ### Testimonials model
 This contains:
@@ -311,7 +335,7 @@ This contains:
 - content: TextField()
 - date_created: DateField()
 - image: ImageField(optional)
-- (likes: user model) -- To be incorporated as a future feauture
+- (likes: user model) -- To be incorporated as a future feature
 
 <details><summary> Database schema screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687959226/glamping/docs/database_schema_rfiwao.png" alt="database schema scrennshot">
@@ -354,11 +378,14 @@ This will contain:
 - [Summernote](https://summernote.org/)
 - [dbdiagram](https://dbdiagram.io/home)
 - [Fake Irish number generator](https://fakenumber.org/ireland)
-- [Irish dictonary](https://www.focloir.ie/) - to check spelling for fake address I made up 
+- [Irish dictionary](https://www.focloir.ie/) - to check spelling for fake address I made up 
 - [BeFunky](https://www.befunky.com/)
+- [AmIResponsive](https://ui.dev/amiresponsive)
 
 
 ##### Back to [top](#table-of-contents)
+
+<hr>
 
 ## Validation
 
@@ -369,61 +396,72 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 - This checks base.html and index.html
 <details><summary> Home page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889359/glamping/docs/home_html_validator_cl0mu2.png" alt="home page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889359/glamping/docs/validation/home_html_validator_cl0mu2.png" alt="home page html validation check">
 </details>
+<br>
 
 - This checks base.html and accomodation.html
 <details><summary> Accommodation page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889261/glamping/docs/accomodation_html_validator_cayv4c.png" alt="accomodation page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889261/glamping/docs/validation/accomodation_html_validator_cayv4c.png" alt="accomodation page html validation check">
 </details>
+<br>
 
 - This checks base.html and testimonials.html
 <details><summary> Testimonials page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889276/glamping/docs/testimonials_html_validator_p98e6o.png" alt="testimonials page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687889276/glamping/docs/validation/testimonials_html_validator_p98e6o.png" alt="testimonials page html validation check">
 </details>
+<br>
 
 - This checks base.html and account/login.html
 <details><summary> Log In page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/login_html_validator_prlam4.png" alt="login page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/validation/login_html_validator_prlam4.png" alt="login page html validation check">
 </details>
+<br>
 
 - This checks base.html and accounts/signup.html
 <details><summary> Register page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/signup_html_validator_m4ctuw.png" alt="signup page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902571/glamping/docs/validation/signup_html_validator_m4ctuw.png" alt="signup page html validation check">
 </details>
+<br>
 
 - This checks base.html and account/logout.html
 <details><summary> Log Out page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902920/glamping/docs/logout_html_validator_bgc04l.png" alt="logout page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687902920/glamping/docs/validation/logout_html_validator_bgc04l.png" alt="logout page html validation check">
 </details>
+<br>
 
 - This checks base.html and read_bookings.html
 <details><summary> View your Bookings page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/read_bookings_html_validator_bfzmpe.png" alt="view bookings page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/validation/read_bookings_html_validator_bfzmpe.png" alt="view bookings page html validation check">
 </details>
+<br>
 
 - This checks base.html and create_bookings.html
 <details><summary> Book page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/create_bookings_html_validator_xvsnqd.png" alt="book page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/validation/create_bookings_html_validator_xvsnqd.png" alt="book page html validation check">
 </details>
+<br>
 
 - This checks base.html and edit_bookings.html
 <details><summary> Edit Bookings page screenshot</summary>
 
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/edit_bookings_html_validator_cnekpe.png" alt="edit bookings page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/validation/edit_bookings_html_validator_cnekpe.png" alt="edit bookings page html validation check">
 </details>
+<br>
 
 - This checks base.html and confirm_delete.html
 <details><summary> Delete Bookings page screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/delete_bookings_html_validator_asg3f5.png" alt="confirm delete page html validation check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1687903563/glamping/docs/validation/delete_bookings_html_validator_asg3f5.png" alt="confirm delete page html validation check">
 </details>
+<br>
+
 
 ### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
@@ -432,6 +470,7 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 <details><summary> style.css validation check screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688413019/glamping/docs/validation/jigsaw_css_validation_xldhzz.png" alt="style.css validation check">
 </details>
+<br>
 
 ### Javascript - [JSHint](https://jshint.com/)
 - The js included in this project is from the [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/). I did not adapt this code in anyway hence I did not try to fiddle with it and mess up its fucntionality by trying to fulfull all the validation checks. I only fixed the issues relating to missing semi-colons.
@@ -439,10 +478,11 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688598958/glamping/docs/validation/js_validation_p1qusa.png" alt="main.js validation check">
 </details>
+<br>
 
 ### Python - [https://pep8ci.herokuapp.com/](https://pep8ci.herokuapp.com/)
 
-<details><summary> Glamping app (main app) validation screenshots</summary>
+<details><summary> Glamping app (main app) validation screenshots(2)</summary>
 settings.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/main_settings_x8lcy7.png" alt="settings.py">
 urls.py:
@@ -450,7 +490,7 @@ urls.py:
 
 </details>
 
-<details><summary> Bookings app validation screenshots</summary>
+<details><summary> Bookings app validation screenshots(6)</summary>
 admin.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/bookings_admin_i7d5qh.png" alt="admin.py">
 forms.py:
@@ -466,7 +506,7 @@ views.py:
 
 </details>
 
-<details><summary> Accomodation app validation screenshots</summary>
+<details><summary> Accomodation app validation screenshots(5)</summary>
 admin.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616020/glamping/docs/validation/accomodation_admin_na8mms.png" alt="admin.py">
 models.py:
@@ -480,7 +520,7 @@ views.py:
 
 </details>
 
-<details><summary> Testimonials app validation screenshots</summary>
+<details><summary> Testimonials app validation screenshots(5)</summary>
 admin.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/testimonials_admin_uht4xa.png" alt="admin.py">
 models.py:
@@ -494,16 +534,14 @@ views.py:
 
 </details>
 
-<details><summary> Home app validation screenshots</summary>
+<details><summary> Home app validation screenshots(2)</summary>
 urls.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/home_urls_jqwydv.png" alt="urls.py">
 views.py:
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688616018/glamping/docs/validation/home_views_sgfpp2.png" alt="views.py">
 
 </details>
-
-
-
+<br>
 
 ### Accessibility - [WAVE](https://wave.webaim.org/report)
 
@@ -549,6 +587,7 @@ Checked when user was logged in and not logged in
 <details><summary> Delete Bookings page screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688408261/glamping/docs/validation/deletebookings_wave_validation_kdrbwo.png" alt="delete bookings page accessibility check">
 </details>
+<br>
 
 ### Performance - Lighthouse
 
@@ -556,7 +595,7 @@ Checked when user was logged in and not logged in
 
 ## Testing
 
-### Manually testing user stories 
+### Manual testing
 
 1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
 
@@ -981,6 +1020,13 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
  
 34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
 
+
+## Automated testing
+
+## Tests on various devices
+
+## Browser compatibility
+
 ## Bugs
 
 | **Bug** | **Fix** |
@@ -1013,7 +1059,7 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
 ## Future development 
 - Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately.
 
-## Deployment (Heroku)
+## Deployment
 
 1. Login to heroku accound and navigate to the dashboard 
 2. Click "New" on upper right hand side of screen 
@@ -1104,3 +1150,5 @@ W3Schools:
 
 Youtube:
 [datepicker input](https://www.youtube.com/watch?v=I2-JYxnSiB0&t=191s)
+
+## Acknowledgements
