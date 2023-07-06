@@ -470,7 +470,7 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 
 ### CSS - [Jigsaw](https://jigsaw.w3.org/css-validator/)
 
-- style.css was validated by direct inputing contents of file into website.
+- style.css was validated by direct inputting of contents of file into website.
 
 <details><summary> style.css validation check screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688413019/glamping/docs/validation/jigsaw_css_validation_xldhzz.png" alt="style.css validation check">
@@ -478,7 +478,7 @@ The W3S HTML validator checks the HTML through the webpage url. This is because 
 <br>
 
 ### Javascript - [JSHint](https://jshint.com/)
-- The js included in this project is from the [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/). I did not adapt this code in anyway hence I did not try to fiddle with it and mess up its fucntionality by trying to fulfull all the validation checks. I only fixed the issues relating to missing semi-colons.
+- The js included in this project is from the [bootstrap template Yummy](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/). I did not adapt this code in anyway hence I did not try to fiddle with it and mess up its functionality by trying to fulfil all the validation checks. I only fixed the issues relating to missing semi-colons.
 <details><summary> main.js validation check screenshot</summary>
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688598958/glamping/docs/validation/js_validation_p1qusa.png" alt="main.js validation check">
@@ -596,7 +596,54 @@ Checked when user was logged in and not logged in
 
 ### Performance - Lighthouse
 
+<details><summary> Home page screenshot</summary>
+<img src="" alt="home page lighthouse check - desktop">
+</details>
 
+<details><summary> Accommodation page screenshot</summary>
+<img src="" alt="accomodation page lighthouse check - desktop">
+</details>
+
+<details><summary> Testimonials page screenshot</summary>
+<img src="" alt="testimonials page lighthouse check- desktop">
+</details>
+
+<details><summary> Log In page screenshot</summary>
+<img src="" alt="login page lighthouse check - desktop">
+</details>
+
+<details><summary> Register page screenshot</summary>
+<img src="" alt="signup page lighthouse check - desktop">
+</details>
+
+<details><summary> Log Out page screenshot</summary>
+<img src="" alt="logout page lighthouse check - desktop">
+</details>
+
+
+<details><summary> View your Bookings page screenshot</summary>
+<img src="" alt="view bookings page lighthouse check - desktop">
+</details>
+
+<details><summary> Book page screenshot</summary>
+Checked when user was logged in and not logged in 
+<img src="" alt="create bookings page lighthouse check">
+<img src="" alt="create bookings page lighthouse check when user logged in">
+</details>
+
+<details><summary> Edit Bookings page screenshot</summary>
+<img src="" alt="edit bookings page lighthouse check">
+</details>
+
+<details><summary> Delete Bookings page screenshot</summary>
+<img src="" alt="delete bookings page lighthouse check">
+</details>
+
+<details><summary> 404 error page screenshot</summary>
+<img src="" alt="404 error page lighthouse check">
+</details>
+
+<br>
 
 ## Testing
 
