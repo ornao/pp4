@@ -74,13 +74,13 @@ My user stories were categorised into epics and sub-divided into individuals tas
 
 **Epics** | **Explanation** | **Relevenat user story** |
 ------------ | ------------ | ------------ |
-UX |  |  |
-CRUD |  |  |
-AUTHORISATION | | | 
-INFORMATION DISPLAY | | |
-ADMIN ACCESS | | |
-ENHANCED UX | | |
-ERROR HANDLING | | |
+UX | User has a good experience interacting with the wesbite | 1, 11,  |
+CRUD | User can create, read(view), update and delete elemnts of the website | 5, 6, 7, 8, 10,  |
+AUTHORISATION | User has ability to accessand be denied to restricted areas of website | 3, 4, 9, 13, 22, 23, 32, | 
+INFORMATION DISPLAY | User has access to all necessary information website can provide | 2, 12, 14, 15, 16, 33 |
+ADMIN ACCESS | Site owner/admin had access to backend and can manipulate and maintain website data from here | 27, 28, |
+ENHANCED UX | Extra feautures enhance the minimum viable product created | 17, 18, 21, 24, 25, 26, 30 |
+ERROR HANDLING | Website provides explanation and resolutions for most errors | 19, 20, 31, |
 
 Acceptance criteria/tasks and milstone included in details of kanban board. 
 
