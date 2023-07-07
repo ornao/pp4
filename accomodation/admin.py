@@ -6,7 +6,7 @@ from django_summernote.admin import SummernoteModelAdmin
 # decorator to allow more than two arguements
 @admin.register(Accomodation)
 class AccomodationAdmin(SummernoteModelAdmin):
-
+    """ a class for accomodation admin """
     list_display = ('accomodation_name', 'availibility')
     search_fields = ['accomodation_name']
     list_filter = ('availibility', 'capacity')

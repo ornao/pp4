@@ -271,7 +271,7 @@ The website consists of number of pages 7 pages when the user was not logged in 
 <br>
 
 - Error page (404)
-- Could not test display of 403, 400 and 500 page errors through manual testing, however as 404 page displays and same code used for other error codes I do assume they will also displayed when called (my fingers are crossed). 
+- Could not test display of 403, 400 and 500 page errors through manual testing, however as 404 page displays and the same code is used for other error codes I do assume they will also display when called (my fingers are crossed). 
 <details><summary> Error page (404) screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688595408/glamping/docs/wireframes/404_page_x0csbu.png" alt="error page">
 </details>
@@ -1178,12 +1178,12 @@ I tested wesbite on google chrome and safari.
 2. Click "New" on upper right hand side of screen 
 3. In dropdown of "New" button, click first option "Create new app"
 4. In "Create new app" screen, type in a unique name for your app and choose the region closest to you
-<img src="" alt="">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688765976/glamping/docs/deployment/name_deployment_vuga9e.png" alt="deploymentname">
 
 5. Click "Create app" 
 6. You will be brought to deployment tab, from here naviagte to settings tab
 7. Press "Reveal config vars" and add DATABASE_URL, SECRET_KEY and their values to KEY, VALUE fields
-<img src="" alt="">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688765976/glamping/docs/deployment/config_vars_rq4uj8.png" alt="reveal config vars">
 
 8. Also add PORT, 8000 to KEY, VALUE fields in config vars to help with deployment 
 9. Also add CLOUDINARY_URL and url of your API Environment variable to KEY, VALUE fields 
@@ -1192,15 +1192,15 @@ I tested wesbite on google chrome and safari.
 12. Next you need to create a Procfile so heroku knows how to run the project - in my case add "web: gunicorn glamping.wsg" to file
 13. In heroku, navigate to deploy tab of project and click github as deployment method 
 14. Search for repository to connect github to heroku and press connect button beside correct repository
-<img src="" alt="">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688765976/glamping/docs/deployment/connect_repo_o06l81.png" alt="connect repo">
 
 14. Then scroll down to bottom of page and click on deploy branch (can clcik on build log to see deployment progress)
 15. Once build is finsihed, the build log will tell you 
-<img src="" alt="">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688765976/glamping/docs/deployment/build_finished_deployment_vgpoke.png" alt="build finished deployment">
 
 16. From here, press open app in top right hand of screen to see if deployment successful 
 should open to this page if deployment succesful
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688765977/glamping/docs/deployment/django_deployment_sucessful_obryq1.png" alt="deployment suc">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688765977/glamping/docs/deployment/django_deployment_sucessful_obryq1.png" alt="deployment successful">
 
 ### Credits 
 
@@ -1248,3 +1248,5 @@ Youtube:
 [datepicker input](https://www.youtube.com/watch?v=I2-JYxnSiB0&t=191s)
 
 ## Acknowledgements
+
+I would like to sincerly thank for my very pateint boyfriend who sat with me in a hostel in copenhagen and helped me check my readme files for possible errors and my mentor martina who was so so helpful, supportive and knowledgable about the criteria of the portfolio. 

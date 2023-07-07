@@ -2,8 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 from accomodation.models import Accomodation
 
-# Booking model for the database
-
 
 class Bookings(models.Model):
     """
@@ -26,6 +24,9 @@ class Bookings(models.Model):
 
     @property
     def length_of_stay(self):
+        """
+        calculates duration of stay by comparing check-in and check-out date
+        """
         return self.check_out_date - self.check_in_date
 
     class Meta:
