@@ -88,59 +88,60 @@ Acceptance criteria/tasks and milstone included in details of kanban board.
 
 #### MUST HAVE 
 
-1. As a user, I want to easily navigate through the site to access all features and information about my possible stay [Kanban board user story link]()
-2. As a user, I want to compare different accommodation types available so that I can make an informed decision of which accommodation best suits my needs [Kanban board user story link]()
-3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings [Kanban board user story link]()
-4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality [Kanban board user story link]()
-5. As a user, I want to create a booking by selecting a date and accomomdation-type for my stay [Kanban board user story link]()
-6. As a user, I want to review my booking so that I can remind myself of the date and accommodation type I have booked [Kanban board user story link]()
-7. As a user, I want to update my booking so that I can choose another available time and/or accommodation type. My previous details should be present on this form so I know what I am changing details from [Kanban board user story link]()
-8. As a user, I can delete my booking so that I can cancel my reservation for my stay [Kanban board user story link]()
-9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again [Kanban board user story link]()
-10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident [Kanban board user story link]()
-11. As a first time user, I should immediately understand the purpose of the website from the home page so my time is not wasted [Kanban board user story link]()
-12. As an unregistered user, I have access to accommodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay [Kanban board user story link]()
-13. As a user, I want my bookings information to be secure so no other users have access to it [Kanban board user story link]()
+1. As a user, I want to easily navigate through the site to access all features and information about my possible stay [Kanban board user story link](https://github.com/ornao/pp4/issues/1)
+2. As a user, I want to compare different accommodation types available so that I can make an informed decision of which accommodation best suits my needs [Kanban board user story link](https://github.com/ornao/pp4/issues/2)
+3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings [Kanban board user story link](https://github.com/ornao/pp4/issues/3)
+4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality [Kanban board user story link](https://github.com/ornao/pp4/issues/4)
+5. As a user, I want to create a booking by selecting a date and accomomdation-type for my stay [Kanban board user story link](https://github.com/ornao/pp4/issues/5)
+6. As a user, I want to review my booking so that I can remind myself of the date and accommodation type I have booked [Kanban board user story link](https://github.com/ornao/pp4/issues/6)
+7. As a user, I want to update my booking so that I can choose another available time and/or accommodation type. My previous details should be present on this form so I know what I am changing details from [Kanban board user story link](https://github.com/ornao/pp4/issues/7)
+8. As a user, I can delete my booking so that I can cancel my reservation for my stay [Kanban board user story link](https://github.com/ornao/pp4/issues/8)
+9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again [Kanban board user story link](https://github.com/ornao/pp4/issues/9)
+10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident [Kanban board user story link](https://github.com/ornao/pp4/issues/16)
+11. As a first time user, I should immediately understand the purpose of the website from the home page so my time is not wasted [Kanban board user story link](https://github.com/ornao/pp4/issues/17)
+12. As an unregistered user, I have access to accommodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay [Kanban board user story link](https://github.com/ornao/pp4/issues/18)
+13. As a user, I want my bookings information to be secure so no other users have access to it [Kanban board user story link](https://github.com/ornao/pp4/issues/19)
 
 #### SHOULD HAVE 
 
-14. As a user, I want to check the availability and pricing information for my desired dates [Kanban board user story link]()
-15. As a user, I want to see previous customer reviews and ratings of the different accommodation types [Kanban board user story link]()
-16. As a user I can view the latest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website [Kanban board user story link]()
-17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed [Kanban board user story link]()
-18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests [Kanban board user story link]()
-19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay [Kanban board user story link]()
-20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website [Kanban board user story link]()
+14. As a user, I want to check the availability and pricing information for my desired dates [Kanban board user story link](https://github.com/ornao/pp4/issues/20)
+15. As a user, I want to see previous customer reviews and ratings of the different accommodation types [Kanban board user story link](https://github.com/ornao/pp4/issues/14)
+16. As a user I can view the latest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website [Kanban board user story link](https://github.com/ornao/pp4/issues/21)
+17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed [Kanban board user story link](https://github.com/ornao/pp4/issues/15)
+18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Be able to contact site owner through site.  [Kanban board user story link](https://github.com/ornao/pp4/issues/23)
+19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay [Kanban board user story link](https://github.com/ornao/pp4/issues/24)
+20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website [Kanban board user story link](https://github.com/ornao/pp4/issues/25)
 
 
 #### COULD HAVE 
 
-21. As a user, I want to be able to see an interactive map of where the campsite is [Kanban board user story link]()
-22. As a registered user, I can reset my password so that I can regain access to my account if I forget my password [Kanban board user story link]()
-23. As a user, I can signup to the site using one of my social media accounts to allow for an even more seamless registration [Kanban board user story link]()
-24. As a logged in user, I can like people's reviews so that I can show i agree with their comments about their stay [Kanban board user story link]()
+21. As a user, I want to be able to see an interactive map of where the campsite is [Kanban board user story link](https://github.com/ornao/pp4/issues/26)
+22. As a registered user, I can reset my password so that I can regain access to my account if I forget my password [Kanban board user story link](https://github.com/ornao/pp4/issues/27)
+23. As a user, I can signup to the site using one of my social media accounts to allow for an even more seamless registration [Kanban board user story link](https://github.com/ornao/pp4/issues/28)
+24. As a logged in user, I can like people's reviews so that I can show i agree with their comments about their stay [Kanban board user story link](https://github.com/ornao/pp4/issues/29)
 
 #### WON'T HAVE 
 
 25. As a registered user, I can be contacted directly by site owners on the website and receive replies and notifications of these replies through the website through messaging services [Kanban board user story link]()
-26. As a user i want to have real-time weather reports for days of my stay available when booking [Kanban board user story link]()
+26. As a user i want to have real-time weather reports for days of my stay available when booking [Kanban board user story link](https://github.com/ornao/pp4/issues/31)
 
 ### Admin/Site Owner
 
 #### MUST HAVE 
 
-27. As an admin, I can log in and access the back end of the site [Kanban board user story link]()
-28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email [Kanban board user story link]()
+27. As an admin, I can log in and access the back end of the site [Kanban board user story link](https://github.com/ornao/pp4/issues/10)
+28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email [Kanban board user story link](https://github.com/ornao/pp4/issues/11)
+
 29. As an admin, I can accept or reject bookings so that we avoid double bookings [Kanban board user story link]()
 30. As a site owner, I want site the to be fully responsive and accessible [Kanban board user story link]()
-31. As a site owner, i want all user entered data to be validated to reduce errors on database [Kanban board user story link]()
-32. As a site owner, I want only logged in users to view details of their bookings [Kanban board user story link]()
-33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations [Kanban board user story link]()
+
+31. As a site owner, i want all user entered data to be validated to reduce errors on database [Kanban board user story link](https://github.com/ornao/pp4/issues/32)
+32. As a site owner, I want only logged in users to view details of their bookings [Kanban board user story link](https://github.com/ornao/pp4/issues/33)
+33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations [Kanban board user story link](https://github.com/ornao/pp4/issues/34)
  
 #### SHOULD HAVE 
 
 34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day [Kanban board user story link]()
-
 
 #### Could have 
 
@@ -1137,7 +1138,11 @@ Database url for production:
 
 ## Tests on various devices
 
+I tested website on 
+
 ## Browser compatibility
+
+I tested wesbite on google chrome and safari. 
 
 ## Bugs
 
