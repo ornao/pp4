@@ -131,10 +131,7 @@ Acceptance criteria/tasks and milstone included in details of kanban board.
 
 27. As an admin, I can log in and access the back end of the site [Kanban board user story link](https://github.com/ornao/pp4/issues/10)
 28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email [Kanban board user story link](https://github.com/ornao/pp4/issues/11)
-
-29. As an admin, I can accept or reject bookings so that we avoid double bookings [Kanban board user story link]()
 30. As a site owner, I want site the to be fully responsive and accessible [Kanban board user story link]()
-
 31. As a site owner, i want all user entered data to be validated to reduce errors on database [Kanban board user story link](https://github.com/ornao/pp4/issues/32)
 32. As a site owner, I want only logged in users to view details of their bookings [Kanban board user story link](https://github.com/ornao/pp4/issues/33)
 33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations [Kanban board user story link](https://github.com/ornao/pp4/issues/34)
@@ -668,7 +665,7 @@ LOGGED OUT USER:
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 Click on the 'Home' tab in the nav bar | Home page will display | Works as expected |
-Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Accommodation' tab in the nav bar | Accommodation page will display | Works as expected |
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
 Click on the 'Log In' tab in the nav bar | Log in page will display | Works as expected |
 Click on the 'Register' tab in the nav bar | Sign up page will display | Works as expected |
@@ -718,16 +715,16 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 </details>
 
 
-2. As a user, I want to compare different accomodation types available so that I can make an informed decision of which accomodation best suits my needs. 
+2. As a user, I want to compare different accommodation types available so that I can make an informed decision of which accommodation best suits my needs. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Accommodation' tab in the nav bar | Accommodation page will display | Works as expected |
 Click on the 'Pods' tab in the subnav bar | Pods page will display | Works as expected |
 Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works as expected |
 
 
-<details><summary> Accomodation sub navigation bar testing screenshots - pods and cabins </summary>
+<details><summary> Accommodation sub navigation bar testing screenshots - pods and cabins </summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688256785/glamping/docs/user%20stories%20testing/pods_subnav_testing_zqncsl.png" alt="accomodation sub navigation testing - pods">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688256784/glamping/docs/user%20stories%20testing/cabins_subnav_testing_pd2e3e.png" alt="accomodation sub navigation testing display - cabins">
 </details>
@@ -776,7 +773,7 @@ On 'Log In' page, type in random username and password | User will be not signed
 </details>
 
 
-5. As a user, I want to create a booking by selecting a date and accomodation-type for my stay
+5. As a user, I want to create a booking by selecting a date and accomomdation-type for my stay
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -792,7 +789,7 @@ Type in valid details to each field and press submit | User will be brought to v
 </details>
 
 
-6. As a user, I want to review my booking so that I can remind myself of the date and accomadation type I have booked 
+6. As a user, I want to review my booking so that I can remind myself of the date and accommodation type I have booked 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -804,7 +801,7 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings page display testing">
 </details>
 
-7. As a user, I want to update my booking so that I can choose another available time and/or accomodation type. My previous details should be present on this form so I know what I am changing details from. 
+7. As a user, I want to update my booking so that I can choose another available time and/or accommodation type. My previous details should be present on this form so I know what I am changing details from. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -867,26 +864,26 @@ Press confirm to delete booking | Read bookings page will display again, success
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688498997/glamping/docs/user%20stories%20testing/delete_successful_testing_h6kzmg.png" alt="delete successful testing">
 </details>
 
-11. As a first time user, I should immediatley understand the purpose of the website from the home page so my time is not wasted 
+11. As a first time user, I should immediately understand the purpose of the website from the home page so my time is not wasted 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 Launch website | User should be brought to home page where it is immediately evident this is a website for a glamping campsite | Works as expected |
 
-<details><summary> Purpose of wesbiste clear testing screenshot</summary>
+<details><summary> Purpose of website clear testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688573228/glamping/docs/user%20stories%20testing/homepage_purpose_testing_1_eytodn.png" alt="home page purpsoe clear testing">
 </details>
 
-12. As an unregistered user, I have access to accomodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
+12. As an unregistered user, I have access to accommodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Accommodation' tab in the nav bar | Accommodation page will display | Works as expected |
 Click on the 'Pods' tab in the subnav bar | Pods page will display | Works as expected |
 Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works as expected |
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
 
-<details><summary> Unregistered user navigation testing screenshots - accomodation and testimonials </summary>
+<details><summary> Unregistered user navigation testing screenshots - accommodation and testimonials </summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">
@@ -974,7 +971,7 @@ Click on the 'Book' tab in the nav bar or 'Book your Stay' in hero section of ho
 Leave a field blank in form | Error message should display | Works as expected |
 Incorrectly add email | Error message should display | Works as expected |
 Add check in date for time after check out date | Custom error message should display | Works as expected |
-Add incorrect number of guests for accomodation type | Custom error message should display | Works as expected |
+Add incorrect number of guests for accommodation type | Custom error message should display | Works as expected |
 
 <details><summary> Form validation testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/emptyfieldtesting_mlksmv.png" alt="emptyfieldtesting">
@@ -1009,7 +1006,7 @@ Type in superuser login details and try to sign in | If created superuser correc
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688510290/glamping/docs/user%20stories%20testing/admin_loggedin_lzh1fh.png" alt="admin logged in">
 </details>
 
-28. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
+28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email  
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -1025,9 +1022,7 @@ Add in user details and press save | Booking should be added successfully | Work
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688734091/glamping/docs/user%20stories%20testing/booking_admin_sucessful_admin_2_k7xedx.jpg" alt="booking admin successful 1">
 </details>
 
-29. As an admin, I can accept or reject bookings so that we avoid double bookings 
-<!-- currentlt don't have workaround -->
-30. As a site owner, I want site to be fully responisve and acessible 
+30. As a site owner, I want site to be fully responsive and accessible
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
@@ -1049,7 +1044,7 @@ User clicks on the 'Book' tab in the nav bar or 'Book your Stay' in hero section
 User leaves a field blank in form | Error message should display | Works as expected |
 User incorrectly adds email | Error message should display | Works as expected |
 User adds check in date for time after check out date | Custom error message should display | Works as expected |
-User adds incorrect number of guests for accomodation type | Custom error message should display | Works as expected |
+User adds incorrect number of guests for accommodation type | Custom error message should display | Works as expected |
 
 <details><summary> Form validation testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688574093/glamping/docs/user%20stories%20testing/emptyfieldtesting_mlksmv.png" alt="emptyfieldtesting">
@@ -1079,16 +1074,16 @@ User should then paste copied url of view bookings page to see if still has acce
 
 </details>
 
-33. As a site owner, I want every site visitor to be able to view the accomodation types on offer and reviews of these accomodations
+33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations
 
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
-Click on the 'Accommodation' tab in the nav bar | Accomodation page will display | Works as expected |
+Click on the 'Accommodation' tab in the nav bar | Accommodation page will display | Works as expected |
 Click on the 'Pods' tab in the subnav bar | Pods page will display | Works as expected |
 Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works as expected |
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
 
-<details><summary> Unregistered user navigation testing screenshots - accomodation and testimonials </summary>
+<details><summary> Unregistered user navigation testing screenshots - accommodation and testimonials </summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">
@@ -1175,6 +1170,7 @@ I tested wesbite on google chrome and safari.
 
 ## Future development 
 - Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately.
+- double bookings not immediate threat
 
 ## Deployment
 
@@ -1182,11 +1178,13 @@ I tested wesbite on google chrome and safari.
 2. Click "New" on upper right hand side of screen 
 3. In dropdown of "New" button, click first option "Create new app"
 4. In "Create new app" screen, type in a unique name for your app and choose the region closest to you
-*insert image here*
+<img src="" alt="">
+
 5. Click "Create app" 
 6. You will be brought to deployment tab, from here naviagte to settings tab
 7. Press "Reveal config vars" and add DATABASE_URL, SECRET_KEY and their values to KEY, VALUE fields
-*insert image here*
+<img src="" alt="">
+
 8. Also add PORT, 8000 to KEY, VALUE fields in config vars to help with deployment 
 9. Also add CLOUDINARY_URL and url of your API Environment variable to KEY, VALUE fields 
 10. Add temporary DISABLE_COLLECTSTATIC, 1 KEY, VALUE pairs to allow skeleton project to run as project currenlty without statics fields (this will be removed at later stage)
@@ -1194,34 +1192,15 @@ I tested wesbite on google chrome and safari.
 12. Next you need to create a Procfile so heroku knows how to run the project - in my case add "web: gunicorn glamping.wsg" to file
 13. In heroku, navigate to deploy tab of project and click github as deployment method 
 14. Search for repository to connect github to heroku and press connect button beside correct repository
-*insert image here*
+<img src="" alt="">
+
 14. Then scroll down to bottom of page and click on deploy branch (can clcik on build log to see deployment progress)
-*insert image here*
 15. Once build is finsihed, the build log will tell you 
-*insert image here*
+<img src="" alt="">
+
 16. From here, press open app in top right hand of screen to see if deployment successful 
-should open to this page if deployment succesful:
-insert image here*
-
-### Trouble-shooting
-17. My first deploment was not successful 
-*insert image here"
-18. in the error message it said to check using "heroku logs --tail" butvi kept getting this message:
-*insert message here*
-19. I went to download the heroku cli because it was not already downleoaded in my ide 
-*insert image here*
-20. "curl https://cli-assets.heroku.com/install.sh | sh" - i used this command in my terminal as first command i used failed  ("brew tap heroku/brew && brew install heroku") because "heroku-node" failed to download
-*insert image here*
-21. i checked install by using this command "heroku --version", these are before and after images of the command working:
-*insert images here*
-22. heroku login but ip mismatch page displayed when tried to login 
-*insert image here*
-23. heroku login -i but *insert image here* but have to use api key found in accound setting to login rather than password, solution [slackoverflow] (https://stackoverflow.com/questions/68105084/not-able-login-to-heroku-account-from-command-line) 
-24. finally try run "heroku logs --tail", i still get an error message 
-*insert image here*
-25. find solution on [slack overlow post] (https://stackoverflow.com/questions/51815542/heroku-missing-required-flag-a)
-26. finally detailed application errors are display in terminal and I can look at wwhy my application is not deploying 
-
+should open to this page if deployment succesful
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688765977/glamping/docs/deployment/django_deployment_sucessful_obryq1.png" alt="deployment suc">
 
 ### Credits 
 
