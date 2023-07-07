@@ -105,7 +105,8 @@ WSGI_APPLICATION = 'glamping.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-# commnent this code out when running automated tests
+
+# comment this code out when running automated tests
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }

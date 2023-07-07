@@ -3,7 +3,7 @@
 
 <img src = "https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688635530/glamping/docs/amiresponsive_igvf0l.jpg" alt="am i responsive">
 
-💻 [Visit live website](https://glamping2023.herokuapp.com/)
+💻 [Visit live website](https://glamping2023.herokuapp.com/){:target="_blank"}
 
 ## Table of Contents
   - [About](#about)
@@ -72,67 +72,79 @@ I utilised the agile MoSCoW prioritisation method while planning the user storie
 
 My user stories were categorised into epics and sub-divided into individuals tasks/acceptance criteria; details of which can be found on my [kanban board](https://github.com/users/ornao/projects/5). User stories were also ranked using MoSCoW prioritisation and were each given a sprint which gave me a timeframe to complete the majority of the tasks outlined in the user story. I did not submit specific dates for each sprint as this was my first time undertaking a project like and I was unsure how long individual tasks would take me to complete. I also generally had varying times each evening around work, however I generally gave myself a week and a half times for each sprint. Hence, I included must have for an MVP in my first sprint and categorised the rest of te user stories accordingly in later sprints.
 
+**Epics** | **Explanation** | **Relevenat user story** |
+------------ | ------------ | ------------ |
+UX |  |  |
+CRUD |  |  |
+AUTHORISATION | | | 
+INFORMATION DISPLAY | | |
+ADMIN ACCESS | | |
+ENHANCED UX | | |
+ERROR HANDLING | | |
+
+Acceptance criteria/tasks and milstone included in details of kanban board. 
+
 ### Users
 
 #### MUST HAVE 
 
-1. As a user, I want to easily navigate through the site to access all features and information about my possible stay.
-2. As a user, I want to compare different accommodation types available so that I can make an informed decision of which accommodation best suits my needs. 
-3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings 
-4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality
-5. As a user, I want to create a booking by selecting a date and accomomdation-type for my stay
-6. As a user, I want to review my booking so that I can remind myself of the date and accommodation type I have booked 
-7. As a user, I want to update my booking so that I can choose another available time and/or accommodation type. My previous details should be present on this form so I know what I am changing details from. 
-8. As a user, I can delete my booking so that I can cancel my reservation for my stay 
-9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again
-10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident.
-11. As a first time user, I should immediately understand the purpose of the website from the home page so my time is not wasted 
-12. As an unregistered user, I have access to accommodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay. 
-13. As a user, I want my bookings information to be secure so no other users have access to it. 
+1. As a user, I want to easily navigate through the site to access all features and information about my possible stay [Kanban board user story link]()
+2. As a user, I want to compare different accommodation types available so that I can make an informed decision of which accommodation best suits my needs [Kanban board user story link]()
+3. As a user, I want to register for an account on the website so I can access restricted user areas of wesbite i.e viewing my bookings [Kanban board user story link]()
+4. As a returning user, I want to easily login to my account on the website to view my bookings and access full site functionality [Kanban board user story link]()
+5. As a user, I want to create a booking by selecting a date and accomomdation-type for my stay [Kanban board user story link]()
+6. As a user, I want to review my booking so that I can remind myself of the date and accommodation type I have booked [Kanban board user story link]()
+7. As a user, I want to update my booking so that I can choose another available time and/or accommodation type. My previous details should be present on this form so I know what I am changing details from [Kanban board user story link]()
+8. As a user, I can delete my booking so that I can cancel my reservation for my stay [Kanban board user story link]()
+9. As a user, I want to be able to easily logout of my account so that my bookings are secure once again [Kanban board user story link]()
+10. As a user, I want a confirm delete page to display so i do not accidently click delete booking by accident [Kanban board user story link]()
+11. As a first time user, I should immediately understand the purpose of the website from the home page so my time is not wasted [Kanban board user story link]()
+12. As an unregistered user, I have access to accommodation types, reviews and ratings information so I can make an informed decision on whether I should make an account to book a stay [Kanban board user story link]()
+13. As a user, I want my bookings information to be secure so no other users have access to it [Kanban board user story link]()
 
 #### SHOULD HAVE 
 
-14. As a user, I want to check the availability and pricing information for my desired dates
-15. As a user, I want to see previous customer reviews and ratings of the different accommodation types
-16. As a user I can view the latest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website.
-17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed 
-18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests. Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately. 
-19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay. 
-20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website.
+14. As a user, I want to check the availability and pricing information for my desired dates [Kanban board user story link]()
+15. As a user, I want to see previous customer reviews and ratings of the different accommodation types [Kanban board user story link]()
+16. As a user I can view the latest testimonials first when I click on testimonials so that I can directly access the most up-to-date reviews available on the website [Kanban board user story link]()
+17. As a user, I want to be notified when the action of creating, editing or deleting my reservation has been confirmed [Kanban board user story link]()
+18. As a user I have access to contact information so I can contact the site owners with any questions, queries, or special requests [Kanban board user story link]()
+19. As a registered user I want to be able to be notified if I do something wrong while complete a booking form before I submit it so there are no complications with my booked stay [Kanban board user story link]()
+20. As a user, an error page will display with a navigation link back home that tells me something has gone wrong with website but I have a way back to the website [Kanban board user story link]()
 
 
 #### COULD HAVE 
 
-21. As a user, I want to be able to see an interactive map of where the campsite is 
-22. As a registered user, I can reset my password so that I can regain access to my account if I forget my password.
-23. As a user, I can signup to the site using one of my social media accounts to allow for an even more seamless registration.
-24. As a logged in user, I can like people's reviews so that I can show i agree with their comments about their stay. 
+21. As a user, I want to be able to see an interactive map of where the campsite is [Kanban board user story link]()
+22. As a registered user, I can reset my password so that I can regain access to my account if I forget my password [Kanban board user story link]()
+23. As a user, I can signup to the site using one of my social media accounts to allow for an even more seamless registration [Kanban board user story link]()
+24. As a logged in user, I can like people's reviews so that I can show i agree with their comments about their stay [Kanban board user story link]()
 
 #### WON'T HAVE 
 
-25. As a registered user, I can be contacted directly by site owners on the website and receive replies and notifications of these replies through the website through messaging services.
-26. As a user i want to have real-time weather reports for days of my stay available when booking 
+25. As a registered user, I can be contacted directly by site owners on the website and receive replies and notifications of these replies through the website through messaging services [Kanban board user story link]()
+26. As a user i want to have real-time weather reports for days of my stay available when booking [Kanban board user story link]()
 
 ### Admin/Site Owner
 
 #### MUST HAVE 
 
-27. As an admin, I can log in and access the back end of the site
-28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email  
-29. As an admin, I can accept or reject bookings so that we avoid double bookings 
-30. As a site owner, I want site the to be fully responsive and accessible 
-31. As a site owner, i want all user entered data to be validated to reduce errors on database
-32. As a site owner, I want only logged in users to view details of their bookings 
-33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations
+27. As an admin, I can log in and access the back end of the site [Kanban board user story link]()
+28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email [Kanban board user story link]()
+29. As an admin, I can accept or reject bookings so that we avoid double bookings [Kanban board user story link]()
+30. As a site owner, I want site the to be fully responsive and accessible [Kanban board user story link]()
+31. As a site owner, i want all user entered data to be validated to reduce errors on database [Kanban board user story link]()
+32. As a site owner, I want only logged in users to view details of their bookings [Kanban board user story link]()
+33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations [Kanban board user story link]()
  
 #### SHOULD HAVE 
 
-34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
+34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day [Kanban board user story link]()
 
 
 #### Could have 
 
-35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experience of site vs any queries about their future stay
+35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experience of site vs any queries about their future stay [Kanban board user story link]()
 
 <hr>
 
@@ -997,7 +1009,21 @@ Type in superuser login details and try to sign in | If created superuser correc
 </details>
 
 28. As an admin, I can manually add a booking so that I can accomodate bookings lodged through phone or email  
-<!--need to add -->
+
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+login as admin on backend | If created superuser correctly in workspace, superuser/admin should be signed into backend | Works as expected |
+Navigate to bookings model| All bookings from all users should display in list | Works as expected |
+Click add to manuall add booking| Add bookings form should display | Works as expected |
+Add in user details and press save | Booking should be added successfully | Works as expected |
+
+<details><summary> Add booking admin testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688734078/glamping/docs/user%20stories%20testing/add_bookings_admin_testing_izblv8.jpg" alt="add bookings admin testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688734083/glamping/docs/user%20stories%20testing/add_bookings_form_admin_testing_lk6rzu.jpg" alt="add bookings form admin testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688734088/glamping/docs/user%20stories%20testing/booking_admin_sucessful_1_eerwlw.jpg" alt="booking admin successful 1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688734091/glamping/docs/user%20stories%20testing/booking_admin_sucessful_admin_2_k7xedx.jpg" alt="booking admin successful 1">
+</details>
+
 29. As an admin, I can accept or reject bookings so that we avoid double bookings 
 <!-- currentlt don't have workaround -->
 30. As a site owner, I want site to be fully responisve and acessible 
@@ -1073,7 +1099,41 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
 34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
 
 
-## Automated testing
+## Automated testing
+
+I created 17 automated tests fro this project. I tested 3 models - bookings, testimonials and accomodation. I ran tests in workspace by commenting out datbase url used for production and uncommenting other database url in settings.py file. 
+
+Database url for testing: 
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688735062/glamping/docs/automated%20testing/database_url_testing_pgeftu.png" alt="database url for testing">
+
+Database url for production: 
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688735062/glamping/docs/automated%20testing/database_url_production_fwu2ay.png" alt="database url for production">
+
+<details><summary> All tests for models </summary>
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688735063/glamping/docs/automated%20testing/all_automated_testing_thocut.png" alt="all models automated tests">
+
+</details>
+
+<details><summary> Bookings models </summary>
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688735063/glamping/docs/automated%20testing/bookings_automated_testing_njey0h.png" alt="bookings models automated tests">
+
+</details>
+
+<details><summary> Accommodation models </summary>
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688639727/glamping/docs/automated%20testing/accomodation_automated_testing_bjuzjk.png" alt="accommodation models automated tests">
+
+</details>
+
+<details><summary> Testimonials models </summary>
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688735062/glamping/docs/automated%20testing/testimonials_automated_testing_oagnqn.png" alt="testimonials models automated tests">
+
+</details>
 
 ## Tests on various devices
 
