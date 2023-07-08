@@ -3,7 +3,7 @@
 
 <img src = "https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688635530/glamping/docs/amiresponsive_igvf0l.jpg" alt="am i responsive">
 
-💻 [Visit live website](https://glamping2023.herokuapp.com/){:target="_blank"}
+💻 [Visit live website](https://glamping2023.herokuapp.com/)
 
 ## Table of Contents
   - [About](#about)
