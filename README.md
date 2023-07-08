@@ -1134,11 +1134,11 @@ Database url for production:
 | When less than 3 bookings per user, bookings column appears squished into corner. This also appeared in confirm delete page.  | Removed d-flex of div of that section, this helped the display especially on larger screen sies. See [commit f7f98f4](https://github.com/ornao/pp4/commit/f7f98f448f9b3acc02061d16bfcfd2c2aa364f1e) and [commit 73f7ce1](https://github.com/ornao/pp4/commit/73f7ce1b1454e38038d58ad69283d78494a3d0d7) for further details. |
 | | |
 <details><summary> Before </summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixbefore_yicrjb.png" alt="bug fix before">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/glamping/docs/bugs/1bugfixbefore_yicrjb.png" alt="bug fix before">
 </details>
 <details><summary> After </summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixafter_s2u5x3.png" alt="bug fix after1">
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/1bugfixafter2_bl9ehw.png" alt="bug fix after2">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/glamping/docs/bugs/1bugfixafter_s2u5x3.png" alt="bug fix after1">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242350/glamping/docs/bugs/1bugfixafter2_bl9ehw.png" alt="bug fix after2">
 </details>
 | Error messages where displaying for num_guests and accomodation_name even when criteria were met for form to submit  | Tested what was happening using print statements. Error was thrown as by testing not in statement true was printed even when actual value was selected - hence issue with type not the same. Hence, str(accomodation_name) is the same as ['Honeymoon Pod'] for example  See [commit 76df1ce](https://github.com/ornao/pp4/commit/76df1ce8567c972be503c708ef82b6a969f14334) for further details. |
 
