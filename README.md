@@ -21,8 +21,6 @@
   - [Testing](#testing)
     - [Manual testing](#manual-testing)
     - [Automated testing](#automated-testing)
-    - [Tests on various devices](#tests-on-various-devices)
-    - [Browser compatibility](#browser-compatibility)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -131,18 +129,18 @@ Acceptance criteria/tasks and milstone included in details of kanban board.
 
 27. As an admin, I can log in and access the back end of the site [Kanban board user story link](https://github.com/ornao/pp4/issues/10)
 28. As an admin, I can manually add a booking so that I can accommodate bookings lodged through phone or email [Kanban board user story link](https://github.com/ornao/pp4/issues/11)
-30. As a site owner, I want site the to be fully responsive and accessible [Kanban board user story link]()
+30. As a site owner, I want site the to be fully responsive and accessible [Kanban board user story link](https://github.com/ornao/pp4/issues/12)
 31. As a site owner, i want all user entered data to be validated to reduce errors on database [Kanban board user story link](https://github.com/ornao/pp4/issues/32)
 32. As a site owner, I want only logged in users to view details of their bookings [Kanban board user story link](https://github.com/ornao/pp4/issues/33)
 33. As a site owner, I want every site visitor to be able to view the accommodation types on offer and reviews of these accommodations [Kanban board user story link](https://github.com/ornao/pp4/issues/34)
  
 #### SHOULD HAVE 
 
-34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day [Kanban board user story link]()
+34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day [Kanban board user story link](https://github.com/ornao/pp4/issues/36)
 
 #### Could have 
 
-35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experience of site vs any queries about their future stay [Kanban board user story link]()
+35. As a site owner, I want the customers to have a means of communicating with me on website to inform me of their experience of site vs any queries about their future stay [Kanban board user story link](https://github.com/ornao/pp4/issues/35)
 
 <hr>
 
@@ -607,7 +605,7 @@ Checked when user was logged in and not logged in
 ### Performance - Lighthouse
 
 <details><summary> Home page screenshot</summary>
-<img src="" alt="home page lighthouse check - desktop">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/homepage_desktop_lighthouse_le0d5c.png" alt="home page lighthouse check - desktop">
 </details>
 
 <details><summary> Accommodation page screenshot</summary>
@@ -615,42 +613,43 @@ Checked when user was logged in and not logged in
 </details>
 
 <details><summary> Testimonials page screenshot</summary>
-<img src="" alt="testimonials page lighthouse check- desktop">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/testimonials_desktop_lighthouse_r9gr0j.png" alt="testimonials page lighthouse check- desktop">
 </details>
 
 <details><summary> Log In page screenshot</summary>
-<img src="" alt="login page lighthouse check - desktop">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/signin_desktop_lighthouse_i4s9jl.png" alt="login page lighthouse check - desktop">
 </details>
 
 <details><summary> Register page screenshot</summary>
-<img src="" alt="signup page lighthouse check - desktop">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/signup_desktop_lighthouse_jvdtq3.png" alt="signup page lighthouse check - desktop">
 </details>
 
 <details><summary> Log Out page screenshot</summary>
-<img src="" alt="logout page lighthouse check - desktop">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/signout_desktop_lighthouse_qzasbb.png" alt="logout page lighthouse check - desktop">
 </details>
 
 
 <details><summary> View your Bookings page screenshot</summary>
-<img src="" alt="view bookings page lighthouse check - desktop">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/viewbookings_desktop_lighthouse_svmcer.png" alt="view bookings page lighthouse check - desktop">
 </details>
 
 <details><summary> Book page screenshot</summary>
 Checked when user was logged in and not logged in 
-<img src="" alt="create bookings page lighthouse check">
-<img src="" alt="create bookings page lighthouse check when user logged in">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/createbooking_desktop_lighthouse1_gkzq2e.png" alt="create bookings page lighthouse check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773236/glamping/docs/validation/createbookings_desktop_lighthouse2_ca23q4.png" alt="create bookings page lighthouse check when user logged in">
 </details>
 
 <details><summary> Edit Bookings page screenshot</summary>
-<img src="" alt="edit bookings page lighthouse check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773637/glamping/docs/validation/Screenshot_2023-07-08_at_01.46.11_yc44eq.png" alt="edit bookings page lighthouse check">
 </details>
 
 <details><summary> Delete Bookings page screenshot</summary>
-<img src="" alt="delete bookings page lighthouse check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773636/glamping/docs/validation/Screenshot_2023-07-08_at_01.46.42_u1gkbr.png" alt="delete bookings page lighthouse check">
 </details>
 
 <details><summary> 404 error page screenshot</summary>
-<img src="" alt="404 error page lighthouse check">
+- Page was unable to be tested - image is webp and unused css is removed as much as possible
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773750/glamping/docs/validation/Screenshot_2023-07-08_at_01.48.56_uzntnu.png" alt="404 error page lighthouse check">
 </details>
 
 <br>
@@ -989,9 +988,6 @@ Go to live site url and type in /habsnaj at end of link or something else random
 
 <details><summary> Custom error page display testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688583731/glamping/docs/user%20stories%20testing/404pagedisplay_krgn3t.png" alt="404 error page display">
-<img src="" alt="403 error page display">
-<img src="" alt="400 error page display">
-<img src="" alt="500 error page display">
 </details>
 
 27. As an admin, I can log in and access the back end of the site
@@ -1131,14 +1127,6 @@ Database url for production:
 
 </details>
 
-## Tests on various devices
-
-I tested website on 
-
-## Browser compatibility
-
-I tested wesbite on google chrome and safari. 
-
 ## Bugs
 
 | **Bug** | **Fix** |
@@ -1166,11 +1154,12 @@ I tested wesbite on google chrome and safari.
 
 | **Bug** | **Fix** |
 | ------- | ------- |
-|
+|Confirm delete submit buttom does not match other buttons of website| check div classes and id to see what is inhibiting styling|
+
 
 ## Future development 
 - Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately.
-- double bookings not immediate threat
+- Double bookings are not an immediate threat to tthe booking system of this website as there are a number of pods/cabins of teh same type. The future availibility function will help show user what is available and what is not in due course. 
 
 ## Deployment
 
@@ -1214,6 +1203,8 @@ should open to this page if deployment succesful
 - Photo by <a href="https://unsplash.com/@caleb_woods?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caleb Woods</a> on <a href="https://unsplash.com/s/photos/hiding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Photo by <a href="https://unsplash.com/pt-br/@dexezekiel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dex Ezekiel</a> on <a href="https://unsplash.com/s/photos/confused?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 - Photo by <a href="https://unsplash.com/@robertharknessart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robert Harkness</a> on <a href="https://unsplash.com/s/photos/building-on-fire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Photo by <a href="https://unsplash.com/@bamsnl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jochen Bams</a> on <a href="https://unsplash.com/s/photos/galway-countryside?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
   
   
 #### Code 
