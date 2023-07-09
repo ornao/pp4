@@ -4,6 +4,7 @@ from .models import Accomodation
 
 
 class AccomodationModelTest(TestCase):
+    """ a class for accomodation model testing """
     @classmethod
     def setUp(self):
         self.accomodation = Accomodation(

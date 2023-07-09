@@ -4,6 +4,7 @@ from .models import Testimonials, User, Accomodation
 
 
 class TestimonialsModelTest(TestCase):
+    """ a class for testing testimonials models """
     @classmethod
     def setUp(self):
         self.accomodation_name = Accomodation(

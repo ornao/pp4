@@ -4,6 +4,7 @@ from .models import Bookings, User, Accomodation
 
 
 class BookingsModelTest(TestCase):
+    """ a class for bookings test model """
     @classmethod
     def setUp(self):
         self.accomodation_name = Accomodation(accomodation_name='Pod Almighty')

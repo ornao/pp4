@@ -561,7 +561,7 @@ views.py:
 <details><summary> Home page screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png" alt="home page accessibility check"> - image will not display as content exceeded limit
 
-[home page accessibility check](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png)
+[home page accessibility check](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png) - follow link instead
 </details>
 
 <details><summary> Accommodation page screenshot</summary>
@@ -678,18 +678,18 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 <details><summary> Home navigation testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="home navigation testing"> - image will not display as content exceeded limit
 
-[home navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png)
+[home navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png) - follow link instead
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png" alt="home navigation testing display"> - image will not display as content exceeded limit
 
-[home navigation testing display](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png)
+[home navigation testing display](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png) - follow link instead 
 
 </details>
 
 <details><summary> Accomodation navigation testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation navigation testing"> - image will not display as content exceeded limit
 
-[accomodation navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.pn)
+[accomodation navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.pn) - follow link instead
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation navigation testing display">
 </details>
@@ -714,7 +714,7 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 <details><summary> Book navigation testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png" alt="book navigation testing"> - image will not display as content exceeded limit
 
-[book navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png)
+[book navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png) - follow link instead
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242575/glamping/docs/user%20stories%20testing/book_nav_display_gt2ofy.png" alt="book navigation testing display">
 </details>
@@ -727,7 +727,7 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 <details><summary> View your Bookings navigation testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings navigation testing"> - image will not display as content exceeded limit
 
-[view bookings navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png)
+[view bookings navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png) - follow link instead
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings navigation testing display">
 </details>
@@ -822,7 +822,7 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 <details><summary> View your Bookings navigation testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings navigation testing"> - image will not display as content exceeded limit
 
-[view bookings navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png)
+[view bookings navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png) - follow link instead
 
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings page display testing">
@@ -1121,7 +1121,7 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation navigation testing"> - image will not display as content exceeded limit
 
-[accomodation navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.pn)
+[accomodation navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.pn) - follow link instead
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">

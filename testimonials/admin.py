@@ -6,6 +6,8 @@ from django_summernote.admin import SummernoteModelAdmin
 # decorator to allow more than two arguements
 @admin.register(Testimonials)
 class TestimonialsAdmin(SummernoteModelAdmin):
+    """ a class for testimonials admin,
+    to include summernote """
 
     list_display = ('rating', 'status', 'created_date')
     search_fields = ['rating']

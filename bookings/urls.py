@@ -1,6 +1,7 @@
 from . import views
 from django.urls import path
 
+# allows views to be rendered to user
 urlpatterns = [
     path("", views.BookingsList.as_view(), name="read_bookings"),
     path("create/", views.BookingsCreate.as_view(), name="create_bookings"),

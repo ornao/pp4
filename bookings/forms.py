@@ -4,12 +4,14 @@ from django.core.exceptions import ValidationError
 from django.shortcuts import redirect
 
 
+# code adapted django documentation form validation
 class DateInput(forms.DateInput):
+    """ a class for classifying date """
     input_type = 'date'
 
 
 class BookingsForm(forms.ModelForm):
-    # django documentation form validation
+    """ a class for bookings form """
     def clean(self):
         cleaned_data = super().clean()
         check_in_date = cleaned_data.get("check_in_date")
@@ -18,17 +20,22 @@ class BookingsForm(forms.ModelForm):
         accomodation_name = cleaned_data.get(
             "accomodation_name")
 
+        # validation check so check-in date cannot
+        # be after check-out date
         if check_in_date and check_out_date:
             if check_in_date > check_out_date:
                 raise ValidationError(
                     "Check-in date cannot be after check-out date")
 
+        # validation check for max num of guests
         if num_guests:
             if num_guests > 6:
                 raise ValidationError(
                     "6 guests is the maximum any of our available" /
                     "pods or cabins will accomodate")
 
+        # validation checks comparing accommodation
+        # capacity and num of guests
         if num_guests and accomodation_name:
             if num_guests == 6 and str(
                 accomodation_name) not in [
