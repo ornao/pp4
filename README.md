@@ -29,7 +29,7 @@
 
 ### About
 
-This glamping website provides a user-friendly platform to experience a unique camping destination in the beautiful Irish countryside. This site aims to be visually immersive, featuring a user-friendly booking system and showcasing customer testimonials through a display of ratings and reviews.
+This glamping website provides a user-friendly platform to experience a unique camping destination in the beautiful Irish countryside. This site aims to be visually immersive, featuring a user-friendly booking system and showcasing customer testimonials through a display of ratings and reviews. Login and booking details should be secure to each user and only specifed users can make edits to their respective bookings. 
 
 <hr>
 
@@ -557,6 +557,8 @@ views.py:
 <br>
 
 ### Accessibility - [WAVE](https://wave.webaim.org/report)
+
+All page tested with no errors, only some alerts present in some pages. 
 
 <details><summary> Home page screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png" alt="home page accessibility check"> - image will not display as content exceeded limit
@@ -1133,7 +1135,7 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
 
 ## Automated testing
 
-I created 17 automated tests fro this project. I tested 3 models - bookings, testimonials and accomodation. I ran tests in workspace by commenting out datbase url used for production and uncommenting other database url in settings.py file. 
+I created 17 automated tests for this project using unittest. I tested 3 models - bookings, testimonials and accomodation. I ran tests in workspace by commenting out datbase url used for production and uncommenting other database url in settings.py file (I removed this uncommented code out for submission).
 
 Database url for testing: 
 
@@ -1206,6 +1208,7 @@ Database url for production:
 - Addinng CRUD and 'like' functionality to testimonials 
 - add labels to view bookings display to make it clearer to guests which info is which
 - availibility checking function to compare check-in, check-out date, num of guests, accomodation type
+- automated tests of views and urls as well as coverage of these tests
 
 
 ## Deployment

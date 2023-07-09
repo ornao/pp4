@@ -98,13 +98,8 @@ WSGI_APPLICATION = 'glamping.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# uncomment this code when when to run automated tests
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+# uncomment this code when when to run automated tests 
+# (check last commit to find code)
 
 # comment this code out when running automated tests
 DATABASES = {
