@@ -559,7 +559,8 @@ views.py:
 ### Accessibility - [WAVE](https://wave.webaim.org/report)
 
 <details><summary> Home page screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png" alt="home page accessibility check"> - image will not display as co tent exceeded limit
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png" alt="home page accessibility check"> - image will not display as content exceeded limit
+
 [home page accessibility check](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png)
 </details>
 
@@ -673,14 +674,21 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 
 
 <details><summary> Home navigation testing screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="home navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="home navigation testing"> - image will not display as content exceeded limit
+
 [home navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png)
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png" alt="home navigation testing display">
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png" alt="home navigation testing display"> - image will not display as content exceeded limit
+
 [home navigation testing display](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png)
+
 </details>
 
 <details><summary> Accomodation navigation testing screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation navigation testing"> - image will not display as content exceeded limit
+
+[accomodation navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.pn)
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation navigation testing display">
 </details>
 
@@ -702,7 +710,10 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 </details>
 
 <details><summary> Book navigation testing screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png" alt="book navigation testing"> - image will not display as content exceeded limit
+
+[book navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png)
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242575/glamping/docs/user%20stories%20testing/book_nav_display_gt2ofy.png" alt="book navigation testing display">
 </details>
 
@@ -712,7 +723,10 @@ LOOGED IN USER:
 Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
 
 <details><summary> View your Bookings navigation testing screenshots</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings navigation testing"> - image will not display as content exceeded limit
+
+[view bookings navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png)
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings navigation testing display">
 </details>
 
@@ -767,7 +781,10 @@ On 'Log In' page, type in random username and password | User will be not signed
 
 <details><summary> Easy Log In testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261232/glamping/docs/user%20stories%20testing/user_login_testing_fekyuj.png" alt="easy log In testing display logging in user">
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png" alt="easy log In testing display logged in user">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png" alt="easy log In testing display logged in user2">
+
+[easy log In testing display logged in user2](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png)
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261580/glamping/docs/user%20stories%20testing/fakeuser_login_testing_djr2ky.png" alt="easy log In testing display logged in fakeuser">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246021/glamping/docs/user%20stories%20testing/login_nav_testing1_ddqnoy.png" alt="easy log In testing 1">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247605/glamping/docs/user%20stories%20testing/login_nav_testing2_vz1gqb.png" alt="easy log In testing2">
@@ -799,7 +816,13 @@ User should login | Home page will display | Works as expected |
 Click on the 'View your bookings' tab in the nav bar | Read bookings page will display | Works as expected |
 
 <details><summary> View your Bookings page display screenshots</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings page display testing">
+
+<details><summary> View your Bookings navigation testing screenshots</summary>
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings navigation testing"> - image will not display as content exceeded limit
+
+[view bookings navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png)
+
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings page display testing">
 </details>
 
@@ -848,7 +871,11 @@ User should click logout in confirm logout display | User should be redirected t
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502337/glamping/docs/user%20stories%20testing/navigate_to_logout_1_testing_p8izmg.png" alt="navigate to logout 1 testing">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502330/glamping/docs/user%20stories%20testing/navigate_to_logout_2_testing_zicklp.png" alt="navigate to logout 2 testing">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502321/glamping/docs/user%20stories%20testing/confirm_logout_testing_h1yfow.png" alt="confirm logout testing">
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502320/glamping/docs/user%20stories%20testing/looged_out_display_testing_1_ayuu3z.png" alt="logged out display testing">
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502320/glamping/docs/user%20stories%20testing/looged_out_display_testing_1_ayuu3z.png" alt="logged out display testing"> - image will not display 
+
+[logged out display testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502320/glamping/docs/user%20stories%20testing/looged_out_display_testing_1_ayuu3z.png)
+
 </details>
 
 10. As a user, I want a confirm delete page to display so I do not accidently click delete booking by accident.
@@ -887,6 +914,9 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
 
 <details><summary> Unregistered user navigation testing screenshots - accommodation and testimonials </summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing">
+
+[accomodation unregistered user testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png)
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503749/glamping/docs/user%20stories%20testing/cabins_display_testing_vrpjit.png" alt="accomodation cabins unregistered user testing display">
@@ -1031,7 +1061,10 @@ Test wesbite on different devices | Website should display with good responsiven
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_smallscreen_gthbop.png" alt="homepage testing smallscreen">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584713/glamping/docs/user%20stories%20testing/homepage_testing_mediumscreen_ssi6ln.png" alt="homepage testing medium screen1">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584713/glamping/docs/user%20stories%20testing/homepage_testing_mediumscreen2_dmrch2.png" alt="homepage testing medium screen2">
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_largescreenx_fluyor.png" alt="homepage testing large screen">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_largescreenx_fluyor.png" alt="homepage testing large screen"> - image will not display as content exeeded limit
+
+[homepage testing large screen](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_largescreenx_fluyor.png)
+
 </details>
 
 31. As a site owner, i want all user entered data to be validated to reduce errors on database
@@ -1083,7 +1116,11 @@ Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works a
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
 
 <details><summary> Unregistered user navigation testing screenshots - accommodation and testimonials </summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing">
+
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation navigation testing"> - image will not display as content exceeded limit
+
+[accomodation navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.pn)
+
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503749/glamping/docs/user%20stories%20testing/cabins_display_testing_vrpjit.png" alt="accomodation cabins unregistered user testing display">
