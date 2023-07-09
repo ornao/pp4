@@ -1195,6 +1195,7 @@ Database url for production:
 | **Bug** | **Fix** |
 | ------- | ------- |
 |Confirm delete submit buttom does not match other buttons of website| check div classes and id to see what is inhibiting styling|
+| can currently check-in on a date that has already happened | will add a restriction so can only book from today-onwards |
 
 
 ## Future development 
@@ -1203,6 +1204,8 @@ Database url for production:
 - Lighthouse mobile testing was poor in performance, try to improve score in future iterations.
 - Get carousel for each accomodation type pictures to display so user can see more pictures of their desired accomodation
 - Addinng CRUD and 'like' functionality to testimonials 
+- add labels to view bookings display to make it clearer to guests which info is which
+- availibility checking function to compare check-in, check-out date, num of guests, accomodation type
 
 
 ## Deployment
