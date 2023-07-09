@@ -559,7 +559,8 @@ views.py:
 ### Accessibility - [WAVE](https://wave.webaim.org/report)
 
 <details><summary> Home page screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png" alt="home page accessibility check">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png" alt="home page accessibility check"> - image will not display as co tent exceeded limit
+[home page accessibility check](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688407257/glamping/docs/validation/home_wave_validation_pbtqfy.png)
 </details>
 
 <details><summary> Accommodation page screenshot</summary>
@@ -673,7 +674,9 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 
 <details><summary> Home navigation testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="home navigation testing">
+[home navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png)
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png" alt="home navigation testing display">
+[home navigation testing display](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png)
 </details>
 
 <details><summary> Accomodation navigation testing screenshot</summary>
@@ -1088,7 +1091,7 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/testimonials_nav_display_px3rvj.png" alt="testimonails unregistered user testing display">
 </details>
  
- 
+
 ## Automated testing
 
 I created 17 automated tests fro this project. I tested 3 models - bookings, testimonials and accomodation. I ran tests in workspace by commenting out datbase url used for production and uncommenting other database url in settings.py file. 
@@ -1158,6 +1161,10 @@ Database url for production:
 ## Future development 
 - Future development will include a form whereby customers can contact owners directly from site rather than having to email, phone separately.
 - Double bookings are not an immediate threat to tthe booking system of this website as there are a number of pods/cabins of teh same type. The future availibility function will help show user what is available and what is not in due course. 
+- Lighthouse mobile testing was poor in performance, try to improve score in future iterations.
+- Get carousel for each accomodation type pictures to display so user can see more pictures of their desired accomodation
+- Addinng CRUD and 'like' functionality to testimonials 
+
 
 ## Deployment
 
