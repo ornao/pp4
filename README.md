@@ -783,9 +783,9 @@ On 'Log In' page, type in random username and password | User will be not signed
 
 <details><summary> Easy Log In testing screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261232/glamping/docs/user%20stories%20testing/user_login_testing_fekyuj.png" alt="easy log In testing display logging in user">
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png" alt="easy log In testing display logged in user2">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png" alt="easy log In testing display logged in user2"> - image can not display as content limit exceeded
 
-[easy log In testing display logged in user2](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png)
+[easy log In testing display logged in user2](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261428/glamping/docs/user%20stories%20testing/user_successful_login_testing_ai42eq.png) - follow this link instead
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688261580/glamping/docs/user%20stories%20testing/fakeuser_login_testing_djr2ky.png" alt="easy log In testing display logged in fakeuser">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246021/glamping/docs/user%20stories%20testing/login_nav_testing1_ddqnoy.png" alt="easy log In testing 1">
@@ -876,7 +876,7 @@ User should click logout in confirm logout display | User should be redirected t
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502320/glamping/docs/user%20stories%20testing/looged_out_display_testing_1_ayuu3z.png" alt="logged out display testing"> - image will not display 
 
-[logged out display testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502320/glamping/docs/user%20stories%20testing/looged_out_display_testing_1_ayuu3z.png)
+[logged out display testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688502320/glamping/docs/user%20stories%20testing/looged_out_display_testing_1_ayuu3z.png) - follow this link instead
 
 </details>
 
@@ -915,9 +915,9 @@ Click on the 'Cabins' tab in the subnav bar | Cabins page will display | Works a
 Click on the 'Testimonials' tab in the nav bar | Testimonials page will display | Works as expected |
 
 <details><summary> Unregistered user navigation testing screenshots - accommodation and testimonials </summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="accomodation unregistered user testing"> image will not display as content limit exceeded
 
-[accomodation unregistered user testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png)
+[accomodation unregistered user testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png) - follow this link instead 
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/accomodation_nav_display_bh5hxa.png" alt="accomodation unregistered user testing display">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688503760/glamping/docs/user%20stories%20testing/pods_display_testing_qra62o.png" alt="accomodation pods unregistered user testing display">
@@ -1065,7 +1065,7 @@ Test wesbite on different devices | Website should display with good responsiven
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584713/glamping/docs/user%20stories%20testing/homepage_testing_mediumscreen2_dmrch2.png" alt="homepage testing medium screen2">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_largescreenx_fluyor.png" alt="homepage testing large screen"> - image will not display as content exeeded limit
 
-[homepage testing large screen](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_largescreenx_fluyor.png)
+[homepage testing large screen](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688584714/glamping/docs/user%20stories%20testing/homepage_testing_largescreenx_fluyor.png) - follow this link instead
 
 </details>
 
@@ -1288,4 +1288,4 @@ Youtube:
 
 ## Acknowledgements
 
-I would like to sincerly thank for my very pateint boyfriend who sat with me in a hostel in copenhagen and helped me check my readme files for possible errors and my mentor martina who was so so helpful, supportive and knowledgable about the criteria of the portfolio. 
+I would like to sincerely thank my very patient boyfriend who sacrificed a day in the sun to sit with me in a hostel in copenhagen on our holiday and helped me to check my readme files for errors and my mentor martina who was so so helpful, supportive and knowledgable about the criteria of the portfolio. 
