@@ -606,12 +606,14 @@ Checked when user was logged in and not logged in
 
 ### Performance - Lighthouse
 
+Screenshots included for desktop only. Will try to improve scores for mobile in future iterations. After reading this article I felt better about my bad mobile score and felt improving them could wait - [why your mobile speed score is bad and why that is ok](https://engeniusweb.com/why-your-mobile-site-speed-score-is-bad-and-why-thats-ok/)
+
 <details><summary> Home page screenshot</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688773235/glamping/docs/validation/homepage_desktop_lighthouse_le0d5c.png" alt="home page lighthouse check - desktop">
 </details>
 
 <details><summary> Accommodation page screenshot</summary>
-<img src="" alt="accomodation page lighthouse check - desktop">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688888376/glamping/docs/user%20stories%20testing/Screenshot_2023-07-09_at_09.39.17_chyeoi.png" alt="accomodation page lighthouse check - desktop">
 </details>
 
 <details><summary> Testimonials page screenshot</summary>
@@ -1273,6 +1275,7 @@ Django Documentation:
 - [django admin](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/#modeladmin-options)
 
 - [use of reverse lazy](https://www.fullstackpython.com/django-urls-reverse-lazy-examples.html)
+- [automated testing](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Testing)
 
 W3Schools: 
 - [remove html tags appearing to template](https://www.w3schools.com/django/ref_filters_striptags.php)
