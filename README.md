@@ -672,7 +672,7 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 
 
 <details><summary> Home navigation testing screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246507/glamping/docs/user%20stories%20testing/home_nav_testing_s90nba.png" alt="home navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246030/glamping/docs/user%20stories%20testing/accomodation_nav_testing_dne3kd.png" alt="home navigation testing">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688245101/glamping/docs/user%20stories%20testing/home_nav_display_deel3j.png" alt="home navigation testing display">
 </details>
 
@@ -699,7 +699,7 @@ Click on the 'Book' tab in the nav bar | Create bookings page will display | Wor
 </details>
 
 <details><summary> Book navigation testing screenshot</summary>
-<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png" alt="book navigation testing">
+<img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688246506/glamping/docs/user%20stories%20testing/book_nav_testing_lpmsuq.png">
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242575/glamping/docs/user%20stories%20testing/book_nav_display_gt2ofy.png" alt="book navigation testing display">
 </details>
 
@@ -1088,9 +1088,7 @@ Click on the 'Testimonials' tab in the nav bar | Testimonials page will display 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688242574/glamping/docs/user%20stories%20testing/testimonials_nav_display_px3rvj.png" alt="testimonails unregistered user testing display">
 </details>
  
-34. As an admin, I can filter bookings by date so that I can see what bookings we have for a particular day
-
-
+ 
 ## Automated testing
 
 I created 17 automated tests fro this project. I tested 3 models - bookings, testimonials and accomodation. I ran tests in workspace by commenting out datbase url used for production and uncommenting other database url in settings.py file. 
