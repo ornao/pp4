@@ -819,13 +819,13 @@ Click on the 'View your bookings' tab in the nav bar | Read bookings page will d
 
 <details><summary> View your Bookings page display screenshots</summary>
 
-<details><summary> View your Bookings navigation testing screenshots</summary>
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png" alt="view bookings navigation testing"> - image will not display as content exceeded limit
 
 [view bookings navigation testing](https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688248135/glamping/docs/user%20stories%20testing/viewbooking_nav_testing_lt07dw.png) - follow link instead
 
 
 <img src="https://res.cloudinary.com/dg3ksw7zy/image/upload/v1688247777/glamping/docs/user%20stories%20testing/viewbooking_nav_display_ui8pgh.png" alt="view bookings page display testing">
+
 </details>
 
 7. As a user, I want to update my booking so that I can choose another available time and/or accommodation type. My previous details should be present on this form so I know what I am changing details from. 
